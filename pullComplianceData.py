@@ -2,21 +2,26 @@ import boto3
 import logging
 import json
 import os
-import datetime
+
 
 sts = boto3.client('sts')
 config = boto3.client('config')
 s3res = boto3.resource('s3')
 
-def lambda_handler(event, context):
-    logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
-    bucketname = os.environ['reporting_input_bucket']
-    
-    callerInfo = sts.get_caller_identity()
-    accountId = callerInfo['Account']
+def get_compliance_data_by_account(accountId, bucketname, logger, assume_role_arn):
     logger.info("AccountId is " + accountId)
-    response = config.describe_compliance_by_resource(ResourceType='AWS::S3::Bucket')
+    if assume_role_arn != "none":
+        logger.info("AssumeRole ARN is " + assume_role_arn)
+        roleSessionName="configrulecrossaccount" + accountId
+        assumeroleresult = sts.assume_role(RoleArn=assume_role_arn,RoleSessionName=roleSessionName)
+        configsess = boto3.client(
+            'config',
+            aws_access_key_id=assumeroleresult['Credentials']['AccessKeyId'],
+            aws_secret_access_key=assumeroleresult['Credentials']['SecretAccessKey'],
+            aws_session_token=assumeroleresult['Credentials']['SessionToken'])
+    else:
+        configsess = boto3.client('config')
+    response = configsess.describe_compliance_by_resource(ResourceType='AWS::S3::Bucket')
     non_compliant_resources = []
     compliance_output = []
     logger.info("Response is" + json.dumps(response) + ".")
@@ -33,21 +38,40 @@ def lambda_handler(event, context):
     
     logger.info("Compliance Output is " + json.dumps(compliance_output))
     logger.info("Non-Compliant Resources is/are " + json.dumps(non_compliant_resources))
-            
-    object = s3res.Object(bucketname, 's3compliance/resourcecompliance.json')
+    key =  's3compliance/' + accountId + '/resourcecompliance.json'       
+    object = s3res.Object(bucketname, key)
     object.put(Body=json.dumps(compliance_output))
     
     non_compliant_output = []
     for resourceid in non_compliant_resources:
-        #logger.info("datetime is: " + str(datetime.datetime.now()))
-        response = config.get_compliance_details_by_resource(ResourceType='AWS::S3::Bucket',ResourceId=resourceid)
+        response = configsess.get_compliance_details_by_resource(ResourceType='AWS::S3::Bucket',ResourceId=resourceid)
         for ruleresult in response['EvaluationResults']:
             rule_eval_output = { 'AccountId': accountId, 'ResourceId': resourceid }
-            rule_eval_output['ConfigRuleName'] = ruleresult['EvaluationResultIdentifier']['EvaluationResultQualifier']['ConfigRuleName']
-            rule_eval_output['Annotation'] = ruleresult['Annotation']
-            rule_eval_output['ConfigRuleInvokedTime'] = str(ruleresult['ConfigRuleInvokedTime'])
-            non_compliant_output.append(rule_eval_output)
+            if ruleresult['ComplianceType'] == 'NON_COMPLIANT':
+                rule_eval_output['ConfigRuleName'] = ruleresult['EvaluationResultIdentifier']['EvaluationResultQualifier']['ConfigRuleName']
+                if 'Annotation' in ruleresult:
+                    rule_eval_output['Annotation'] = ruleresult['Annotation']
+                else:
+                    rule_eval_output['Annotation'] = "No annotations for this rule are available"
+                rule_eval_output['ConfigRuleInvokedTime'] = str(ruleresult['ConfigRuleInvokedTime'])
+                non_compliant_output.append(rule_eval_output)
         logger.info("Non-Compliant Resource by Rules Violated: " + json.dumps(non_compliant_output))
-        
-    object = s3res.Object(bucketname, 's3compliance/noncompliantresourcesdetails.json')
+    key =  's3compliance/' + accountId + '/noncompliantresourcedetails.json'    
+    object = s3res.Object(bucketname, key)
     object.put(Body=json.dumps(non_compliant_output))
+
+
+def lambda_handler(event, context):
+    logger = logging.getLogger()
+    logger.setLevel(logging.WARNING)
+    bucketname = os.environ['reporting_input_bucket']
+    managed_accounts = [ os.environ['managed_accounts']]
+    assume_role_arn_template = os.environ['assume_role_arn_template']
+    # Get main account and pull its data first
+    callerInfo = sts.get_caller_identity()
+    accountId = callerInfo['Account']
+    get_compliance_data_by_account(accountId, bucketname, logger, "none")
+    # Then pull data for each managed account
+    for managed_account in managed_accounts:
+        assume_role_arn = assume_role_arn_template % (managed_account)
+        get_compliance_data_by_account(managed_account, bucketname, logger, assume_role_arn)
