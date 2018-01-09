@@ -59,19 +59,37 @@ def get_compliance_data_by_account(accountId, bucketname, logger, assume_role_ar
     key =  's3compliance/' + accountId + '/noncompliantresourcedetails.json'    
     object = s3res.Object(bucketname, key)
     object.put(Body=json.dumps(non_compliant_output))
+    
+    return (compliance_output, non_compliant_output)
 
 
 def lambda_handler(event, context):
     logger = logging.getLogger()
-    logger.setLevel(logging.WARNING)
+    logger.setLevel(logging.INFO)
     bucketname = os.environ['reporting_input_bucket']
-    managed_accounts = [ os.environ['managed_accounts']]
+    managed_accounts = os.environ['managed_accounts'].split()
     assume_role_arn_template = os.environ['assume_role_arn_template']
     # Get main account and pull its data first
     callerInfo = sts.get_caller_identity()
     accountId = callerInfo['Account']
-    get_compliance_data_by_account(accountId, bucketname, logger, "none")
+    consolidated_resource_compliance_data = []
+    consolidated_non_compliant_detail_data = []
+    this_account_compliance_data, this_account_non_compliant_detail_data = get_compliance_data_by_account(accountId, bucketname, logger, "none")
+    consolidated_resource_compliance_data.extend(this_account_compliance_data)
+    consolidated_non_compliant_detail_data.extend(this_account_non_compliant_detail_data)    
     # Then pull data for each managed account
     for managed_account in managed_accounts:
         assume_role_arn = assume_role_arn_template % (managed_account)
-        get_compliance_data_by_account(managed_account, bucketname, logger, assume_role_arn)
+        this_account_compliance_data, this_account_non_compliant_detail_data = get_compliance_data_by_account(managed_account, bucketname, logger, assume_role_arn)
+        consolidated_resource_compliance_data.extend(this_account_compliance_data)
+        consolidated_non_compliant_detail_data.extend(this_account_non_compliant_detail_data)
+        
+    logger.info("Consolidated compliance data is : " + json.dumps(consolidated_resource_compliance_data))
+    key =  's3compliance/resourcecompliance.json'       
+    object = s3res.Object(bucketname, key)
+    object.put(Body=json.dumps(consolidated_resource_compliance_data))
+    
+    logger.info("Consolidated non_compliant detail data is : " + json.dumps(consolidated_non_compliant_detail_data))
+    key =  's3compliance/noncompliantresourcesdetails.json'    
+    object = s3res.Object(bucketname, key)
+    object.put(Body=json.dumps(consolidated_non_compliant_detail_data))
