@@ -26,27 +26,22 @@ def get_compliance_data_by_account(accountId, bucketname, logger, assume_role_ar
     compliance_output = []
     logger.info("Response is" + json.dumps(response) + ".")
     for resource in response['ComplianceByResources']:
-        resource_output = {}
-        logger.info("Resource is " + json.dumps(resource))
-        logger.info("ResourceId is " + resource['ResourceId'])
-        resource_output['AccountId'] = accountId
-        resource_output['ResourceId'] = resource['ResourceId']
-        resource_output['ComplianceStatus'] = resource['Compliance']['ComplianceType']
+        resource_output = { 'AccountId': accountId, 'ResourceType': 'S3 Bucket', 'ResourceId': resource['ResourceId'], 'ComplianceStatus': resource['Compliance']['ComplianceType']}
         compliance_output.append(resource_output)
         if resource['Compliance']['ComplianceType'] == "NON_COMPLIANT":
             non_compliant_resources.append(resource['ResourceId'])
     
     logger.info("Compliance Output is " + json.dumps(compliance_output))
     logger.info("Non-Compliant Resources is/are " + json.dumps(non_compliant_resources))
-    key =  's3compliance/' + accountId + '/resourcecompliance.json'       
-    object = s3res.Object(bucketname, key)
-    object.put(Body=json.dumps(compliance_output))
+#   key =  's3compliance/' + accountId + '/resourcecompliance.json'       
+#   object = s3res.Object(bucketname, key)
+#   object.put(Body=json.dumps(compliance_output))
     
     non_compliant_output = []
     for resourceid in non_compliant_resources:
         response = configsess.get_compliance_details_by_resource(ResourceType='AWS::S3::Bucket',ResourceId=resourceid)
         for ruleresult in response['EvaluationResults']:
-            rule_eval_output = { 'AccountId': accountId, 'ResourceId': resourceid }
+            rule_eval_output = { 'AccountId': accountId, 'ResourceType': 'S3 Bucket', 'ResourceId': resourceid }
             if ruleresult['ComplianceType'] == 'NON_COMPLIANT':
                 rule_eval_output['ConfigRuleName'] = ruleresult['EvaluationResultIdentifier']['EvaluationResultQualifier']['ConfigRuleName']
                 if 'Annotation' in ruleresult:
@@ -55,10 +50,10 @@ def get_compliance_data_by_account(accountId, bucketname, logger, assume_role_ar
                     rule_eval_output['Annotation'] = "No annotations for this rule are available"
                 rule_eval_output['ConfigRuleInvokedTime'] = str(ruleresult['ConfigRuleInvokedTime'])
                 non_compliant_output.append(rule_eval_output)
-        logger.info("Non-Compliant Resource by Rules Violated: " + json.dumps(non_compliant_output))
-    key =  's3compliance/' + accountId + '/noncompliantresourcedetails.json'    
-    object = s3res.Object(bucketname, key)
-    object.put(Body=json.dumps(non_compliant_output))
+    logger.info("Non-Compliant Resource by Rules Violated: " + json.dumps(non_compliant_output))
+#   key =  's3compliance/' + accountId + '/noncompliantresourcedetails.json'    
+#   object = s3res.Object(bucketname, key)
+#   object.put(Body=json.dumps(non_compliant_output))
     
     return (compliance_output, non_compliant_output)
 
