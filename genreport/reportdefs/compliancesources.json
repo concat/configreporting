@@ -1,0 +1,6 @@
+{
+ "id": "resourcescompliancetorules",
+ "name": "Compliance Details",
+ "url": "file:///tmp/resourcescompliancetorules.json",
+ "schema_url": "file:///tmp/resourcescompliancetorulesschema.json" 
+}

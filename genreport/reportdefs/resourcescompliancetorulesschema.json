@@ -1,0 +1,27 @@
+{
+  "fields": [{
+      "name": "AccountId",
+      "type": "string"
+    },{
+      "name": "ResourceType",
+      "type": "string"
+   },{
+      "name": "ResourceId",
+      "type": "string"
+    },{
+      "name": "BucketCompliance",
+      "type": "string"
+    },{
+      "name": "ConfigRuleName",
+      "type": "string"
+    },{
+      "name": "RuleCompliance",
+      "type": "string"
+    },{
+      "name": "Annotation",
+      "type": "string"
+    },{
+      "name": "ConfigRuleInvokedTime",
+      "type": "string"
+    }]
+}
