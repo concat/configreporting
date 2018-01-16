@@ -1,0 +1,7 @@
+This directory details the StepFunction State Machine for the automated Compliance Reporting.
+
+Steps include:
+
+1) Cloud Watch Event to periodically trigger
+2) A Lamdba function which fires off the StateMachine based on the ARN of that SM
+3) The SM which invokes pullComplianceData (Python function), generateReport (Node function), and sendEmailwithAttachment (Python function)
