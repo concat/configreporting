@@ -1,0 +1,129 @@
+{
+  "title": "Project Breakdown By Month (Pivot Example)",
+  "id": "ditto-demo-pivot",
+  "type": "hierarchical",
+  "default_format": "html",
+  "page": {
+    "units": "inches",
+    "paper_size": {
+      "name": "Letter",
+      "inches": [
+        "8.5",
+        "11"
+      ],
+      "mm": [
+        "216",
+        "279"
+      ],
+      "id": "letter"
+    },
+    "margins": {
+      "top": 0.5,
+      "left": 0.5,
+      "right": 0.5,
+      "bottom": 0.5
+    }
+  },
+  "filters": [
+  ],
+  "inputs": [
+  ],
+  "header": {
+    "height": 88,
+    "elements": [
+      {
+        "type": "text",
+        "text": "Project Breakdown By Month (Pivot Example)",
+        "wrap": true,
+        "styles": "title",
+        "left": 0.15,
+        "top": 15,
+        "width": 6.5,
+        "height": 35,
+        "id": "jsr-element-0",
+        "fontsize": "16",
+        "bold": true
+      },
+      {
+        "id": "jsr-element-10",
+        "type": "text",
+        "left": 0.15,
+        "top": 63,
+        "width": 0.97701149425287,
+        "height": 18,
+        "text": "Client",
+        "bold": true
+      },
+      {
+        "type": "text",
+        "left": 3.6,
+        "top": 63,
+        "width": 0.8,
+        "height": 18,
+        "text": "[EntryDate]",
+        "pattern": "MM/YYYY",
+        "bold": true,
+        "align": "right"
+      },
+      {
+        "type": "image",
+        "left": 6.5,
+        "top": 5,
+        "height": 35,
+        "width": 1,
+        "url": "images\/acme-logo.jpg",
+        "absoluteUrl": "http:\/\/www.ditto.com\/acme-logo.jpg",
+        "id": "jsr-element-1"
+      }
+    ]
+  },
+  "body": {
+    "data_source": "time",
+    "height": 33,
+    "pivot_enabled": true,
+    "pivot_expression": "[EntryDate]",
+    "pivot_column_sort_by": "",
+    "pivot_column_bucket_type": "month",
+    "pivot_value_aggregate": "sum",
+    "pivot_column_left": 3.5,
+    "pivot_column_right": 4.5,
+    "pivot_area_right": 7.5,
+    "show_detail": false,
+    "elements": [
+    ],
+    "sublevels": [
+      {
+        "data_source": "__parentgroup",
+        "group_by": "ClientID",
+        "sort_by": "ClientName",
+        "header": {
+          "height": 35,
+          "elements": [
+            {
+              "type": "text",
+              "text": "[ClientName]",
+              "left": 0.15,
+              "top": 8,
+              "width": 2.5,
+              "height": 20
+            },
+            {
+              "type": "text",
+              "left": 3.6,
+              "top": 8,
+              "width": 0.8,
+              "height": 20,
+              "text": "[SUM(Hours)]",
+              "align": "right"
+            }
+          ]
+        },
+        "footer": {
+          "visible": false,
+          "elements": []
+        }
+      }
+    ],
+    "order_detail_by": "EntryDate"
+  }
+}

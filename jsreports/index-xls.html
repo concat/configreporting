@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>An example of using JSReports</title>
+    <style type="text/css">
+        body {
+            padding: 20px;
+            margin: 0;
+            font: 16px/22px "Source Sans Pro", Helvetica, sans-serif;
+            font-size-adjust: none;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            background: #f4f6ec;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<P>This is an attempt to use the jsreports library</P>
+<div class=myreportdisplay></div>
+</body>
+<script src="jsreports-all.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
+<script>
+$( document ).ready(function() {
+var report_def, report_instance,
+	data_sources = [{
+        "id": "resourcescompliancetorules",
+        "name": "Compliance Details",
+        "url": "resourcescompliancetorules.json",
+        "schema_url": "resourcescompliancetorulesschema.json"
+        }];
+
+// Create a report definition
+
+$.getJSON("bucket-report-def-xls.json", function(def) {
+	report_def = def;
+	report_instance = jsreports.render({
+		report_def: report_def,
+		format: 'xls',
+		datasets: data_sources
+	});
+    });
+
+});
+</script>
+</html>
+

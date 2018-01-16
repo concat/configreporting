@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head> 
+    <title>Designer Toolbar Example - jsreports</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/images/clip32.png" title="Favicon" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link href="css/tomorrow-night-eighties.css" rel="stylesheet" type='text/css' />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        body {
+            padding: 20px;
+            margin: 0;
+            font: 16px/22px "Source Sans Pro", Helvetica, sans-serif;
+            font-size-adjust: none;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            background: #f4f6ec;
+            color: #333;
+        }
+        .nav-category {
+            color: #777;
+            font-weight: normal;
+            margin-bottom: 0.75em;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .report-output {
+            background: white;
+            border: 1px solid #ccc;
+            height: 400px;
+        }
+
+        .edit-link {
+            font-size: 120%;
+            margin-bottom: 10px;
+        }
+
+        code.hljs.javascript {
+            border-radius: 5px;
+            padding: 0.5em 0.85em;
+        }
+        pre {
+            margin: 0;
+        }
+
+        .report-designer-container {
+            height: 600px;
+            width: 1100px;
+            border: 1px solid #aaa;
+        }
+
+        .toolbar-dropdown {
+            vertical-align: middle;
+            margin: 0 4px;
+        }
+    </style>
+</head>
+<body>
+<a href="http://www.jsreports.com" style="float:right">jsreports home</a>
+<h2 class="nav-category">jsreports example</h2>
+
+<h1>Adding buttons to the designer</h1>
+
+<p>You can add buttons and arbitrary HTML elements to the report designer toolbar.</p>
+
+<p>Source code snippets are shown below the designer.  View the source of this page for the full code.</p>
+
+<div class="report-designer-container"></div>
+
+<h2 style="margin: 1em 0">The code</h2>
+
+<h3>Instantiating a designer in a target element:</h3>
+<pre><code class="javascript">$(designer).on("render", function() {
+
+    var btnRight = designer.addToolbarButton("New Button Right");
+    $(btnRight).on("click", function() {
+        alert("Right button clicked");
+    });
+
+    /** Add an arbitrary HTML element, here a container into which we'll append a drop-down */
+    var span = designer.addToolbarElement('&lt;span&gt;&lt;/span&gt;', jsreports.ToolbarItemPosition.LEFT);
+    var select = $('&lt;select&gt;&lt;option value="1"&gt;Option 1&lt;/option&gt;&lt;option value="2"&gt;Option 2&lt;/option&gt;&lt;/select&gt;');
+    $(span).append(select).addClass('toolbar-dropdown');
+    $(select).on("change", function() {
+        alert("Selected " + $(this).val());
+    });
+
+    var btnLeft = designer.addToolbarButton("New Button Left", jsreports.ToolbarItemPosition.LEFT);
+    $(btnLeft).on("click", function() {
+        alert("Left button clicked");
+    });
+
+});
+</code>
+</pre>
+
+</body>
+<script src="lib/highlight.pack.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
+<script src="lib/jsreports/jsreports-all.min.js?1.4.106" type="text/javascript"></script>
+<script>
+    $(document).ready(function() {
+
+        // Set up variables that apply to all reports
+        var data_sources = [{
+                "id": "time",
+                "name": "Time",
+                "url": "data/time-data.json",
+                "schema_url": "data/time-data-schema.json"
+            }];
+
+        // To enable PDF download in IE9, set the path to the jsreports library
+        jsreports.libraryPath = "lib/jsreports";
+
+        // Load the report definition (here, a static file; in production, might be in a database)
+        $.getJSON("grouping-report-def.json", function(report_def) {
+            var designer = new jsreports.Designer({
+                embedded: true,
+                container: $(".report-designer-container"),
+                data_sources: data_sources,
+                report_def: report_def,
+                images: [{
+                    name: "ACME logo",
+                    url: "images/acme-logo.png"
+                }],
+            });
+
+            designer.on("render", function() {
+
+                var btnRight = designer.addToolbarButton("New Button Right");
+                $(btnRight).on("click", function() {
+                    alert("Right button clicked");
+                });
+
+                /** Add an arbitrary HTML element, here a container into which we'll append a drop-down */
+                var span = designer.addToolbarElement('<span></span>', jsreports.ToolbarItemPosition.LEFT);
+                var select = $('<select><option value="1">Option 1</option><option value="2">Option 2</option></select>');
+                $(span).append(select).addClass('toolbar-dropdown');
+                $(select).on("change", function() {
+                    alert("Selected " + $(this).val());
+                });
+
+                var btnLeft = designer.addToolbarButton("New Button Left", jsreports.ToolbarItemPosition.LEFT);
+                $(btnLeft).on("click", function() {
+                    alert("Left button clicked");
+                });
+
+            });
+
+        });
+
+        // Sample code highlighting (not part of jsreports)
+        hljs.initHighlightingOnLoad();
+    });
+</script>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>
+

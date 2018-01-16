@@ -1,0 +1,13 @@
+{
+  "name": "ditto",
+  "version": "{{VERSION}}",
+  "main": "ditto.min.js",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.0 <2.0.0"
+  },
+  "devDependencies": { }
+}

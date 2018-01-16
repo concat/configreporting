@@ -1,0 +1,1001 @@
+Entry_Date,Previous_timesheet_status,Current_timesheet_status,Full_name,Employee_number,Person_status,Employment_type,Client_name,Job_name,Hours,Task_name,Billing_rate,Cost,Time_Entry_ID,Timesheet_ID,Person_ID,Client_ID,Job_ID,Task_ID
+6/23/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,2.25,Meeting,190,10,1854509,1498876,100000003,100000000,100000001,100000002
+7/12/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Project Molybdenum,2,Meeting,190,10,1221095,1926466,100000003,100000004,100000001,100000002
+7/24/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Payroll integration,5.75,Meeting,190,10,1719145,1965396,100000003,100000004,100000005,100000002
+7/27/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,API v2.0 update,1.75,Meeting,190,10,1938497,1286048,100000003,100000006,100000007,100000002
+7/27/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,New product lineup,5.5,Meeting,190,10,1277950,1983579,100000003,100000008,100000009,100000002
+6/8/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,API v2.0 update,2.75,Meeting,190,10,1528389,1351440,100000003,100000010,100000007,100000002
+7/7/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,3.5,Meeting,190,10,1928735,1789730,100000003,100000011,100000012,100000002
+7/24/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,0.75,Meeting,190,10,1223698,1804024,100000003,100000013,100000005,100000002
+7/20/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,Payroll integration,3.5,Meeting,190,10,1839125,1264268,100000003,100000010,100000005,100000002
+6/15/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,1.75,Meeting,190,10,1488337,1466061,100000003,100000013,100000007,100000002
+8/23/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Cloud migration,1.75,Meeting,190,10,1584199,1279031,100000003,100000004,100000014,100000002
+6/28/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Fall marketing campaign,0.5,Meeting,190,10,1706447,1858041,100000003,100000010,100000012,100000002
+6/8/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,0.5,Meeting,190,10,1212295,1141973,100000003,100000000,100000014,100000002
+7/1/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Payroll integration,0,Meeting,190,10,1848253,1124326,100000003,100000011,100000005,100000002
+7/4/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Cloud migration,3.25,Meeting,190,10,1269361,1900468,100000003,100000004,100000014,100000002
+8/15/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,API v2.0 update,4.75,Meeting,190,10,1244393,1854162,100000003,100000004,100000007,100000002
+8/4/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Export feature,1.5,Meeting,190,10,1881649,1353822,100000003,100000000,100000015,100000002
+6/18/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,1.75,Meeting,190,10,1850263,1858876,100000003,100000013,100000001,100000002
+7/13/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,3.25,Meeting,190,10,1472942,1951519,100000003,100000000,100000005,100000002
+8/31/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,3,Meeting,190,10,1982431,1799615,100000003,100000013,100000001,100000002
+8/30/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Project Molybdenum,3.75,Meeting,190,10,1968044,1097794,100000003,100000008,100000001,100000002
+7/14/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,Project Molybdenum,1.75,Meeting,190,10,1317818,1576707,100000003,100000011,100000001,100000002
+7/13/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,API v2.0 update,4.75,Meeting,190,10,1028004,1866733,100000003,100000004,100000007,100000002
+8/27/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,3.5,Meeting,190,10,1414655,1912616,100000003,100000011,100000012,100000002
+7/5/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Export feature,1.25,Meeting,190,10,1918973,1302183,100000003,100000008,100000015,100000002
+7/23/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,API v2.0 update,4.5,Meeting,190,10,1553023,1324558,100000003,100000011,100000007,100000002
+8/1/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Payroll integration,0.5,Meeting,190,10,1994985,1472745,100000003,100000004,100000005,100000002
+6/21/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Payroll integration,1.75,Meeting,190,10,1427255,1335711,100000003,100000010,100000005,100000002
+7/20/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,New product lineup,5,Meeting,190,10,1337721,1948166,100000003,100000006,100000009,100000002
+6/23/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,New product lineup,1.25,Meeting,190,10,1249034,1530440,100000003,100000010,100000009,100000002
+8/5/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,New product lineup,4,Meeting,190,10,1639061,1488443,100000003,100000011,100000009,100000002
+6/29/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Export feature,2.25,Meeting,190,10,1331146,1851815,100000003,100000011,100000015,100000002
+7/7/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,3.75,Meeting,190,10,1078866,1174924,100000003,100000000,100000014,100000002
+7/20/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Cloud migration,3.75,Meeting,190,10,1416118,1742405,100000003,100000004,100000014,100000002
+6/24/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,API v2.0 update,5.75,Meeting,190,10,1027198,1122718,100000003,100000011,100000007,100000002
+7/26/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,New product lineup,3.75,Meeting,190,10,1619219,1210053,100000003,100000011,100000009,100000002
+8/29/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,2.25,Meeting,190,10,1033529,1659868,100000003,100000013,100000014,100000002
+8/8/2014,open,locked,Paul Pilkington,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,5,Meeting,190,10,1092395,1280554,100000003,100000013,100000014,100000002
+7/20/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,Payroll integration,5.75,Meeting,190,10,1859797,1139772,100000003,100000010,100000005,100000002
+6/16/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,4.25,Meeting,190,10,1531239,1333729,100000003,100000000,100000014,100000002
+8/6/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,2.5,Meeting,190,10,1011072,1300751,100000003,100000013,100000009,100000002
+6/8/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Export feature,2.75,Meeting,190,10,1845176,1047533,100000003,100000004,100000015,100000002
+8/21/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Cloud migration,4.75,Meeting,190,10,1483339,1289419,100000003,100000004,100000014,100000002
+6/12/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Project Molybdenum,4.25,Meeting,190,10,1485092,1906523,100000003,100000011,100000001,100000002
+8/4/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,New product lineup,5.5,Meeting,190,10,1262755,1214533,100000003,100000011,100000009,100000002
+8/28/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,4.75,Meeting,190,10,1699332,1052307,100000003,100000006,100000012,100000002
+8/18/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,3.25,Meeting,190,10,1465105,1942034,100000003,100000008,100000012,100000002
+7/18/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,Payroll integration,1.5,Meeting,190,10,1656468,1737692,100000003,100000011,100000005,100000002
+7/25/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Cloud migration,3.75,Meeting,190,10,1804039,1342266,100000003,100000004,100000014,100000002
+7/15/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,1.25,Meeting,190,10,1822168,1433568,100000003,100000000,100000001,100000002
+6/30/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,New product lineup,3.5,Meeting,190,10,1003579,1394135,100000003,100000006,100000009,100000002
+6/29/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,New product lineup,0.5,Meeting,190,10,1652272,1023244,100000003,100000010,100000009,100000002
+8/5/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,2.5,Meeting,190,10,1553792,1549283,100000003,100000008,100000012,100000002
+7/22/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Project Molybdenum,2.25,Meeting,190,10,1351236,1101726,100000003,100000006,100000001,100000002
+6/16/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,3.25,Meeting,190,10,1567051,1764322,100000003,100000006,100000012,100000002
+7/6/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,1.5,Meeting,190,10,1467604,1486501,100000003,100000013,100000015,100000002
+6/13/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Payroll integration,0.5,Meeting,190,10,1555015,1819474,100000003,100000008,100000005,100000002
+6/28/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,Cloud migration,0.5,Meeting,190,10,1826869,1341210,100000003,100000010,100000014,100000002
+8/6/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Export feature,5.25,Meeting,190,10,1542733,1345986,100000003,100000000,100000015,100000002
+7/27/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Export feature,2,Meeting,190,10,1263912,1307228,100000003,100000011,100000015,100000002
+9/1/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,Payroll integration,5.75,Meeting,190,10,1034870,1355142,100000003,100000006,100000005,100000002
+8/5/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,1.75,Meeting,190,10,1515866,1430123,100000003,100000013,100000012,100000002
+7/10/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Cloud migration,2.75,Meeting,190,10,1706283,1875901,100000003,100000004,100000014,100000002
+6/14/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,0.75,Meeting,190,10,1609100,1057903,100000003,100000013,100000001,100000002
+6/12/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,New product lineup,1,Meeting,190,10,1680980,1396730,100000003,100000008,100000009,100000002
+7/19/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Export feature,4.75,Meeting,190,10,1024357,1224403,100000003,100000006,100000015,100000002
+6/23/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,Project Molybdenum,5.75,Meeting,190,10,1750954,1283948,100000003,100000010,100000001,100000002
+8/3/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Export feature,1.75,Meeting,190,10,1298427,1169559,100000003,100000010,100000015,100000002
+7/26/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,Export feature,3,Meeting,190,10,1519019,1963439,100000003,100000010,100000015,100000002
+7/3/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,API v2.0 update,1.5,Meeting,190,10,1496172,1682624,100000003,100000010,100000007,100000002
+7/4/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,API v2.0 update,1,Meeting,190,10,1295564,1855186,100000003,100000010,100000007,100000002
+7/8/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,3.25,Meeting,190,10,1069185,1300856,100000003,100000013,100000015,100000002
+6/7/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Export feature,0.25,Meeting,190,10,1581065,1716302,100000003,100000008,100000015,100000002
+8/20/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,5.5,Meeting,190,10,1614821,1563013,100000003,100000013,100000005,100000002
+7/15/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,New product lineup,5.75,Meeting,190,10,1072887,1932601,100000003,100000010,100000009,100000002
+7/15/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,New product lineup,1.5,Meeting,190,10,1108177,1787617,100000003,100000006,100000009,100000002
+6/8/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,New product lineup,3,Meeting,190,10,1687110,1446389,100000003,100000011,100000009,100000002
+6/11/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,1.75,Meeting,190,10,1001570,1685391,100000003,100000006,100000012,100000002
+8/29/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Cloud migration,2.75,Meeting,190,10,1529724,1608477,100000003,100000010,100000014,100000002
+7/20/2014,open,locked,Elizabeth Stewart,na,Active,Employee,QWERTY Logistics,Project Molybdenum,2,Meeting,190,10,1443843,1210588,100000003,100000011,100000001,100000002
+7/23/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Fall marketing campaign,2.75,Meeting,190,10,1140347,1573287,100000003,100000004,100000012,100000002
+6/11/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Export feature,4,Meeting,190,10,1131772,1683443,100000003,100000004,100000015,100000002
+7/11/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Cloud migration,4.25,Meeting,190,10,1554045,1924244,100000003,100000008,100000014,100000002
+7/23/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Project Molybdenum,0,Meeting,190,10,1527086,1476766,100000003,100000006,100000001,100000002
+6/7/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,New product lineup,2.25,Meeting,190,10,1269096,1132990,100000003,100000011,100000009,100000002
+6/13/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Fall marketing campaign,4.75,Meeting,190,10,1088413,1770901,100000003,100000004,100000012,100000002
+7/13/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,Cloud migration,1.75,Meeting,190,10,1677944,1132013,100000003,100000010,100000014,100000002
+7/30/2014,open,locked,Paul Pilkington,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,2,Meeting,190,10,1619950,1346070,100000003,100000013,100000012,100000002
+8/5/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Export feature,2.75,Meeting,190,10,1758003,1073130,100000003,100000000,100000015,100000002
+7/23/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Cloud migration,3.5,Meeting,190,10,1626791,1442556,100000003,100000008,100000014,100000002
+7/3/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,2.5,Meeting,190,10,1282502,1326425,100000003,100000008,100000012,100000002
+7/21/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,Export feature,3,Meeting,190,10,1453254,1219699,100000003,100000011,100000015,100000002
+6/16/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,0.75,Meeting,190,10,1794816,1867054,100000003,100000000,100000014,100000002
+7/15/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Project Molybdenum,0.25,Meeting,190,10,1862593,1985788,100000003,100000010,100000001,100000002
+6/29/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Cloud migration,4.75,Meeting,190,10,1976053,1504526,100000003,100000008,100000014,100000002
+7/15/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,1,Meeting,190,10,1289771,1907170,100000003,100000013,100000001,100000002
+8/9/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,4.75,Meeting,190,10,1884691,1197477,100000003,100000006,100000012,100000002
+6/8/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Export feature,5,Meeting,190,10,1901773,1983424,100000003,100000000,100000015,100000002
+8/18/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,New product lineup,0.25,Meeting,190,10,1978451,1120374,100000003,100000006,100000009,100000002
+8/18/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,API v2.0 update,3,Meeting,190,10,1082143,1944216,100000003,100000006,100000007,100000002
+8/4/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Cloud migration,4.25,Meeting,190,10,1804947,1621168,100000003,100000004,100000014,100000002
+7/10/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Project Molybdenum,0.5,Meeting,190,10,1403314,1792642,100000003,100000010,100000001,100000002
+7/29/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Project Molybdenum,3,Meeting,190,10,1354971,1334819,100000003,100000004,100000001,100000002
+6/19/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Project Molybdenum,4.5,Meeting,190,10,1869648,1202092,100000003,100000004,100000001,100000002
+8/11/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Export feature,4.75,Meeting,190,10,1282629,1614130,100000003,100000011,100000015,100000002
+8/4/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,3.25,Meeting,190,10,1081498,1336308,100000003,100000000,100000009,100000002
+6/24/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,1.5,Meeting,190,10,1427403,1040343,100000003,100000013,100000012,100000002
+8/3/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,API v2.0 update,3.5,Meeting,190,10,1485734,1977237,100000003,100000008,100000007,100000002
+8/5/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,2.5,Meeting,190,10,1556112,1876337,100000003,100000000,100000012,100000002
+6/12/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Project Molybdenum,3,Meeting,190,10,1566533,1172899,100000003,100000008,100000001,100000002
+7/11/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,Payroll integration,0.25,Meeting,190,10,1432575,1515364,100000003,100000010,100000005,100000002
+7/14/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,0,Meeting,190,10,1931655,1933221,100000003,100000013,100000012,100000002
+8/19/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,API v2.0 update,1.75,Meeting,190,10,1286097,1927530,100000003,100000004,100000007,100000002
+7/16/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,API v2.0 update,1.5,Meeting,190,10,1356893,1589182,100000003,100000010,100000007,100000002
+6/7/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,5.5,Meeting,190,10,1333868,1861221,100000003,100000000,100000014,100000002
+7/24/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Export feature,3.5,Meeting,190,10,1201658,1844720,100000003,100000006,100000015,100000002
+7/22/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Payroll integration,2,Meeting,190,10,1015433,1894854,100000003,100000004,100000005,100000002
+7/20/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,API v2.0 update,4.25,Meeting,190,10,1178708,1387502,100000003,100000004,100000007,100000002
+8/30/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,0.25,Meeting,190,10,1890296,1376005,100000003,100000000,100000014,100000002
+7/8/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Export feature,3.25,Meeting,190,10,1976213,1394253,100000003,100000006,100000015,100000002
+7/15/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,API v2.0 update,2,Meeting,190,10,1430688,1814246,100000003,100000011,100000007,100000002
+7/25/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Project Molybdenum,0.25,Meeting,190,10,1434277,1448058,100000003,100000006,100000001,100000002
+8/10/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,2,Meeting,190,10,1991769,1445869,100000003,100000000,100000001,100000002
+9/1/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Cloud migration,1.25,Meeting,190,10,1221493,1240950,100000003,100000008,100000014,100000002
+6/4/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,New product lineup,2.25,Meeting,190,10,1454240,1396057,100000003,100000006,100000009,100000002
+7/14/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,API v2.0 update,2.75,Meeting,190,10,1770449,1638522,100000003,100000010,100000007,100000002
+6/8/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Payroll integration,3.75,Meeting,190,10,1821283,1385800,100000003,100000004,100000005,100000002
+8/3/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,2.5,Meeting,190,10,1945402,1249545,100000003,100000008,100000012,100000002
+7/1/2014,open,locked,Paul Pilkington,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,5.75,Meeting,190,10,1031981,1362194,100000003,100000013,100000009,100000002
+8/13/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,New product lineup,5,Meeting,190,10,1248533,1244236,100000003,100000004,100000009,100000002
+8/7/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Export feature,4,Meeting,190,10,1484471,1708572,100000003,100000008,100000015,100000002
+7/27/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Export feature,0,Meeting,190,10,1031923,1366117,100000003,100000006,100000015,100000002
+7/13/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,Payroll integration,5.5,Meeting,190,10,1813596,1749513,100000003,100000006,100000005,100000002
+7/10/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Project Molybdenum,3.5,Meeting,190,10,1870409,1093151,100000003,100000006,100000001,100000002
+6/27/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Payroll integration,3.5,Meeting,190,10,1528973,1907512,100000003,100000011,100000005,100000002
+7/26/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Project Molybdenum,2.5,Meeting,190,10,1152188,1891263,100000003,100000004,100000001,100000002
+8/31/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,New product lineup,1,Meeting,190,10,1012183,1549737,100000003,100000010,100000009,100000002
+6/12/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,3.25,Meeting,190,10,1284570,1917305,100000003,100000013,100000012,100000002
+8/21/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Export feature,2.75,Meeting,190,10,1891792,1799945,100000003,100000004,100000015,100000002
+8/4/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,New product lineup,1,Meeting,190,10,1218801,1065172,100000003,100000010,100000009,100000002
+7/10/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,3.75,Meeting,190,10,1169966,1799225,100000003,100000011,100000012,100000002
+6/7/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,Payroll integration,4.25,Meeting,190,10,1199913,1967791,100000003,100000010,100000005,100000002
+8/14/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Project Molybdenum,5,Meeting,190,10,1950506,1496039,100000003,100000010,100000001,100000002
+8/13/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Cloud migration,2.25,Meeting,190,10,1312384,1156960,100000003,100000010,100000014,100000002
+7/13/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,Export feature,5.25,Meeting,190,10,1811577,1889566,100000003,100000006,100000015,100000002
+6/28/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,New product lineup,1.75,Meeting,190,10,1482391,1712760,100000003,100000008,100000009,100000002
+6/7/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,New product lineup,0,Meeting,190,10,1475508,1733495,100000003,100000011,100000009,100000002
+8/22/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,API v2.0 update,0.5,Meeting,190,10,1164581,1286723,100000003,100000011,100000007,100000002
+8/14/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,1.5,Meeting,190,10,1376565,1972392,100000003,100000006,100000012,100000002
+6/23/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Export feature,2,Meeting,190,10,1259394,1774045,100000003,100000011,100000015,100000002
+8/20/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,API v2.0 update,4.5,Meeting,190,10,1611235,1047562,100000003,100000004,100000007,100000002
+8/23/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Project Molybdenum,2.25,Meeting,190,10,1726252,1708026,100000003,100000010,100000001,100000002
+6/10/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,Cloud migration,1.25,Meeting,190,10,1391107,1629317,100000003,100000006,100000014,100000002
+7/16/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Payroll integration,5.25,Meeting,190,10,1091448,1062926,100000003,100000008,100000005,100000002
+7/7/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,5,Meeting,190,10,1305288,1454625,100000003,100000013,100000005,100000002
+6/21/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Export feature,3,Meeting,190,10,1856320,1382743,100000003,100000004,100000015,100000002
+7/15/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Cloud migration,5,Meeting,190,10,1649802,1772091,100000003,100000011,100000014,100000002
+6/4/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,3,Meeting,190,10,1200816,1382660,100000003,100000013,100000007,100000002
+7/1/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Payroll integration,0.5,Meeting,190,10,1309874,1216583,100000003,100000011,100000005,100000002
+8/24/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,2.25,Meeting,190,10,1446766,1791530,100000003,100000008,100000012,100000002
+7/31/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,1.5,Meeting,190,10,1506662,1229481,100000003,100000011,100000012,100000002
+7/20/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,5.5,Meeting,190,10,1718329,1055069,100000003,100000000,100000007,100000002
+7/1/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,New product lineup,0.25,Meeting,190,10,1791144,1577702,100000003,100000006,100000009,100000002
+7/8/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Cloud migration,5.25,Meeting,190,10,1028670,1762175,100000003,100000004,100000014,100000002
+6/25/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,0,Meeting,190,10,1237963,1324548,100000003,100000013,100000007,100000002
+8/20/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,Cloud migration,4.5,Meeting,190,10,1203546,1373929,100000003,100000011,100000014,100000002
+8/24/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,3.25,Meeting,190,10,1262137,1042180,100000003,100000013,100000009,100000002
+7/6/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Project Molybdenum,4,Meeting,190,10,1815000,1296149,100000003,100000004,100000001,100000002
+8/21/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Export feature,3,Meeting,190,10,1833812,1071872,100000003,100000000,100000015,100000002
+8/29/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Export feature,4.5,Meeting,190,10,1888051,1424844,100000003,100000006,100000015,100000002
+8/22/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,2,Meeting,190,10,1236647,1053869,100000003,100000000,100000014,100000002
+7/4/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Cloud migration,1,Meeting,190,10,1477119,1324919,100000003,100000004,100000014,100000002
+6/29/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Cloud migration,5.75,Meeting,190,10,1013817,1592943,100000003,100000006,100000014,100000002
+8/24/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,5.5,Meeting,190,10,1453253,1392382,100000003,100000000,100000012,100000002
+8/17/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Payroll integration,4.5,Meeting,190,10,1649945,1400917,100000003,100000004,100000005,100000002
+8/4/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,4.75,Meeting,190,10,1381676,1478927,100000003,100000013,100000012,100000002
+7/2/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,5.25,Meeting,190,10,1561602,1203607,100000003,100000013,100000015,100000002
+7/31/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,API v2.0 update,1,Meeting,190,10,1977632,1259812,100000003,100000006,100000007,100000002
+8/5/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,5.25,Meeting,190,10,1086350,1988409,100000003,100000000,100000014,100000002
+7/11/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,1.75,Meeting,190,10,1609307,1977694,100000003,100000000,100000007,100000002
+6/13/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Project Molybdenum,3.75,Meeting,190,10,1584733,1086888,100000003,100000011,100000001,100000002
+7/5/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Payroll integration,5,Meeting,190,10,1647091,1091519,100000003,100000004,100000005,100000002
+6/7/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Cloud migration,0,Meeting,190,10,1893675,1912372,100000003,100000010,100000014,100000002
+7/5/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,0,Meeting,190,10,1346519,1864021,100000003,100000013,100000012,100000002
+7/1/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Payroll integration,2.25,Meeting,190,10,1871935,1932915,100000003,100000004,100000005,100000002
+7/20/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Export feature,4.25,Meeting,190,10,1085044,1978903,100000003,100000006,100000015,100000002
+8/30/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Export feature,1.5,Meeting,190,10,1644488,1867498,100000003,100000006,100000015,100000002
+8/15/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,API v2.0 update,5.5,Meeting,190,10,1114635,1696548,100000003,100000004,100000007,100000002
+7/11/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,2.25,Meeting,190,10,1336352,1198383,100000003,100000000,100000007,100000002
+6/21/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,0.75,Meeting,190,10,1980233,1868261,100000003,100000013,100000009,100000002
+7/15/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,Project Molybdenum,3.75,Meeting,190,10,1465881,1032383,100000003,100000006,100000001,100000002
+6/30/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,Cloud migration,4,Meeting,190,10,1976914,1189209,100000003,100000010,100000014,100000002
+7/8/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,New product lineup,3,Meeting,190,10,1936324,1227837,100000003,100000004,100000009,100000002
+8/28/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,New product lineup,1,Meeting,190,10,1982969,1572771,100000003,100000006,100000009,100000002
+6/11/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Cloud migration,3.25,Meeting,190,10,1310065,1826905,100000003,100000004,100000014,100000002
+6/5/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Cloud migration,1.5,Meeting,190,10,1312492,1202354,100000003,100000004,100000014,100000002
+7/26/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Cloud migration,5,Meeting,190,10,1386180,1523562,100000003,100000008,100000014,100000002
+6/17/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5.75,Meeting,190,10,1322156,1773914,100000003,100000008,100000012,100000002
+7/3/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,API v2.0 update,1.5,Meeting,190,10,1823004,1846413,100000003,100000006,100000007,100000002
+6/8/2014,open,locked,Claudia Mendes,na,Active,Employee,Mammoth Pictures,Project Molybdenum,2,Meeting,190,10,1160717,1575888,100000003,100000006,100000001,100000002
+7/18/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,New product lineup,5.5,Meeting,190,10,1291280,1631966,100000003,100000011,100000009,100000002
+8/6/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,1.5,Meeting,190,10,1449323,1407627,100000003,100000000,100000012,100000002
+6/21/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Project Molybdenum,4,Meeting,190,10,1805985,1798786,100000003,100000006,100000001,100000002
+8/25/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,API v2.0 update,2.25,Meeting,190,10,1510249,1698868,100000003,100000011,100000007,100000002
+6/18/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,API v2.0 update,3,Meeting,190,10,1001375,1151142,100000003,100000011,100000007,100000002
+7/27/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Export feature,1.25,Meeting,190,10,1966238,1050474,100000003,100000008,100000015,100000002
+8/2/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,API v2.0 update,4.25,Meeting,190,10,1153427,1381330,100000003,100000008,100000007,100000002
+6/30/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,1.25,Meeting,190,10,1146332,1755593,100000003,100000006,100000012,100000002
+7/18/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,5.5,Meeting,190,10,1296173,1169587,100000003,100000013,100000014,100000002
+7/30/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Cloud migration,5.75,Meeting,190,10,1433354,1818524,100000003,100000004,100000014,100000002
+7/22/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Project Molybdenum,5,Meeting,190,10,1670255,1399039,100000003,100000004,100000001,100000002
+6/4/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,API v2.0 update,3.75,Meeting,190,10,1124813,1736641,100000003,100000008,100000007,100000002
+8/17/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Payroll integration,1.75,Meeting,190,10,1638177,1503053,100000003,100000006,100000005,100000002
+8/31/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,4.25,Meeting,190,10,1030103,1951919,100000003,100000013,100000007,100000002
+6/5/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Export feature,5.25,Meeting,190,10,1082556,1522196,100000003,100000006,100000015,100000002
+7/31/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Payroll integration,1.25,Meeting,190,10,1848258,1182656,100000003,100000006,100000005,100000002
+7/10/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,0.75,Meeting,190,10,1069926,1809111,100000003,100000000,100000009,100000002
+8/20/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Fall marketing campaign,3.25,Meeting,190,10,1769590,1553561,100000003,100000010,100000012,100000002
+8/3/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Export feature,2.5,Meeting,190,10,1683579,1188825,100000003,100000011,100000015,100000002
+6/28/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Export feature,3.25,Meeting,190,10,1788384,1130353,100000003,100000004,100000015,100000002
+8/29/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Cloud migration,0,Meeting,190,10,1799080,1491642,100000003,100000006,100000014,100000002
+7/11/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,3.5,Meeting,190,10,1189188,1000571,100000003,100000013,100000014,100000002
+6/24/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,API v2.0 update,3.5,Meeting,190,10,1758711,1820616,100000003,100000010,100000007,100000002
+6/17/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,0.5,Meeting,190,10,1993944,1503641,100000003,100000013,100000014,100000002
+7/29/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,2.25,Meeting,190,10,1780611,1167715,100000003,100000013,100000007,100000002
+8/2/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,4.5,Meeting,190,10,1398638,1416984,100000003,100000013,100000014,100000002
+8/21/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,0.25,Meeting,190,10,1927574,1532678,100000003,100000000,100000005,100000002
+7/10/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,New product lineup,1,Meeting,190,10,1680744,1183421,100000003,100000006,100000009,100000002
+8/21/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,0.5,Meeting,190,10,1840474,1075076,100000003,100000000,100000007,100000002
+7/27/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,API v2.0 update,3.25,Meeting,190,10,1773174,1128869,100000003,100000010,100000007,100000002
+6/21/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,New product lineup,4.75,Meeting,190,10,1506208,1922017,100000003,100000010,100000009,100000002
+6/30/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,API v2.0 update,3.5,Meeting,190,10,1699361,1517731,100000003,100000011,100000007,100000002
+7/29/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Cloud migration,0,Meeting,190,10,1262646,1135046,100000003,100000011,100000014,100000002
+8/7/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Export feature,0.75,Meeting,190,10,1196279,1753947,100000003,100000008,100000015,100000002
+6/15/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,2.5,Meeting,190,10,1006124,1947990,100000003,100000013,100000001,100000002
+7/16/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,API v2.0 update,1.75,Meeting,190,10,1595238,1911894,100000003,100000006,100000007,100000002
+6/24/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Payroll integration,1,Meeting,190,10,1461926,1582406,100000003,100000010,100000005,100000002
+6/28/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Cloud migration,4.75,Meeting,190,10,1069989,1938098,100000003,100000008,100000014,100000002
+7/27/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Export feature,2.75,Meeting,190,10,1898678,1605712,100000003,100000000,100000015,100000002
+6/15/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5,Meeting,190,10,1269887,1594087,100000003,100000008,100000012,100000002
+7/14/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,0.75,Meeting,190,10,1997764,1234397,100000003,100000013,100000005,100000002
+6/11/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,New product lineup,5.75,Meeting,190,10,1255915,1417612,100000003,100000010,100000009,100000002
+7/11/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Fall marketing campaign,1.75,Meeting,190,10,1089533,1074237,100000003,100000004,100000012,100000002
+7/24/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,0.25,Meeting,190,10,1561864,1950355,100000003,100000000,100000001,100000002
+6/11/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,API v2.0 update,5.25,Meeting,190,10,1614900,1178871,100000003,100000004,100000007,100000002
+6/25/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,1.25,Meeting,190,10,1522143,1161964,100000003,100000013,100000001,100000002
+7/1/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,0,Meeting,190,10,1703129,1245732,100000003,100000000,100000005,100000002
+7/16/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,4,Meeting,190,10,1464757,1442152,100000003,100000013,100000015,100000002
+7/5/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Project Molybdenum,1.25,Meeting,190,10,1584132,1775796,100000003,100000008,100000001,100000002
+6/15/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,Cloud migration,2.5,Meeting,190,10,1168523,1505880,100000003,100000011,100000014,100000002
+7/23/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,3.25,Meeting,190,10,1095605,1929046,100000003,100000000,100000014,100000002
+6/26/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,3.75,Meeting,190,10,1099666,1222502,100000003,100000013,100000015,100000002
+8/18/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Export feature,3.75,Meeting,190,10,1625385,1837437,100000003,100000000,100000015,100000002
+7/27/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,API v2.0 update,3.5,Meeting,190,10,1851002,1479055,100000003,100000008,100000007,100000002
+8/28/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,Cloud migration,1,Meeting,190,10,1302109,1449986,100000003,100000011,100000014,100000002
+6/25/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,Fall marketing campaign,5.25,Meeting,190,10,1301835,1526972,100000003,100000010,100000012,100000002
+6/30/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,Project Molybdenum,1.25,Meeting,190,10,1122265,1014037,100000003,100000010,100000001,100000002
+6/29/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Cloud migration,2,Meeting,190,10,1395885,1852608,100000003,100000008,100000014,100000002
+6/12/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,API v2.0 update,2.25,Meeting,190,10,1961497,1336903,100000003,100000006,100000007,100000002
+8/10/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,3.75,Meeting,190,10,1467777,1888807,100000003,100000011,100000012,100000002
+7/28/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Export feature,2.25,Meeting,190,10,1496586,1164064,100000003,100000011,100000015,100000002
+8/30/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Project Molybdenum,3.75,Meeting,190,10,1853013,1319635,100000003,100000006,100000001,100000002
+8/19/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,New product lineup,3.25,Meeting,190,10,1912544,1910161,100000003,100000010,100000009,100000002
+8/9/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,5.5,Meeting,190,10,1462565,1474134,100000003,100000013,100000001,100000002
+6/9/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Cloud migration,4.75,Meeting,190,10,1072081,1121989,100000003,100000010,100000014,100000002
+7/19/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Export feature,5.5,Meeting,190,10,1198265,1940339,100000003,100000006,100000015,100000002
+8/16/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,4,Meeting,190,10,1338700,1089140,100000003,100000013,100000015,100000002
+7/22/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,New product lineup,2,Meeting,190,10,1622129,1977521,100000003,100000010,100000009,100000002
+6/21/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Cloud migration,1.25,Meeting,190,10,1210137,1755326,100000003,100000011,100000014,100000002
+8/6/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,4.5,Meeting,190,10,1930685,1472759,100000003,100000008,100000012,100000002
+6/15/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Cloud migration,3.75,Meeting,190,10,1608282,1295747,100000003,100000011,100000014,100000002
+6/8/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,Project Molybdenum,5.5,Meeting,190,10,1981793,1245984,100000003,100000011,100000001,100000002
+6/26/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,New product lineup,1,Meeting,190,10,1434540,1089569,100000003,100000006,100000009,100000002
+8/1/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Fall marketing campaign,3.5,Meeting,190,10,1826635,1151781,100000003,100000004,100000012,100000002
+7/16/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,0.75,Meeting,190,10,1095621,1332937,100000003,100000000,100000009,100000002
+8/11/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,Cloud migration,3.75,Meeting,190,10,1078272,1346842,100000003,100000011,100000014,100000002
+8/12/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,API v2.0 update,4.25,Meeting,190,10,1035713,1541964,100000003,100000006,100000007,100000002
+7/29/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,API v2.0 update,5.75,Meeting,190,10,1512615,1057447,100000003,100000010,100000007,100000002
+7/10/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,4.75,Meeting,190,10,1054406,1229426,100000003,100000013,100000007,100000002
+7/7/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,5.5,Meeting,190,10,1413507,1015955,100000003,100000013,100000007,100000002
+7/3/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Project Molybdenum,2.25,Meeting,190,10,1572175,1413455,100000003,100000008,100000001,100000002
+8/31/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,0,Meeting,190,10,1852793,1933596,100000003,100000011,100000012,100000002
+8/19/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Project Molybdenum,3.25,Meeting,190,10,1340034,1435004,100000003,100000010,100000001,100000002
+6/27/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Project Molybdenum,3.5,Meeting,190,10,1912297,1515332,100000003,100000008,100000001,100000002
+8/20/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,New product lineup,0,Meeting,190,10,1972999,1506858,100000003,100000011,100000009,100000002
+7/3/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,API v2.0 update,0.5,Meeting,190,10,1623302,1556972,100000003,100000006,100000007,100000002
+6/26/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,New product lineup,5.75,Meeting,190,10,1998545,1463391,100000003,100000006,100000009,100000002
+7/22/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,0,Meeting,190,10,1303285,1926627,100000003,100000000,100000012,100000002
+8/1/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,2.5,Meeting,190,10,1701748,1985919,100000003,100000013,100000001,100000002
+6/26/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,New product lineup,0.75,Meeting,190,10,1676461,1078497,100000003,100000006,100000009,100000002
+8/5/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Cloud migration,2.75,Meeting,190,10,1364426,1371142,100000003,100000008,100000014,100000002
+7/4/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,2.25,Meeting,190,10,1403999,1226935,100000003,100000011,100000012,100000002
+7/18/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,Project Molybdenum,4.75,Meeting,190,10,1596096,1492533,100000003,100000010,100000001,100000002
+7/14/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Cloud migration,4.25,Meeting,190,10,1112870,1577962,100000003,100000006,100000014,100000002
+7/7/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,API v2.0 update,4.25,Meeting,190,10,1688202,1344976,100000003,100000011,100000007,100000002
+6/22/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,API v2.0 update,5.5,Meeting,190,10,1968648,1203357,100000003,100000008,100000007,100000002
+7/3/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,Fall marketing campaign,4.25,Meeting,190,10,1619874,1040131,100000003,100000010,100000012,100000002
+6/28/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,2.75,Meeting,190,10,1349422,1003084,100000003,100000000,100000005,100000002
+7/28/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Cloud migration,1,Meeting,190,10,1575673,1216375,100000003,100000006,100000014,100000002
+7/7/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Project Molybdenum,0,Meeting,190,10,1863537,1267745,100000003,100000004,100000001,100000002
+6/6/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Cloud migration,1.5,Meeting,190,10,1898725,1330369,100000003,100000004,100000014,100000002
+6/15/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,5.75,Meeting,190,10,1951250,1433875,100000003,100000000,100000009,100000002
+8/5/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,2.5,Meeting,190,10,1426504,1586850,100000003,100000013,100000005,100000002
+7/20/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,New product lineup,2.5,Meeting,190,10,1705218,1584290,100000003,100000004,100000009,100000002
+8/1/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,3.5,Meeting,190,10,1849722,1030440,100000003,100000013,100000009,100000002
+7/30/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Export feature,4.25,Meeting,190,10,1681152,1513814,100000003,100000010,100000015,100000002
+6/19/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Payroll integration,1.25,Meeting,190,10,1800015,1533917,100000003,100000006,100000005,100000002
+8/7/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,API v2.0 update,2,Meeting,190,10,1939884,1455830,100000003,100000010,100000007,100000002
+7/11/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,Cloud migration,0.5,Meeting,190,10,1217588,1946247,100000003,100000011,100000014,100000002
+7/6/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Cloud migration,5.75,Meeting,190,10,1293576,1505367,100000003,100000011,100000014,100000002
+7/10/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,0.25,Meeting,190,10,1801186,1997938,100000003,100000013,100000001,100000002
+6/12/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Payroll integration,0.75,Meeting,190,10,1734216,1422666,100000003,100000008,100000005,100000002
+8/2/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Payroll integration,0.75,Meeting,190,10,1201476,1580333,100000003,100000004,100000005,100000002
+7/9/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,API v2.0 update,3,Meeting,190,10,1996583,1599737,100000003,100000010,100000007,100000002
+6/29/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Cloud migration,3.75,Meeting,190,10,1351499,1980949,100000003,100000010,100000014,100000002
+7/27/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,4,Meeting,190,10,1162643,1756793,100000003,100000000,100000009,100000002
+8/5/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Payroll integration,1.25,Meeting,190,10,1601703,1946303,100000003,100000006,100000005,100000002
+8/30/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Payroll integration,5.75,Meeting,190,10,1896129,1039741,100000003,100000008,100000005,100000002
+6/19/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Project Molybdenum,0,Meeting,190,10,1524237,1281319,100000003,100000011,100000001,100000002
+7/24/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,Fall marketing campaign,3,Meeting,190,10,1900019,1895673,100000003,100000010,100000012,100000002
+8/1/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Export feature,0.5,Meeting,190,10,1173382,1187311,100000003,100000000,100000015,100000002
+6/7/2014,open,locked,Elizabeth Stewart,na,Active,Employee,QWERTY Logistics,Export feature,2.75,Meeting,190,10,1978710,1978709,100000003,100000011,100000015,100000002
+7/4/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Export feature,4.5,Meeting,190,10,1491475,1812466,100000003,100000000,100000015,100000002
+8/12/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Export feature,3.25,Meeting,190,10,1904259,1479722,100000003,100000008,100000015,100000002
+6/4/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Export feature,0.5,Meeting,190,10,1001334,1425659,100000003,100000004,100000015,100000002
+8/13/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,New product lineup,4.75,Meeting,190,10,1880130,1826662,100000003,100000004,100000009,100000002
+7/15/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Cloud migration,4.75,Meeting,190,10,1283559,1642865,100000003,100000004,100000014,100000002
+8/29/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,API v2.0 update,1.25,Meeting,190,10,1221392,1539434,100000003,100000004,100000007,100000002
+6/9/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Project Molybdenum,1,Meeting,190,10,1714750,1417759,100000003,100000004,100000001,100000002
+7/2/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,API v2.0 update,3.75,Meeting,190,10,1880232,1499843,100000003,100000010,100000007,100000002
+8/6/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Fall marketing campaign,3.25,Meeting,190,10,1660880,1248842,100000003,100000004,100000012,100000002
+7/30/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Project Molybdenum,4,Meeting,190,10,1053495,1292086,100000003,100000006,100000001,100000002
+6/13/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Cloud migration,1,Meeting,190,10,1130136,1853821,100000003,100000004,100000014,100000002
+6/13/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,Export feature,3,Meeting,190,10,1141205,1263461,100000003,100000010,100000015,100000002
+8/14/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,0.75,Meeting,190,10,1809746,1564175,100000003,100000000,100000012,100000002
+8/16/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Cloud migration,2.5,Meeting,190,10,1259682,1206383,100000003,100000004,100000014,100000002
+7/2/2014,open,locked,Claudia Mendes,na,Active,Employee,Mammoth Pictures,Payroll integration,4.75,Meeting,190,10,1772865,1649992,100000003,100000006,100000005,100000002
+6/12/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,3,Meeting,190,10,1744843,1519103,100000003,100000013,100000009,100000002
+6/16/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,5.25,Meeting,190,10,1284795,1051650,100000003,100000000,100000007,100000002
+6/29/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,New product lineup,4,Meeting,190,10,1356934,1252422,100000003,100000010,100000009,100000002
+6/16/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Payroll integration,0.75,Meeting,190,10,1063605,1404366,100000003,100000008,100000005,100000002
+7/12/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Payroll integration,4.5,Meeting,190,10,1187704,1972506,100000003,100000004,100000005,100000002
+7/1/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,0.75,Meeting,190,10,1448869,1373962,100000003,100000000,100000012,100000002
+8/30/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,5.5,Meeting,190,10,1154200,1692409,100000003,100000013,100000009,100000002
+6/15/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Cloud migration,2.5,Meeting,190,10,1330257,1745497,100000003,100000008,100000014,100000002
+8/1/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,Project Molybdenum,2.25,Meeting,190,10,1485563,1577708,100000003,100000010,100000001,100000002
+6/22/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,4.75,Meeting,190,10,1897016,1207776,100000003,100000000,100000012,100000002
+7/27/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,Fall marketing campaign,2.75,Meeting,190,10,1870745,1303177,100000003,100000010,100000012,100000002
+6/28/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Cloud migration,5.25,Meeting,190,10,1342174,1450292,100000003,100000008,100000014,100000002
+6/24/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Cloud migration,1,Meeting,190,10,1837558,1710892,100000003,100000008,100000014,100000002
+8/18/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,3.5,Meeting,190,10,1647548,1654990,100000003,100000006,100000012,100000002
+8/26/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,New product lineup,3,Meeting,190,10,1511384,1540470,100000003,100000004,100000009,100000002
+7/5/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Project Molybdenum,0.75,Meeting,190,10,1632935,1875260,100000003,100000010,100000001,100000002
+8/28/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,3.5,Meeting,190,10,1852352,1975520,100000003,100000000,100000012,100000002
+6/18/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,0.75,Meeting,190,10,1187602,1113421,100000003,100000013,100000015,100000002
+7/6/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Export feature,3.25,Meeting,190,10,1940730,1901955,100000003,100000011,100000015,100000002
+6/4/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Payroll integration,1.75,Meeting,190,10,1165206,1804354,100000003,100000010,100000005,100000002
+6/16/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Cloud migration,1,Meeting,190,10,1637383,1816248,100000003,100000008,100000014,100000002
+7/26/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,API v2.0 update,2.75,Meeting,190,10,1295454,1853966,100000003,100000011,100000007,100000002
+8/24/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Export feature,2.5,Meeting,190,10,1747437,1087312,100000003,100000000,100000015,100000002
+7/27/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,1.25,Meeting,190,10,1500759,1239186,100000003,100000000,100000001,100000002
+8/29/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Payroll integration,3.25,Meeting,190,10,1377061,1101758,100000003,100000004,100000005,100000002
+7/8/2014,open,locked,Stephen Harmon,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,1.5,Meeting,190,10,1716276,1464218,100000003,100000000,100000014,100000002
+8/29/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,New product lineup,2.75,Meeting,190,10,1619353,1393449,100000003,100000006,100000009,100000002
+7/12/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,3,Meeting,190,10,1131388,1719347,100000003,100000000,100000014,100000002
+8/29/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,Payroll integration,3.75,Meeting,190,10,1291239,1845363,100000003,100000004,100000005,100000002
+8/30/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Fall marketing campaign,1.25,Meeting,190,10,1013419,1203181,100000003,100000004,100000012,100000002
+8/9/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,0.25,Meeting,190,10,1553893,1096911,100000003,100000000,100000012,100000002
+8/8/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Export feature,3.25,Meeting,190,10,1143321,1814364,100000003,100000004,100000015,100000002
+8/27/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,Cloud migration,3,Meeting,190,10,1343511,1890755,100000003,100000010,100000014,100000002
+8/23/2014,open,locked,Stephen Harmon,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,2,Meeting,190,10,1735844,1053731,100000003,100000000,100000009,100000002
+8/17/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Export feature,4,Meeting,190,10,1344391,1090974,100000003,100000008,100000015,100000002
+7/4/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Cloud migration,0.25,Meeting,190,10,1933322,1635946,100000003,100000004,100000014,100000002
+7/25/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,Project Molybdenum,0.5,Meeting,190,10,1096550,1321703,100000003,100000011,100000001,100000002
+6/23/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,1,Meeting,190,10,1589427,1425529,100000003,100000000,100000009,100000002
+8/26/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,New product lineup,1.25,Meeting,190,10,1929260,1197241,100000003,100000010,100000009,100000002
+8/17/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Export feature,5,Meeting,190,10,1339419,1181192,100000003,100000000,100000015,100000002
+6/15/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Payroll integration,0.25,Meeting,190,10,1828299,1514303,100000003,100000004,100000005,100000002
+7/13/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Project Molybdenum,5.5,Meeting,190,10,1358695,1507457,100000003,100000010,100000001,100000002
+6/25/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Project Molybdenum,2.75,Meeting,190,10,1292866,1687229,100000003,100000011,100000001,100000002
+8/23/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,API v2.0 update,1.25,Meeting,190,10,1362975,1456089,100000003,100000004,100000007,100000002
+8/3/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Payroll integration,0.75,Meeting,190,10,1674358,1557481,100000003,100000006,100000005,100000002
+8/25/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,New product lineup,0.25,Meeting,190,10,1401789,1808896,100000003,100000010,100000009,100000002
+7/6/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,1,Meeting,190,10,1708071,1605878,100000003,100000000,100000012,100000002
+7/23/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,0.5,Meeting,190,10,1556883,1845882,100000003,100000011,100000012,100000002
+6/6/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,4,Meeting,190,10,1995498,1491122,100000003,100000000,100000005,100000002
+8/5/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,4,Meeting,190,10,1782252,1916699,100000003,100000013,100000005,100000002
+7/20/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Payroll integration,4.75,Meeting,190,10,1749783,1820902,100000003,100000010,100000005,100000002
+7/19/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5.25,Meeting,190,10,1576349,1546751,100000003,100000008,100000012,100000002
+6/22/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,API v2.0 update,4,Meeting,190,10,1243115,1268344,100000003,100000008,100000007,100000002
+7/31/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,0.25,Meeting,190,10,1875385,1980184,100000003,100000013,100000007,100000002
+6/13/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,3.25,Meeting,190,10,1903768,1592904,100000003,100000000,100000001,100000002
+8/11/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,API v2.0 update,0.25,Meeting,190,10,1599413,1158081,100000003,100000011,100000007,100000002
+6/11/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,New product lineup,0.25,Meeting,190,10,1565153,1922349,100000003,100000011,100000009,100000002
+7/4/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,New product lineup,5.5,Meeting,190,10,1563980,1523813,100000003,100000004,100000009,100000002
+6/9/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,0,Meeting,190,10,1411098,1793693,100000003,100000013,100000005,100000002
+8/19/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,1.25,Meeting,190,10,1441987,1537892,100000003,100000000,100000007,100000002
+6/30/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,API v2.0 update,0.75,Meeting,190,10,1329636,1707154,100000003,100000008,100000007,100000002
+8/2/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Project Molybdenum,4.75,Meeting,190,10,1501659,1890992,100000003,100000011,100000001,100000002
+7/13/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,New product lineup,1.5,Meeting,190,10,1159436,1308825,100000003,100000010,100000009,100000002
+7/12/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,API v2.0 update,1.25,Meeting,190,10,1776265,1701742,100000003,100000008,100000007,100000002
+8/14/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Export feature,5,Meeting,190,10,1998550,1290402,100000003,100000011,100000015,100000002
+8/16/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,Project Molybdenum,2.25,Meeting,190,10,1113090,1472774,100000003,100000010,100000001,100000002
+6/22/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,0.25,Meeting,190,10,1648910,1386865,100000003,100000000,100000001,100000002
+6/26/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,New product lineup,1.5,Meeting,190,10,1877725,1694441,100000003,100000008,100000009,100000002
+6/22/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Cloud migration,0.25,Meeting,190,10,1002044,1168270,100000003,100000004,100000014,100000002
+7/8/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,New product lineup,4.75,Meeting,190,10,1152756,1563719,100000003,100000010,100000009,100000002
+7/16/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Cloud migration,5.25,Meeting,190,10,1768448,1944502,100000003,100000011,100000014,100000002
+8/3/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,New product lineup,0.25,Meeting,190,10,1116359,1111203,100000003,100000011,100000009,100000002
+8/19/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Payroll integration,0.5,Meeting,190,10,1088583,1772225,100000003,100000006,100000005,100000002
+6/5/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,API v2.0 update,1.75,Meeting,190,10,1857675,1384285,100000003,100000008,100000007,100000002
+6/20/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Payroll integration,5.5,Meeting,190,10,1359729,1436958,100000003,100000011,100000005,100000002
+7/3/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,API v2.0 update,1.5,Meeting,190,10,1712867,1234788,100000003,100000008,100000007,100000002
+8/4/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Export feature,0.5,Meeting,190,10,1548729,1992240,100000003,100000010,100000015,100000002
+7/5/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,API v2.0 update,1.25,Meeting,190,10,1083967,1178364,100000003,100000008,100000007,100000002
+7/30/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,5,Meeting,190,10,1838683,1046568,100000003,100000000,100000007,100000002
+8/4/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,4.25,Meeting,190,10,1516450,1201684,100000003,100000000,100000009,100000002
+8/5/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,5.5,Meeting,190,10,1029838,1291762,100000003,100000000,100000014,100000002
+8/8/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Cloud migration,5,Meeting,190,10,1274281,1904073,100000003,100000010,100000014,100000002
+6/18/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Payroll integration,4.25,Meeting,190,10,1362351,1318067,100000003,100000008,100000005,100000002
+8/27/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,New product lineup,4,Meeting,190,10,1719778,1405711,100000003,100000010,100000009,100000002
+6/22/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Export feature,0.5,Meeting,190,10,1290008,1201090,100000003,100000000,100000015,100000002
+7/13/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Project Molybdenum,4,Meeting,190,10,1063273,1019657,100000003,100000004,100000001,100000002
+6/12/2014,open,locked,Claudia Mendes,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,5,Meeting,190,10,1841380,1415837,100000003,100000006,100000012,100000002
+7/6/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,API v2.0 update,1,Meeting,190,10,1775075,1872599,100000003,100000008,100000007,100000002
+6/13/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,3.5,Meeting,190,10,1047526,1435665,100000003,100000000,100000012,100000002
+7/30/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,4,Meeting,190,10,1031078,1743171,100000003,100000013,100000001,100000002
+7/10/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Export feature,3.75,Meeting,190,10,1720515,1041508,100000003,100000011,100000015,100000002
+7/8/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Export feature,3.75,Meeting,190,10,1275277,1203735,100000003,100000000,100000015,100000002
+8/16/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,2.25,Meeting,190,10,1710387,1770844,100000003,100000013,100000005,100000002
+7/27/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Export feature,1.75,Meeting,190,10,1311095,1603321,100000003,100000004,100000015,100000002
+8/10/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Cloud migration,5.5,Meeting,190,10,1389525,1680270,100000003,100000008,100000014,100000002
+7/28/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,4.75,Meeting,190,10,1319200,1967605,100000003,100000000,100000005,100000002
+6/13/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,4,Meeting,190,10,1233237,1871795,100000003,100000000,100000007,100000002
+6/23/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,5.25,Meeting,190,10,1877431,1316195,100000003,100000013,100000014,100000002
+7/23/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,1.25,Meeting,190,10,1750119,1782423,100000003,100000008,100000012,100000002
+8/11/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Project Molybdenum,1.25,Meeting,190,10,1767000,1434850,100000003,100000004,100000001,100000002
+6/11/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,API v2.0 update,4.75,Meeting,190,10,1773971,1770103,100000003,100000010,100000007,100000002
+7/21/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,0.75,Meeting,190,10,1446618,1167475,100000003,100000013,100000009,100000002
+6/13/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Project Molybdenum,0.75,Meeting,190,10,1819789,1081253,100000003,100000006,100000001,100000002
+8/27/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,0,Meeting,190,10,1319696,1675929,100000003,100000000,100000007,100000002
+8/1/2014,open,locked,Elizabeth Stewart,na,Active,Employee,QWERTY Logistics,Payroll integration,4,Meeting,190,10,1146772,1729432,100000003,100000011,100000005,100000002
+7/2/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,2.5,Meeting,190,10,1005502,1559351,100000003,100000000,100000014,100000002
+7/4/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,0.75,Meeting,190,10,1472809,1853418,100000003,100000011,100000012,100000002
+7/24/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Cloud migration,3,Meeting,190,10,1039489,1381067,100000003,100000006,100000014,100000002
+8/28/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,0.25,Meeting,190,10,1950683,1641727,100000003,100000000,100000009,100000002
+7/11/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,Fall marketing campaign,5.25,Meeting,190,10,1251789,1966787,100000003,100000010,100000012,100000002
+6/25/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Project Molybdenum,2,Meeting,190,10,1539007,1242836,100000003,100000008,100000001,100000002
+8/7/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Cloud migration,5.75,Meeting,190,10,1638434,1206837,100000003,100000010,100000014,100000002
+6/25/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Export feature,3.75,Meeting,190,10,1488074,1734488,100000003,100000008,100000015,100000002
+8/21/2014,open,locked,Stephen Harmon,na,Active,Employee,Nakatomi Trading Corp.,Export feature,0,Meeting,190,10,1367174,1380144,100000003,100000000,100000015,100000002
+8/26/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,3.25,Meeting,190,10,1324425,1204728,100000003,100000013,100000014,100000002
+7/12/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,1.75,Meeting,190,10,1974840,1451965,100000003,100000000,100000009,100000002
+8/15/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,5.5,Meeting,190,10,1526556,1818011,100000003,100000013,100000012,100000002
+6/9/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Export feature,3,Meeting,190,10,1048641,1613128,100000003,100000008,100000015,100000002
+7/31/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,1,Meeting,190,10,1194421,1560151,100000003,100000013,100000007,100000002
+7/29/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,4.75,Meeting,190,10,1546023,1676257,100000003,100000013,100000014,100000002
+7/20/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Project Molybdenum,4.25,Meeting,190,10,1597096,1736012,100000003,100000010,100000001,100000002
+6/20/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,0.75,Meeting,190,10,1539398,1354147,100000003,100000013,100000014,100000002
+8/12/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,4.75,Meeting,190,10,1543914,1895323,100000003,100000000,100000009,100000002
+7/6/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Payroll integration,1,Meeting,190,10,1479906,1310973,100000003,100000008,100000005,100000002
+8/13/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Project Molybdenum,5.25,Meeting,190,10,1726935,1253240,100000003,100000006,100000001,100000002
+6/13/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Payroll integration,5.25,Meeting,190,10,1667124,1312215,100000003,100000006,100000005,100000002
+8/26/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,New product lineup,2.25,Meeting,190,10,1823960,1290721,100000003,100000006,100000009,100000002
+7/29/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,New product lineup,2.75,Meeting,190,10,1346013,1843484,100000003,100000008,100000009,100000002
+6/5/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Export feature,2.5,Meeting,190,10,1904636,1515913,100000003,100000010,100000015,100000002
+8/19/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,1.25,Meeting,190,10,1410072,1209317,100000003,100000006,100000012,100000002
+8/4/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,4.5,Meeting,190,10,1464162,1722046,100000003,100000013,100000007,100000002
+8/29/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,0.25,Meeting,190,10,1755093,1672509,100000003,100000000,100000005,100000002
+8/12/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,New product lineup,5,Meeting,190,10,1492614,1320288,100000003,100000006,100000009,100000002
+8/26/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Project Molybdenum,5.25,Meeting,190,10,1558650,1096270,100000003,100000006,100000001,100000002
+7/5/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,API v2.0 update,1.5,Meeting,190,10,1131522,1389956,100000003,100000011,100000007,100000002
+7/5/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,5,Meeting,190,10,1844595,1190070,100000003,100000000,100000001,100000002
+6/25/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Payroll integration,0.25,Meeting,190,10,1334724,1392658,100000003,100000004,100000005,100000002
+7/6/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,New product lineup,5.75,Meeting,190,10,1570936,1739732,100000003,100000004,100000009,100000002
+7/8/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,4.5,Meeting,190,10,1067392,1469774,100000003,100000008,100000012,100000002
+7/10/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,New product lineup,0,Meeting,190,10,1121229,1031235,100000003,100000004,100000009,100000002
+8/19/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Project Molybdenum,5.75,Meeting,190,10,1470881,1472472,100000003,100000004,100000001,100000002
+7/20/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Export feature,2.25,Meeting,190,10,1584012,1504577,100000003,100000004,100000015,100000002
+7/25/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,2,Meeting,190,10,1634600,1069445,100000003,100000013,100000001,100000002
+8/22/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,API v2.0 update,5.75,Meeting,190,10,1285194,1476242,100000003,100000011,100000007,100000002
+8/8/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,API v2.0 update,2.25,Meeting,190,10,1988961,1220246,100000003,100000011,100000007,100000002
+6/19/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Payroll integration,3.75,Meeting,190,10,1470432,1378061,100000003,100000010,100000005,100000002
+7/2/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Export feature,3.5,Meeting,190,10,1251258,1317520,100000003,100000004,100000015,100000002
+8/16/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,New product lineup,5,Meeting,190,10,1239548,1035078,100000003,100000006,100000009,100000002
+8/13/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,New product lineup,4,Meeting,190,10,1343882,1590671,100000003,100000006,100000009,100000002
+6/24/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,New product lineup,0.5,Meeting,190,10,1686482,1181782,100000003,100000010,100000009,100000002
+7/26/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,New product lineup,0,Meeting,190,10,1322486,1712237,100000003,100000008,100000009,100000002
+7/2/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Project Molybdenum,2.75,Meeting,190,10,1547564,1814276,100000003,100000008,100000001,100000002
+7/1/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,3.25,Meeting,190,10,1127019,1026612,100000003,100000013,100000001,100000002
+6/29/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Project Molybdenum,1.25,Meeting,190,10,1659808,1760335,100000003,100000006,100000001,100000002
+7/5/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,New product lineup,2.5,Meeting,190,10,1100383,1278515,100000003,100000006,100000009,100000002
+8/7/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,1,Meeting,190,10,1758613,1021844,100000003,100000006,100000012,100000002
+7/11/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,4.5,Meeting,190,10,1964388,1420302,100000003,100000011,100000012,100000002
+8/2/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Project Molybdenum,5.5,Meeting,190,10,1786136,1167663,100000003,100000008,100000001,100000002
+6/22/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Payroll integration,4,Meeting,190,10,1393473,1775143,100000003,100000011,100000005,100000002
+7/1/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,5.25,Meeting,190,10,1060096,1106909,100000003,100000013,100000009,100000002
+7/31/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,2.25,Meeting,190,10,1679542,1273052,100000003,100000013,100000014,100000002
+7/14/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Fall marketing campaign,1.5,Meeting,190,10,1957876,1311457,100000003,100000004,100000012,100000002
+7/8/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,Payroll integration,0.75,Meeting,190,10,1135158,1754764,100000003,100000004,100000005,100000002
+6/27/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,0.5,Meeting,190,10,1786371,1367754,100000003,100000013,100000012,100000002
+8/10/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Payroll integration,3.25,Meeting,190,10,1568377,1988299,100000003,100000006,100000005,100000002
+8/16/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Project Molybdenum,1.25,Meeting,190,10,1926768,1774996,100000003,100000004,100000001,100000002
+7/28/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,5.5,Meeting,190,10,1140478,1060726,100000003,100000000,100000009,100000002
+6/13/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Payroll integration,3.75,Meeting,190,10,1569984,1442185,100000003,100000011,100000005,100000002
+8/27/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,New product lineup,5.25,Meeting,190,10,1522134,1931761,100000003,100000006,100000009,100000002
+8/31/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,Payroll integration,2.25,Meeting,190,10,1185404,1791273,100000003,100000011,100000005,100000002
+7/10/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Project Molybdenum,2.25,Meeting,190,10,1334890,1480341,100000003,100000011,100000001,100000002
+7/1/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Payroll integration,2.25,Meeting,190,10,1311612,1956941,100000003,100000008,100000005,100000002
+7/4/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,5.5,Meeting,190,10,1330071,1384862,100000003,100000013,100000001,100000002
+6/11/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Cloud migration,2,Meeting,190,10,1049183,1709568,100000003,100000008,100000014,100000002
+6/17/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Export feature,4,Meeting,190,10,1253623,1344738,100000003,100000010,100000015,100000002
+7/25/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,4.5,Meeting,190,10,1462513,1573785,100000003,100000000,100000007,100000002
+7/29/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Payroll integration,3.75,Meeting,190,10,1251797,1132305,100000003,100000004,100000005,100000002
+6/16/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Export feature,1.25,Meeting,190,10,1019735,1656623,100000003,100000004,100000015,100000002
+8/20/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Payroll integration,4.25,Meeting,190,10,1614562,1710507,100000003,100000011,100000005,100000002
+8/12/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,New product lineup,2.75,Meeting,190,10,1563576,1336399,100000003,100000010,100000009,100000002
+8/2/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Project Molybdenum,3.25,Meeting,190,10,1203380,1252404,100000003,100000008,100000001,100000002
+7/25/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,2.5,Meeting,190,10,1861071,1496612,100000003,100000013,100000007,100000002
+8/29/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Export feature,2.75,Meeting,190,10,1360088,1932919,100000003,100000006,100000015,100000002
+8/7/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Export feature,0,Meeting,190,10,1962682,1028648,100000003,100000008,100000015,100000002
+6/6/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Export feature,3,Meeting,190,10,1298963,1762083,100000003,100000006,100000015,100000002
+7/21/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,5.75,Meeting,190,10,1760322,1446582,100000003,100000000,100000005,100000002
+7/20/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,Cloud migration,2.75,Meeting,190,10,1041027,1750252,100000003,100000010,100000014,100000002
+8/2/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,New product lineup,2.5,Meeting,190,10,1803831,1334812,100000003,100000004,100000009,100000002
+6/8/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Cloud migration,5.75,Meeting,190,10,1683354,1118478,100000003,100000011,100000014,100000002
+6/11/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,2.25,Meeting,190,10,1089569,1502587,100000003,100000013,100000014,100000002
+7/19/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,0.5,Meeting,190,10,1880392,1466957,100000003,100000013,100000015,100000002
+8/4/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,4,Meeting,190,10,1778123,1668757,100000003,100000013,100000001,100000002
+7/2/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Fall marketing campaign,4.75,Meeting,190,10,1960547,1207684,100000003,100000004,100000012,100000002
+8/21/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Export feature,0.25,Meeting,190,10,1486002,1628594,100000003,100000006,100000015,100000002
+6/13/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,3,Meeting,190,10,1447327,1002351,100000003,100000013,100000015,100000002
+6/29/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Export feature,3.75,Meeting,190,10,1153912,1431300,100000003,100000011,100000015,100000002
+7/7/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,New product lineup,5.25,Meeting,190,10,1682100,1056903,100000003,100000011,100000009,100000002
+8/19/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,API v2.0 update,4.75,Meeting,190,10,1950773,1506562,100000003,100000010,100000007,100000002
+7/31/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,4,Meeting,190,10,1326205,1730845,100000003,100000013,100000005,100000002
+7/3/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,New product lineup,1.5,Meeting,190,10,1089074,1677763,100000003,100000010,100000009,100000002
+8/2/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Export feature,0.5,Meeting,190,10,1300017,1148057,100000003,100000008,100000015,100000002
+8/31/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,New product lineup,5.5,Meeting,190,10,1393238,1735066,100000003,100000011,100000009,100000002
+7/28/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,API v2.0 update,1.5,Meeting,190,10,1601220,1143457,100000003,100000010,100000007,100000002
+8/30/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Payroll integration,1.5,Meeting,190,10,1708279,1357082,100000003,100000008,100000005,100000002
+7/23/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Cloud migration,2,Meeting,190,10,1095627,1130230,100000003,100000011,100000014,100000002
+8/15/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,2.25,Meeting,190,10,1251278,1484662,100000003,100000008,100000012,100000002
+8/16/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,Project Molybdenum,3.25,Meeting,190,10,1996190,1424855,100000003,100000010,100000001,100000002
+8/14/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,3.5,Meeting,190,10,1148830,1555794,100000003,100000000,100000005,100000002
+8/1/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,API v2.0 update,0.75,Meeting,190,10,1991906,1214112,100000003,100000006,100000007,100000002
+8/7/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,5,Meeting,190,10,1733739,1590706,100000003,100000013,100000012,100000002
+6/26/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,API v2.0 update,0.25,Meeting,190,10,1046975,1329349,100000003,100000008,100000007,100000002
+6/5/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,5.25,Meeting,190,10,1648780,1142482,100000003,100000006,100000012,100000002
+7/3/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,New product lineup,4.75,Meeting,190,10,1564097,1822311,100000003,100000010,100000009,100000002
+8/3/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,New product lineup,4.75,Meeting,190,10,1634424,1882415,100000003,100000011,100000009,100000002
+7/11/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,2,Meeting,190,10,1442442,1505953,100000003,100000013,100000009,100000002
+6/9/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Project Molybdenum,5.25,Meeting,190,10,1939202,1012846,100000003,100000006,100000001,100000002
+6/15/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Payroll integration,4.25,Meeting,190,10,1926678,1068429,100000003,100000010,100000005,100000002
+8/1/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,Fall marketing campaign,5.5,Meeting,190,10,1838642,1610359,100000003,100000004,100000012,100000002
+7/21/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Export feature,3,Meeting,190,10,1819614,1744986,100000003,100000006,100000015,100000002
+8/26/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,Payroll integration,2,Meeting,190,10,1622714,1824046,100000003,100000004,100000005,100000002
+9/1/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Project Molybdenum,3.25,Meeting,190,10,1096133,1719971,100000003,100000011,100000001,100000002
+8/17/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Project Molybdenum,0.5,Meeting,190,10,1210109,1291791,100000003,100000008,100000001,100000002
+7/4/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,Cloud migration,3.75,Meeting,190,10,1210648,1383787,100000003,100000010,100000014,100000002
+8/27/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,2.25,Meeting,190,10,1377697,1536306,100000003,100000000,100000009,100000002
+6/4/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,5.75,Meeting,190,10,1501502,1087177,100000003,100000013,100000014,100000002
+7/12/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,1.25,Meeting,190,10,1843586,1882664,100000003,100000013,100000014,100000002
+6/13/2014,open,locked,Stephen Harmon,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,0.75,Meeting,190,10,1475659,1771786,100000003,100000000,100000009,100000002
+6/26/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Payroll integration,1,Meeting,190,10,1422526,1651393,100000003,100000004,100000005,100000002
+7/2/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Cloud migration,5.75,Meeting,190,10,1752748,1191954,100000003,100000006,100000014,100000002
+8/28/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,4,Meeting,190,10,1731990,1487446,100000003,100000000,100000014,100000002
+6/9/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,0,Meeting,190,10,1219839,1060109,100000003,100000013,100000001,100000002
+6/26/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Export feature,2.75,Meeting,190,10,1431140,1395506,100000003,100000011,100000015,100000002
+8/25/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,New product lineup,5.5,Meeting,190,10,1820410,1416331,100000003,100000006,100000009,100000002
+7/18/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,3.75,Meeting,190,10,1868777,1377809,100000003,100000000,100000001,100000002
+7/26/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,Payroll integration,5.75,Meeting,190,10,1370408,1683949,100000003,100000006,100000005,100000002
+6/6/2014,open,locked,Stephen Harmon,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,1.25,Meeting,190,10,1848708,1306476,100000003,100000000,100000012,100000002
+8/13/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Cloud migration,0.25,Meeting,190,10,1704406,1484462,100000003,100000011,100000014,100000002
+7/30/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,Project Molybdenum,5.5,Meeting,190,10,1617574,1000055,100000003,100000006,100000001,100000002
+8/20/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Cloud migration,0.5,Meeting,190,10,1976774,1506982,100000003,100000004,100000014,100000002
+7/11/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Export feature,4.75,Meeting,190,10,1116404,1130999,100000003,100000008,100000015,100000002
+7/25/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,1.75,Meeting,190,10,1326004,1047183,100000003,100000008,100000012,100000002
+7/14/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Export feature,5,Meeting,190,10,1470338,1486135,100000003,100000004,100000015,100000002
+6/29/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Fall marketing campaign,0.25,Meeting,190,10,1688491,1653172,100000003,100000010,100000012,100000002
+6/4/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Export feature,2.25,Meeting,190,10,1819676,1948445,100000003,100000004,100000015,100000002
+6/8/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Export feature,5.25,Meeting,190,10,1511372,1356992,100000003,100000011,100000015,100000002
+6/27/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,2.5,Meeting,190,10,1915997,1973286,100000003,100000000,100000009,100000002
+8/12/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Project Molybdenum,2,Meeting,190,10,1438714,1532314,100000003,100000011,100000001,100000002
+8/21/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,4,Meeting,190,10,1255012,1765859,100000003,100000008,100000012,100000002
+7/21/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Export feature,4.25,Meeting,190,10,1374190,1451169,100000003,100000008,100000015,100000002
+8/24/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,New product lineup,3.5,Meeting,190,10,1608623,1334013,100000003,100000010,100000009,100000002
+7/16/2014,open,locked,Elizabeth Stewart,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,2.75,Meeting,190,10,1678353,1618920,100000003,100000011,100000012,100000002
+7/19/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,2.25,Meeting,190,10,1675350,1578589,100000003,100000013,100000005,100000002
+6/9/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Payroll integration,1,Meeting,190,10,1155385,1278698,100000003,100000004,100000005,100000002
+8/23/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,2.75,Meeting,190,10,1624461,1861624,100000003,100000000,100000001,100000002
+7/28/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,New product lineup,3.5,Meeting,190,10,1814025,1604501,100000003,100000011,100000009,100000002
+7/28/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Cloud migration,0.75,Meeting,190,10,1566006,1641619,100000003,100000011,100000014,100000002
+8/24/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,0.5,Meeting,190,10,1675107,1180854,100000003,100000011,100000012,100000002
+8/3/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,3,Meeting,190,10,1982551,1071391,100000003,100000000,100000007,100000002
+7/18/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,4.75,Meeting,190,10,1105111,1790244,100000003,100000008,100000012,100000002
+7/2/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Payroll integration,0.25,Meeting,190,10,1088963,1620208,100000003,100000011,100000005,100000002
+6/16/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,Payroll integration,3,Meeting,190,10,1122476,1901937,100000003,100000006,100000005,100000002
+8/11/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Payroll integration,2.25,Meeting,190,10,1783780,1902408,100000003,100000010,100000005,100000002
+6/30/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Cloud migration,3.5,Meeting,190,10,1807943,1633851,100000003,100000006,100000014,100000002
+8/11/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Project Molybdenum,2.75,Meeting,190,10,1831768,1936235,100000003,100000010,100000001,100000002
+8/9/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,Payroll integration,3.75,Meeting,190,10,1055349,1509494,100000003,100000004,100000005,100000002
+6/6/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,Project Molybdenum,1.25,Meeting,190,10,1525433,1133780,100000003,100000010,100000001,100000002
+7/3/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,0.25,Meeting,190,10,1451142,1838682,100000003,100000000,100000005,100000002
+6/26/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,New product lineup,4,Meeting,190,10,1033459,1210317,100000003,100000006,100000009,100000002
+6/6/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Project Molybdenum,3.25,Meeting,190,10,1995072,1056954,100000003,100000011,100000001,100000002
+6/22/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,New product lineup,1.5,Meeting,190,10,1628700,1260755,100000003,100000006,100000009,100000002
+7/2/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,API v2.0 update,5,Meeting,190,10,1583402,1320854,100000003,100000006,100000007,100000002
+8/16/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,API v2.0 update,1.25,Meeting,190,10,1018523,1293192,100000003,100000011,100000007,100000002
+7/9/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,3.75,Meeting,190,10,1271921,1910009,100000003,100000013,100000009,100000002
+6/23/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,Payroll integration,5.75,Meeting,190,10,1529083,1891706,100000003,100000006,100000005,100000002
+8/19/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Project Molybdenum,2.75,Meeting,190,10,1776446,1168591,100000003,100000006,100000001,100000002
+7/31/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Payroll integration,3.75,Meeting,190,10,1309559,1715694,100000003,100000004,100000005,100000002
+8/8/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,5,Meeting,190,10,1026128,1356376,100000003,100000000,100000012,100000002
+7/29/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,New product lineup,3.5,Meeting,190,10,1609139,1825495,100000003,100000011,100000009,100000002
+8/20/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Payroll integration,1.75,Meeting,190,10,1741377,1184994,100000003,100000008,100000005,100000002
+6/6/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Payroll integration,1.75,Meeting,190,10,1024205,1426551,100000003,100000006,100000005,100000002
+6/24/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,4,Meeting,190,10,1735939,1693856,100000003,100000013,100000012,100000002
+6/19/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,New product lineup,0.5,Meeting,190,10,1932524,1960607,100000003,100000011,100000009,100000002
+6/10/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Payroll integration,4.25,Meeting,190,10,1960934,1015884,100000003,100000008,100000005,100000002
+8/21/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Export feature,3.75,Meeting,190,10,1323077,1773816,100000003,100000008,100000015,100000002
+8/19/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,New product lineup,0,Meeting,190,10,1797832,1609228,100000003,100000008,100000009,100000002
+6/15/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Export feature,5,Meeting,190,10,1009225,1442494,100000003,100000006,100000015,100000002
+7/2/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Cloud migration,0,Meeting,190,10,1038988,1423438,100000003,100000004,100000014,100000002
+8/29/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,API v2.0 update,1,Meeting,190,10,1810161,1933403,100000003,100000010,100000007,100000002
+7/12/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,5.5,Meeting,190,10,1108161,1485633,100000003,100000013,100000009,100000002
+7/17/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,4.75,Meeting,190,10,1358512,1207153,100000003,100000000,100000007,100000002
+6/15/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Project Molybdenum,3.75,Meeting,190,10,1335089,1207741,100000003,100000008,100000001,100000002
+8/27/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Payroll integration,2.25,Meeting,190,10,1714086,1481031,100000003,100000011,100000005,100000002
+8/27/2014,open,locked,Paul Pilkington,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,4.25,Meeting,190,10,1953816,1115465,100000003,100000013,100000014,100000002
+7/15/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,5.25,Meeting,190,10,1634040,1788856,100000003,100000013,100000001,100000002
+7/1/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,4,Meeting,190,10,1038630,1761678,100000003,100000006,100000012,100000002
+8/31/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Payroll integration,3.5,Meeting,190,10,1011286,1201780,100000003,100000004,100000005,100000002
+8/14/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,3,Meeting,190,10,1374776,1261495,100000003,100000013,100000014,100000002
+8/18/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,API v2.0 update,2.75,Meeting,190,10,1754112,1986260,100000003,100000004,100000007,100000002
+7/19/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,New product lineup,4.5,Meeting,190,10,1655725,1074093,100000003,100000008,100000009,100000002
+8/13/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Fall marketing campaign,2.5,Meeting,190,10,1792962,1827328,100000003,100000004,100000012,100000002
+8/28/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,API v2.0 update,3.75,Meeting,190,10,1550962,1731723,100000003,100000006,100000007,100000002
+6/17/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,4.25,Meeting,190,10,1411928,1204472,100000003,100000008,100000012,100000002
+6/12/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,API v2.0 update,0,Meeting,190,10,1587332,1259619,100000003,100000010,100000007,100000002
+7/5/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,2.75,Meeting,190,10,1865875,1350806,100000003,100000006,100000012,100000002
+8/12/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,3.75,Meeting,190,10,1708117,1625696,100000003,100000013,100000005,100000002
+8/3/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,2.75,Meeting,190,10,1061038,1516861,100000003,100000013,100000007,100000002
+7/10/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,0,Meeting,190,10,1134835,1748279,100000003,100000013,100000005,100000002
+7/25/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,4,Meeting,190,10,1471654,1467174,100000003,100000013,100000005,100000002
+6/6/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,New product lineup,2,Meeting,190,10,1890333,1827065,100000003,100000010,100000009,100000002
+6/15/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,5.5,Meeting,190,10,1491466,1555102,100000003,100000000,100000014,100000002
+6/9/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Payroll integration,1,Meeting,190,10,1831147,1540968,100000003,100000006,100000005,100000002
+7/2/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,API v2.0 update,3.5,Meeting,190,10,1894934,1190947,100000003,100000004,100000007,100000002
+6/11/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Payroll integration,1.25,Meeting,190,10,1994058,1378344,100000003,100000004,100000005,100000002
+8/12/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5,Meeting,190,10,1444873,1143882,100000003,100000008,100000012,100000002
+7/11/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5,Meeting,190,10,1715337,1328877,100000003,100000008,100000012,100000002
+8/3/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Cloud migration,5.75,Meeting,190,10,1935951,1733178,100000003,100000008,100000014,100000002
+8/21/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Project Molybdenum,5.5,Meeting,190,10,1407240,1438947,100000003,100000008,100000001,100000002
+6/21/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Project Molybdenum,4.5,Meeting,190,10,1328252,1257303,100000003,100000010,100000001,100000002
+6/17/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Export feature,4.5,Meeting,190,10,1292206,1345310,100000003,100000000,100000015,100000002
+6/5/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,1.25,Meeting,190,10,1050605,1683367,100000003,100000013,100000012,100000002
+8/19/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Project Molybdenum,1.5,Meeting,190,10,1995473,1348041,100000003,100000006,100000001,100000002
+7/15/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,API v2.0 update,2,Meeting,190,10,1429913,1623164,100000003,100000004,100000007,100000002
+8/25/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,Export feature,4,Meeting,190,10,1003872,1603442,100000003,100000011,100000015,100000002
+6/14/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,1.25,Meeting,190,10,1670569,1291273,100000003,100000013,100000005,100000002
+7/6/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,1.75,Meeting,190,10,1985519,1387988,100000003,100000000,100000007,100000002
+8/1/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Cloud migration,3.75,Meeting,190,10,1482452,1802363,100000003,100000008,100000014,100000002
+8/7/2014,open,locked,Elizabeth Stewart,na,Active,Employee,QWERTY Logistics,Project Molybdenum,2.75,Meeting,190,10,1845746,1313212,100000003,100000011,100000001,100000002
+7/31/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Project Molybdenum,3.75,Meeting,190,10,1844500,1715816,100000003,100000006,100000001,100000002
+6/5/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Cloud migration,3.75,Meeting,190,10,1362657,1044800,100000003,100000008,100000014,100000002
+7/15/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,API v2.0 update,5.75,Meeting,190,10,1633240,1435293,100000003,100000004,100000007,100000002
+7/5/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,5.75,Meeting,190,10,1211528,1307326,100000003,100000013,100000009,100000002
+7/31/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,2.75,Meeting,190,10,1524730,1447552,100000003,100000008,100000012,100000002
+8/27/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Export feature,0,Meeting,190,10,1834580,1322247,100000003,100000011,100000015,100000002
+6/21/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,0.5,Meeting,190,10,1657776,1730091,100000003,100000000,100000014,100000002
+7/24/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,1.5,Meeting,190,10,1737623,1536283,100000003,100000006,100000012,100000002
+7/13/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Cloud migration,0.25,Meeting,190,10,1875919,1736292,100000003,100000011,100000014,100000002
+6/7/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,0.25,Meeting,190,10,1014814,1593841,100000003,100000000,100000012,100000002
+7/27/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,Export feature,1.75,Meeting,190,10,1757785,1161968,100000003,100000011,100000015,100000002
+7/14/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Project Molybdenum,1.5,Meeting,190,10,1705781,1888492,100000003,100000011,100000001,100000002
+7/23/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,4.75,Meeting,190,10,1764747,1357243,100000003,100000000,100000005,100000002
+6/22/2014,open,locked,Claudia Mendes,na,Active,Employee,Mammoth Pictures,Payroll integration,5.75,Meeting,190,10,1443914,1776357,100000003,100000006,100000005,100000002
+8/7/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,New product lineup,5.5,Meeting,190,10,1836186,1734104,100000003,100000010,100000009,100000002
+6/27/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,3.25,Meeting,190,10,1612619,1302396,100000003,100000013,100000012,100000002
+6/15/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,1.5,Meeting,190,10,1285977,1579632,100000003,100000013,100000014,100000002
+6/21/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,Payroll integration,5.75,Meeting,190,10,1384073,1251928,100000003,100000010,100000005,100000002
+7/21/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Cloud migration,4.5,Meeting,190,10,1920263,1042342,100000003,100000006,100000014,100000002
+8/29/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,4.75,Meeting,190,10,1776066,1239860,100000003,100000013,100000005,100000002
+8/17/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,2.5,Meeting,190,10,1382560,1565182,100000003,100000013,100000014,100000002
+6/20/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,New product lineup,2.75,Meeting,190,10,1373386,1060599,100000003,100000011,100000009,100000002
+8/31/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Fall marketing campaign,4.75,Meeting,190,10,1903056,1579246,100000003,100000004,100000012,100000002
+8/12/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,0.25,Meeting,190,10,1975327,1270115,100000003,100000013,100000001,100000002
+7/14/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,New product lineup,2.5,Meeting,190,10,1535433,1084852,100000003,100000004,100000009,100000002
+8/18/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5.5,Meeting,190,10,1271198,1682136,100000003,100000008,100000012,100000002
+8/21/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,1.25,Meeting,190,10,1945479,1557435,100000003,100000000,100000012,100000002
+8/4/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,API v2.0 update,2.5,Meeting,190,10,1585081,1120247,100000003,100000011,100000007,100000002
+8/10/2014,open,locked,Claudia Mendes,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,2,Meeting,190,10,1715612,1348403,100000003,100000006,100000012,100000002
+7/23/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Payroll integration,0,Meeting,190,10,1067900,1551163,100000003,100000008,100000005,100000002
+7/14/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Project Molybdenum,1.75,Meeting,190,10,1903496,1696899,100000003,100000006,100000001,100000002
+8/13/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,5.75,Meeting,190,10,1574426,1565416,100000003,100000006,100000012,100000002
+7/29/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,4.75,Meeting,190,10,1075112,1636162,100000003,100000000,100000005,100000002
+8/4/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Cloud migration,4.5,Meeting,190,10,1497215,1629346,100000003,100000008,100000014,100000002
+8/22/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,0.25,Meeting,190,10,1614087,1090942,100000003,100000008,100000012,100000002
+9/1/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Cloud migration,4,Meeting,190,10,1358125,1011715,100000003,100000011,100000014,100000002
+7/13/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Cloud migration,0,Meeting,190,10,1814777,1370353,100000003,100000008,100000014,100000002
+6/7/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,5.75,Meeting,190,10,1095694,1753666,100000003,100000013,100000009,100000002
+7/19/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,API v2.0 update,2,Meeting,190,10,1277269,1526112,100000003,100000010,100000007,100000002
+9/1/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Cloud migration,2.25,Meeting,190,10,1354690,1065472,100000003,100000006,100000014,100000002
+6/4/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,New product lineup,5.25,Meeting,190,10,1174342,1673433,100000003,100000008,100000009,100000002
+8/27/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,Export feature,1,Meeting,190,10,1336776,1682766,100000003,100000010,100000015,100000002
+7/6/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Cloud migration,0.5,Meeting,190,10,1754464,1364760,100000003,100000004,100000014,100000002
+6/12/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Export feature,4.5,Meeting,190,10,1433175,1458684,100000003,100000004,100000015,100000002
+7/25/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Cloud migration,0.5,Meeting,190,10,1105086,1122921,100000003,100000008,100000014,100000002
+7/22/2014,open,locked,Claudia Mendes,na,Active,Employee,Mammoth Pictures,Cloud migration,0.5,Meeting,190,10,1869143,1949013,100000003,100000006,100000014,100000002
+6/26/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,1.5,Meeting,190,10,1984245,1154613,100000003,100000013,100000014,100000002
+7/7/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Project Molybdenum,4,Meeting,190,10,1693538,1844509,100000003,100000011,100000001,100000002
+7/2/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,New product lineup,1,Meeting,190,10,1793626,1935869,100000003,100000004,100000009,100000002
+7/21/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Cloud migration,3.75,Meeting,190,10,1127504,1077947,100000003,100000004,100000014,100000002
+8/27/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Export feature,2.5,Meeting,190,10,1936700,1305676,100000003,100000000,100000015,100000002
+6/15/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Payroll integration,3.25,Meeting,190,10,1630127,1436898,100000003,100000008,100000005,100000002
+7/12/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,New product lineup,3.5,Meeting,190,10,1750161,1682356,100000003,100000004,100000009,100000002
+8/24/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Payroll integration,3.25,Meeting,190,10,1384925,1732541,100000003,100000010,100000005,100000002
+8/28/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,New product lineup,0.75,Meeting,190,10,1731946,1860815,100000003,100000006,100000009,100000002
+8/27/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,1.5,Meeting,190,10,1432953,1521377,100000003,100000013,100000012,100000002
+6/15/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,2.25,Meeting,190,10,1967698,1824568,100000003,100000000,100000014,100000002
+6/5/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,5.5,Meeting,190,10,1609527,1801246,100000003,100000000,100000009,100000002
+8/24/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Payroll integration,2.25,Meeting,190,10,1804237,1808014,100000003,100000004,100000005,100000002
+8/21/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,API v2.0 update,3.5,Meeting,190,10,1926908,1346844,100000003,100000008,100000007,100000002
+6/15/2014,open,locked,Stephen Harmon,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,5,Meeting,190,10,1995138,1096365,100000003,100000000,100000001,100000002
+6/24/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,API v2.0 update,1.75,Meeting,190,10,1645018,1395920,100000003,100000010,100000007,100000002
+6/20/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Payroll integration,4,Meeting,190,10,1989108,1978996,100000003,100000004,100000005,100000002
+7/26/2014,open,locked,Elizabeth Stewart,na,Active,Employee,QWERTY Logistics,Export feature,5.25,Meeting,190,10,1794942,1019722,100000003,100000011,100000015,100000002
+7/17/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,0.75,Meeting,190,10,1717862,1500932,100000003,100000000,100000007,100000002
+6/26/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,API v2.0 update,2.5,Meeting,190,10,1426878,1301721,100000003,100000008,100000007,100000002
+7/5/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Project Molybdenum,5.75,Meeting,190,10,1074784,1792525,100000003,100000006,100000001,100000002
+8/11/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Export feature,0.75,Meeting,190,10,1981262,1842493,100000003,100000006,100000015,100000002
+6/18/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,API v2.0 update,1.25,Meeting,190,10,1741870,1256435,100000003,100000006,100000007,100000002
+7/31/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,API v2.0 update,3.5,Meeting,190,10,1882880,1900100,100000003,100000010,100000007,100000002
+6/25/2014,open,locked,Claudia Mendes,na,Active,Employee,Mammoth Pictures,API v2.0 update,1.75,Meeting,190,10,1439408,1533352,100000003,100000006,100000007,100000002
+7/3/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,Export feature,4.75,Meeting,190,10,1273521,1161679,100000003,100000006,100000015,100000002
+7/21/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Payroll integration,2.75,Meeting,190,10,1833569,1858262,100000003,100000011,100000005,100000002
+7/16/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,1.5,Meeting,190,10,1635843,1751535,100000003,100000000,100000014,100000002
+7/22/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Export feature,5.25,Meeting,190,10,1251791,1948163,100000003,100000000,100000015,100000002
+8/15/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Payroll integration,4.5,Meeting,190,10,1832365,1726628,100000003,100000004,100000005,100000002
+6/27/2014,open,locked,Michael Bonner,na,Active,Employee,QWERTY Logistics,API v2.0 update,5,Meeting,190,10,1553365,1589534,100000003,100000011,100000007,100000002
+7/2/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,Export feature,2.75,Meeting,190,10,1122605,1616133,100000003,100000010,100000015,100000002
+6/8/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,New product lineup,3,Meeting,190,10,1186583,1223606,100000003,100000006,100000009,100000002
+6/21/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,1.5,Meeting,190,10,1347908,1350817,100000003,100000013,100000014,100000002
+7/16/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,Project Molybdenum,2.25,Meeting,190,10,1892859,1195002,100000003,100000004,100000001,100000002
+8/19/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Payroll integration,1.25,Meeting,190,10,1303590,1577749,100000003,100000008,100000005,100000002
+6/20/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,5.25,Meeting,190,10,1582363,1438705,100000003,100000013,100000012,100000002
+8/28/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Payroll integration,4.5,Meeting,190,10,1336210,1534132,100000003,100000004,100000005,100000002
+7/8/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,New product lineup,5.5,Meeting,190,10,1396553,1259614,100000003,100000011,100000009,100000002
+7/2/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Fall marketing campaign,4.5,Meeting,190,10,1246454,1446337,100000003,100000010,100000012,100000002
+7/2/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,Project Molybdenum,3.5,Meeting,190,10,1994282,1594090,100000003,100000006,100000001,100000002
+7/19/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Project Molybdenum,5.75,Meeting,190,10,1042637,1257225,100000003,100000006,100000001,100000002
+6/7/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,Export feature,2.25,Meeting,190,10,1436398,1176142,100000003,100000010,100000015,100000002
+8/19/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Project Molybdenum,1.25,Meeting,190,10,1073072,1126370,100000003,100000011,100000001,100000002
+8/1/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,New product lineup,1.5,Meeting,190,10,1589469,1393953,100000003,100000004,100000009,100000002
+8/30/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,0.75,Meeting,190,10,1005912,1139668,100000003,100000000,100000005,100000002
+7/15/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Cloud migration,3.25,Meeting,190,10,1596262,1398937,100000003,100000006,100000014,100000002
+8/22/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,1,Meeting,190,10,1815920,1313211,100000003,100000000,100000009,100000002
+7/1/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Cloud migration,5.75,Meeting,190,10,1906871,1334871,100000003,100000008,100000014,100000002
+6/24/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,Cloud migration,3.75,Meeting,190,10,1259660,1000278,100000003,100000010,100000014,100000002
+8/7/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Fall marketing campaign,3.25,Meeting,190,10,1726474,1875773,100000003,100000004,100000012,100000002
+7/20/2014,open,locked,Elizabeth Stewart,na,Active,Employee,QWERTY Logistics,Project Molybdenum,5,Meeting,190,10,1780767,1926124,100000003,100000011,100000001,100000002
+7/2/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,New product lineup,2.25,Meeting,190,10,1854558,1346644,100000003,100000008,100000009,100000002
+6/22/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,Payroll integration,2,Meeting,190,10,1807059,1299566,100000003,100000004,100000005,100000002
+8/19/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Cloud migration,5.25,Meeting,190,10,1933563,1096573,100000003,100000006,100000014,100000002
+6/17/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,API v2.0 update,5.25,Meeting,190,10,1829412,1841660,100000003,100000010,100000007,100000002
+6/5/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,New product lineup,3.25,Meeting,190,10,1113426,1630060,100000003,100000006,100000009,100000002
+6/25/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,3,Meeting,190,10,1293495,1957091,100000003,100000013,100000014,100000002
+8/7/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Cloud migration,2.75,Meeting,190,10,1805434,1653276,100000003,100000010,100000014,100000002
+6/24/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,0.25,Meeting,190,10,1836911,1773767,100000003,100000000,100000014,100000002
+7/17/2014,open,locked,Paul Pilkington,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,1.25,Meeting,190,10,1785534,1974616,100000003,100000013,100000014,100000002
+7/5/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Cloud migration,0.75,Meeting,190,10,1790678,1042767,100000003,100000004,100000014,100000002
+8/20/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Payroll integration,1,Meeting,190,10,1240937,1654376,100000003,100000006,100000005,100000002
+7/20/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Export feature,4.25,Meeting,190,10,1856611,1718172,100000003,100000000,100000015,100000002
+6/25/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Export feature,3.25,Meeting,190,10,1656738,1377470,100000003,100000011,100000015,100000002
+6/8/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,API v2.0 update,5.5,Meeting,190,10,1228970,1904170,100000003,100000008,100000007,100000002
+8/30/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,4.75,Meeting,190,10,1653954,1821744,100000003,100000013,100000007,100000002
+7/10/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Payroll integration,3,Meeting,190,10,1512414,1240486,100000003,100000011,100000005,100000002
+6/22/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,API v2.0 update,0.25,Meeting,190,10,1072656,1580380,100000003,100000008,100000007,100000002
+8/23/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,2,Meeting,190,10,1662553,1848812,100000003,100000013,100000009,100000002
+7/10/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,API v2.0 update,0.25,Meeting,190,10,1275686,1625156,100000003,100000011,100000007,100000002
+8/17/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Project Molybdenum,4.5,Meeting,190,10,1124327,1766675,100000003,100000006,100000001,100000002
+7/23/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,Fall marketing campaign,5.25,Meeting,190,10,1693674,1430592,100000003,100000004,100000012,100000002
+6/28/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,New product lineup,2.75,Meeting,190,10,1796517,1835693,100000003,100000010,100000009,100000002
+8/1/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,New product lineup,5,Meeting,190,10,1128394,1078829,100000003,100000008,100000009,100000002
+7/10/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5,Meeting,190,10,1259815,1541761,100000003,100000008,100000012,100000002
+6/11/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Cloud migration,3,Meeting,190,10,1740654,1871106,100000003,100000004,100000014,100000002
+6/9/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,4.5,Meeting,190,10,1748260,1839358,100000003,100000000,100000014,100000002
+7/7/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,1,Meeting,190,10,1608792,1237828,100000003,100000013,100000005,100000002
+6/17/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,0,Meeting,190,10,1299980,1430148,100000003,100000013,100000005,100000002
+8/3/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,5.5,Meeting,190,10,1883883,1323346,100000003,100000000,100000005,100000002
+8/30/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Payroll integration,2.75,Meeting,190,10,1494915,1587465,100000003,100000006,100000005,100000002
+8/3/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,1,Meeting,190,10,1031218,1262828,100000003,100000013,100000007,100000002
+7/17/2014,open,locked,Claudia Mendes,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,0,Meeting,190,10,1276461,1756618,100000003,100000000,100000012,100000002
+8/9/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,API v2.0 update,1,Meeting,190,10,1080075,1042637,100000003,100000011,100000007,100000002
+8/1/2014,open,locked,Stephen Harmon,na,Active,Employee,Stark Industries,Project Molybdenum,4.75,Meeting,190,10,1721258,1685573,100000003,100000004,100000001,100000002
+8/29/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Export feature,4,Meeting,190,10,1574489,1442453,100000003,100000000,100000015,100000002
+8/4/2014,open,locked,Gregory Standifer,na,Active,Employee,Stark Industries,API v2.0 update,3,Meeting,190,10,1295275,1537594,100000003,100000004,100000007,100000002
+7/14/2014,open,locked,Stephen Harmon,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,2.25,Meeting,190,10,1897695,1619650,100000003,100000000,100000012,100000002
+7/22/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Payroll integration,2,Meeting,190,10,1250253,1736678,100000003,100000004,100000005,100000002
+8/6/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,4.25,Meeting,190,10,1881896,1695242,100000003,100000000,100000014,100000002
+8/12/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,0,Meeting,190,10,1434061,1429580,100000003,100000011,100000012,100000002
+8/12/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,API v2.0 update,2.25,Meeting,190,10,1989808,1822653,100000003,100000006,100000007,100000002
+6/23/2014,open,locked,Jackie Winfield,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,4.75,Meeting,190,10,1512605,1069848,100000003,100000013,100000009,100000002
+8/10/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,1,Meeting,190,10,1925424,1177547,100000003,100000013,100000009,100000002
+6/23/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Cloud migration,5.25,Meeting,190,10,1610203,1272194,100000003,100000008,100000014,100000002
+6/27/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,5.75,Meeting,190,10,1788484,1158114,100000003,100000000,100000007,100000002
+6/13/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,New product lineup,0.75,Meeting,190,10,1272783,1745467,100000003,100000006,100000009,100000002
+7/3/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,Payroll integration,4,Meeting,190,10,1705233,1693998,100000003,100000010,100000005,100000002
+8/13/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Export feature,5.75,Meeting,190,10,1544283,1875624,100000003,100000011,100000015,100000002
+8/10/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,4.75,Meeting,190,10,1035456,1942041,100000003,100000000,100000012,100000002
+8/15/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,3,Meeting,190,10,1582425,1451970,100000003,100000013,100000014,100000002
+8/24/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,3.75,Meeting,190,10,1402894,1321026,100000003,100000011,100000012,100000002
+7/26/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Export feature,4.5,Meeting,190,10,1587096,1894461,100000003,100000006,100000015,100000002
+7/22/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Cloud migration,1,Meeting,190,10,1212874,1603870,100000003,100000004,100000014,100000002
+8/15/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,New product lineup,4.25,Meeting,190,10,1665956,1112833,100000003,100000010,100000009,100000002
+6/25/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,4.25,Meeting,190,10,1344395,1154742,100000003,100000000,100000001,100000002
+6/28/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,API v2.0 update,2.5,Meeting,190,10,1698321,1520636,100000003,100000011,100000007,100000002
+8/13/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Export feature,2.5,Meeting,190,10,1122377,1306751,100000003,100000011,100000015,100000002
+7/7/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,API v2.0 update,3.25,Meeting,190,10,1786196,1253263,100000003,100000008,100000007,100000002
+8/25/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,New product lineup,5,Meeting,190,10,1874175,1602807,100000003,100000008,100000009,100000002
+6/15/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,2.5,Meeting,190,10,1747980,1848265,100000003,100000000,100000007,100000002
+8/11/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,Fall marketing campaign,4.25,Meeting,190,10,1172818,1772158,100000003,100000010,100000012,100000002
+7/11/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Nakatomi Trading Corp.,Export feature,1.75,Meeting,190,10,1495281,1334703,100000003,100000000,100000015,100000002
+8/5/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Export feature,5.75,Meeting,190,10,1186035,1387386,100000003,100000008,100000015,100000002
+8/10/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,2.25,Meeting,190,10,1511572,1953034,100000003,100000000,100000009,100000002
+6/22/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Project Molybdenum,3.5,Meeting,190,10,1099963,1727966,100000003,100000008,100000001,100000002
+8/12/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,1.25,Meeting,190,10,1338997,1468646,100000003,100000000,100000005,100000002
+8/3/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,API v2.0 update,2.25,Meeting,190,10,1281381,1627373,100000003,100000004,100000007,100000002
+8/3/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Cloud migration,2.5,Meeting,190,10,1837626,1929100,100000003,100000004,100000014,100000002
+6/9/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,API v2.0 update,1,Meeting,190,10,1220588,1724092,100000003,100000004,100000007,100000002
+7/16/2014,open,locked,Jackie Winfield,na,Active,Employee,Mammoth Pictures,Project Molybdenum,4.75,Meeting,190,10,1111082,1810446,100000003,100000006,100000001,100000002
+6/13/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Export feature,4.5,Meeting,190,10,1258789,1000605,100000003,100000008,100000015,100000002
+7/10/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,0,Meeting,190,10,1476937,1923707,100000003,100000013,100000001,100000002
+7/2/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,3.25,Meeting,190,10,1278544,1760361,100000003,100000000,100000014,100000002
+7/31/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Cloud migration,4.5,Meeting,190,10,1348579,1595328,100000003,100000000,100000014,100000002
+7/20/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,3.5,Meeting,190,10,1247622,1902694,100000003,100000013,100000012,100000002
+6/17/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Export feature,5,Meeting,190,10,1611363,1372837,100000003,100000004,100000015,100000002
+7/3/2014,open,locked,Stephen Harmon,na,Active,Employee,Nakatomi Trading Corp.,Export feature,4.75,Meeting,190,10,1102868,1777050,100000003,100000000,100000015,100000002
+8/21/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,0.75,Meeting,190,10,1727579,1143128,100000003,100000013,100000007,100000002
+8/31/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,Cloud migration,4.5,Meeting,190,10,1658734,1976079,100000003,100000013,100000014,100000002
+6/20/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,5,Meeting,190,10,1921095,1989733,100000003,100000013,100000009,100000002
+6/16/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Export feature,1.5,Meeting,190,10,1135680,1228620,100000003,100000000,100000015,100000002
+7/21/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,New product lineup,3.25,Meeting,190,10,1481752,1157642,100000003,100000008,100000009,100000002
+7/20/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,1,Meeting,190,10,1066844,1313238,100000003,100000013,100000015,100000002
+8/30/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,New product lineup,0.75,Meeting,190,10,1584720,1798011,100000003,100000010,100000009,100000002
+7/18/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,1.75,Meeting,190,10,1460181,1016408,100000003,100000013,100000005,100000002
+7/10/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Project Molybdenum,0.5,Meeting,190,10,1651497,1834634,100000003,100000011,100000001,100000002
+6/19/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,0.75,Meeting,190,10,1337536,1856698,100000003,100000013,100000007,100000002
+8/13/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,API v2.0 update,1.25,Meeting,190,10,1353365,1105193,100000003,100000008,100000007,100000002
+6/14/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,1,Meeting,190,10,1757960,1059755,100000003,100000013,100000005,100000002
+7/16/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Payroll integration,0.5,Meeting,190,10,1959576,1279661,100000003,100000006,100000005,100000002
+7/2/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,Payroll integration,4.75,Meeting,190,10,1931853,1759785,100000003,100000010,100000005,100000002
+6/14/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,0.5,Meeting,190,10,1322885,1056678,100000003,100000000,100000005,100000002
+6/27/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,API v2.0 update,0.75,Meeting,190,10,1920780,1593248,100000003,100000011,100000007,100000002
+8/18/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,Fall marketing campaign,0.75,Meeting,190,10,1845961,1226573,100000003,100000010,100000012,100000002
+7/26/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,New product lineup,1.5,Meeting,190,10,1178095,1293909,100000003,100000010,100000009,100000002
+6/16/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,Cloud migration,4.5,Meeting,190,10,1723383,1376709,100000003,100000010,100000014,100000002
+6/28/2014,open,locked,Shirley Weise,na,Active,Employee,Stark Industries,Project Molybdenum,2.75,Meeting,190,10,1577572,1010533,100000003,100000004,100000001,100000002
+8/11/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,2.25,Meeting,190,10,1026849,1561934,100000003,100000013,100000005,100000002
+7/26/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,New product lineup,3.75,Meeting,190,10,1931628,1811499,100000003,100000011,100000009,100000002
+7/1/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,5,Meeting,190,10,1389386,1034224,100000003,100000000,100000012,100000002
+8/19/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Export feature,1.5,Meeting,190,10,1973056,1787133,100000003,100000008,100000015,100000002
+8/8/2014,open,locked,William Borden,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,5,Meeting,190,10,1351643,1554747,100000003,100000000,100000005,100000002
+6/16/2014,open,locked,Claudia Mendes,na,Active,Employee,Mammoth Pictures,Export feature,1.25,Meeting,190,10,1161800,1480476,100000003,100000006,100000015,100000002
+7/27/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,New product lineup,5.5,Meeting,190,10,1092688,1778029,100000003,100000008,100000009,100000002
+6/11/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Project Molybdenum,4.25,Meeting,190,10,1527544,1870905,100000003,100000011,100000001,100000002
+8/29/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Payroll integration,2.25,Meeting,190,10,1450830,1951254,100000003,100000004,100000005,100000002
+6/5/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,5,Meeting,190,10,1200261,1299011,100000003,100000000,100000007,100000002
+8/27/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,3.75,Meeting,190,10,1057277,1676135,100000003,100000013,100000012,100000002
+8/11/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,Project Molybdenum,1.75,Meeting,190,10,1420838,1187964,100000003,100000006,100000001,100000002
+7/11/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,2.25,Meeting,190,10,1445434,1268348,100000003,100000013,100000015,100000002
+9/1/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,API v2.0 update,4.75,Meeting,190,10,1534890,1169764,100000003,100000011,100000007,100000002
+8/23/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,Export feature,4.25,Meeting,190,10,1850148,1755500,100000003,100000010,100000015,100000002
+6/7/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,New product lineup,0.5,Meeting,190,10,1233107,1516899,100000003,100000011,100000009,100000002
+8/10/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,5.75,Meeting,190,10,1731276,1610873,100000003,100000000,100000005,100000002
+6/22/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Export feature,0.5,Meeting,190,10,1113760,1837645,100000003,100000006,100000015,100000002
+8/9/2014,open,locked,Shirley Weise,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,1.25,Meeting,190,10,1159289,1743839,100000003,100000000,100000009,100000002
+7/5/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,API v2.0 update,4.75,Meeting,190,10,1694160,1470161,100000003,100000010,100000007,100000002
+6/13/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,3,Meeting,190,10,1406068,1064899,100000003,100000013,100000009,100000002
+8/24/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5,Meeting,190,10,1582314,1503448,100000003,100000008,100000012,100000002
+7/2/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Export feature,1,Meeting,190,10,1182756,1496064,100000003,100000000,100000015,100000002
+6/20/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,New product lineup,0,Meeting,190,10,1157706,1656977,100000003,100000011,100000009,100000002
+7/21/2014,open,locked,Shirley Weise,na,Active,Employee,Western Gas & Electric,Project Molybdenum,1.25,Meeting,190,10,1332976,1305370,100000003,100000008,100000001,100000002
+6/27/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Project Molybdenum,2,Meeting,190,10,1768506,1686674,100000003,100000008,100000001,100000002
+8/7/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,Cloud migration,4.25,Meeting,190,10,1764584,1163177,100000003,100000006,100000014,100000002
+6/28/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Cloud migration,5,Meeting,190,10,1627556,1250009,100000003,100000008,100000014,100000002
+9/1/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,New product lineup,2.25,Meeting,190,10,1983636,1934891,100000003,100000000,100000009,100000002
+8/25/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,1,Meeting,190,10,1804737,1903844,100000003,100000013,100000005,100000002
+7/13/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Export feature,1.5,Meeting,190,10,1325227,1024670,100000003,100000011,100000015,100000002
+8/10/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,0,Meeting,190,10,1871472,1255336,100000003,100000013,100000005,100000002
+7/16/2014,open,locked,Paul Pilkington,na,Active,Employee,Nakatomi Trading Corp.,Export feature,0.75,Meeting,190,10,1680843,1061572,100000003,100000000,100000015,100000002
+8/27/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Project Molybdenum,3.25,Meeting,190,10,1791138,1547275,100000003,100000004,100000001,100000002
+6/24/2014,open,locked,William Borden,na,Active,Employee,Stark Industries,Export feature,5.75,Meeting,190,10,1121164,1137841,100000003,100000004,100000015,100000002
+8/14/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Cloud migration,4.5,Meeting,190,10,1023679,1662858,100000003,100000004,100000014,100000002
+8/8/2014,open,locked,Stephen Harmon,na,Active,Employee,North Central Positronics,New product lineup,4.5,Meeting,190,10,1048154,1880875,100000003,100000010,100000009,100000002
+6/6/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Payroll integration,4.75,Meeting,190,10,1010603,1774261,100000003,100000008,100000005,100000002
+7/7/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Payroll integration,3.25,Meeting,190,10,1572426,1927845,100000003,100000008,100000005,100000002
+7/26/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Project Molybdenum,2.75,Meeting,190,10,1360010,1562161,100000003,100000006,100000001,100000002
+7/4/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Export feature,1.5,Meeting,190,10,1383067,1749909,100000003,100000010,100000015,100000002
+6/30/2014,open,locked,Michael Bonner,na,Active,Employee,Sirius Cybernetics Corp.,Project Molybdenum,4.5,Meeting,190,10,1880577,1835359,100000003,100000013,100000001,100000002
+7/22/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,4.5,Meeting,190,10,1259041,1496980,100000003,100000006,100000012,100000002
+7/26/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Payroll integration,0.75,Meeting,190,10,1214419,1272075,100000003,100000004,100000005,100000002
+7/22/2014,open,locked,William Borden,na,Active,Employee,QWERTY Logistics,Payroll integration,3.75,Meeting,190,10,1830665,1825125,100000003,100000011,100000005,100000002
+7/5/2014,open,locked,Ray Price,na,Active,Employee,Nakatomi Trading Corp.,API v2.0 update,1.25,Meeting,190,10,1738436,1501219,100000003,100000000,100000007,100000002
+6/5/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,5.5,Meeting,190,10,1735882,1729226,100000003,100000013,100000012,100000002
+6/16/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,5.75,Meeting,190,10,1277588,1622240,100000003,100000008,100000012,100000002
+7/10/2014,open,locked,Gregory Standifer,na,Active,Employee,Mammoth Pictures,New product lineup,5.25,Meeting,190,10,1849212,1467021,100000003,100000006,100000009,100000002
+8/25/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Export feature,2,Meeting,190,10,1139727,1202980,100000003,100000010,100000015,100000002
+7/14/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,API v2.0 update,3.75,Meeting,190,10,1647658,1617170,100000003,100000004,100000007,100000002
+8/26/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Fall marketing campaign,5.5,Meeting,190,10,1209612,1389580,100000003,100000004,100000012,100000002
+7/31/2014,open,locked,Michael Bonner,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,4.75,Meeting,190,10,1920698,1948030,100000003,100000008,100000012,100000002
+6/11/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,2.25,Meeting,190,10,1161989,1092881,100000003,100000013,100000007,100000002
+6/14/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,Payroll integration,0.5,Meeting,190,10,1236957,1044867,100000003,100000008,100000005,100000002
+7/21/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,API v2.0 update,5,Meeting,190,10,1036527,1285347,100000003,100000008,100000007,100000002
+8/12/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Fall marketing campaign,2.75,Meeting,190,10,1104359,1128000,100000003,100000011,100000012,100000002
+6/13/2014,open,locked,Jackie Winfield,na,Active,Employee,Nakatomi Trading Corp.,Fall marketing campaign,3,Meeting,190,10,1818998,1349261,100000003,100000000,100000012,100000002
+6/24/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Cloud migration,0,Meeting,190,10,1726427,1021492,100000003,100000008,100000014,100000002
+6/20/2014,open,locked,Shirley Weise,na,Active,Employee,Mammoth Pictures,Cloud migration,5.25,Meeting,190,10,1290847,1460946,100000003,100000006,100000014,100000002
+6/11/2014,open,locked,Paul Pilkington,na,Active,Employee,North Central Positronics,Export feature,1.5,Meeting,190,10,1744701,1903755,100000003,100000010,100000015,100000002
+6/11/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,API v2.0 update,1.25,Meeting,190,10,1914472,1019509,100000003,100000008,100000007,100000002
+8/9/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,Export feature,3,Meeting,190,10,1696694,1547688,100000003,100000011,100000015,100000002
+7/25/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,Cloud migration,0.25,Meeting,190,10,1355896,1412427,100000003,100000011,100000014,100000002
+7/4/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Cloud migration,0.75,Meeting,190,10,1422636,1793751,100000003,100000008,100000014,100000002
+6/14/2014,open,locked,Elizabeth Stewart,na,Active,Employee,QWERTY Logistics,Export feature,2.75,Meeting,190,10,1549074,1406992,100000003,100000011,100000015,100000002
+7/20/2014,open,locked,William Borden,na,Active,Employee,North Central Positronics,Fall marketing campaign,5.25,Meeting,190,10,1668931,1459346,100000003,100000010,100000012,100000002
+6/16/2014,open,locked,Ray Price,na,Active,Employee,Stark Industries,Payroll integration,0,Meeting,190,10,1559595,1327194,100000003,100000004,100000005,100000002
+6/24/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,New product lineup,1.25,Meeting,190,10,1762029,1595256,100000003,100000004,100000009,100000002
+8/14/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,3.25,Meeting,190,10,1737391,1249218,100000003,100000013,100000012,100000002
+8/21/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Project Molybdenum,3,Meeting,190,10,1469911,1718195,100000003,100000004,100000001,100000002
+6/18/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,Cloud migration,2,Meeting,190,10,1557765,1889643,100000003,100000011,100000014,100000002
+7/6/2014,open,locked,Claudia Mendes,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,2.25,Meeting,190,10,1897367,1487659,100000003,100000013,100000005,100000002
+7/17/2014,open,locked,Gregory Standifer,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,5.75,Meeting,190,10,1883804,1734716,100000003,100000013,100000007,100000002
+8/5/2014,open,locked,Paul Pilkington,na,Active,Employee,Sirius Cybernetics Corp.,Export feature,1.75,Meeting,190,10,1201567,1218384,100000003,100000013,100000015,100000002
+7/27/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,Project Molybdenum,3,Meeting,190,10,1572931,1009362,100000003,100000010,100000001,100000002
+7/27/2014,open,locked,Ray Price,na,Active,Employee,QWERTY Logistics,New product lineup,3.5,Meeting,190,10,1276331,1395822,100000003,100000011,100000009,100000002
+8/20/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,API v2.0 update,1.25,Meeting,190,10,1700115,1085248,100000003,100000008,100000007,100000002
+6/16/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Cloud migration,0.75,Meeting,190,10,1256962,1640954,100000003,100000008,100000014,100000002
+6/13/2014,open,locked,Gregory Standifer,na,Active,Employee,Western Gas & Electric,API v2.0 update,4.5,Meeting,190,10,1391477,1396973,100000003,100000008,100000007,100000002
+6/10/2014,open,locked,Claudia Mendes,na,Active,Employee,QWERTY Logistics,API v2.0 update,4.25,Meeting,190,10,1163137,1035691,100000003,100000011,100000007,100000002
+8/26/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Stark Industries,API v2.0 update,1.75,Meeting,190,10,1247873,1438091,100000003,100000004,100000007,100000002
+7/10/2014,open,locked,Gregory Standifer,na,Active,Employee,QWERTY Logistics,New product lineup,1,Meeting,190,10,1438873,1293618,100000003,100000011,100000009,100000002
+6/25/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Payroll integration,3.25,Meeting,190,10,1394185,1935561,100000003,100000006,100000005,100000002
+6/5/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Payroll integration,0.75,Meeting,190,10,1324220,1724434,100000003,100000000,100000005,100000002
+7/30/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Export feature,4.25,Meeting,190,10,1386781,1754540,100000003,100000010,100000015,100000002
+8/18/2014,open,locked,Claudia Mendes,na,Active,Employee,Western Gas & Electric,Export feature,0,Meeting,190,10,1075418,1962697,100000003,100000008,100000015,100000002
+7/9/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,New product lineup,0,Meeting,190,10,1986571,1366609,100000003,100000008,100000009,100000002
+8/19/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,New product lineup,0.5,Meeting,190,10,1583593,1074449,100000003,100000010,100000009,100000002
+7/18/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,Export feature,1.25,Meeting,190,10,1437627,1749551,100000003,100000010,100000015,100000002
+7/25/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,New product lineup,5.75,Meeting,190,10,1217594,1285115,100000003,100000011,100000009,100000002
+6/16/2014,open,locked,Michael Bonner,na,Active,Employee,Nakatomi Trading Corp.,Export feature,3.25,Meeting,190,10,1366601,1877013,100000003,100000000,100000015,100000002
+6/30/2014,open,locked,Paul Pilkington,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,4,Meeting,190,10,1470630,1827787,100000003,100000008,100000012,100000002
+6/12/2014,open,locked,Jackie Winfield,na,Active,Employee,QWERTY Logistics,Project Molybdenum,3.5,Meeting,190,10,1264295,1430630,100000003,100000011,100000001,100000002
+8/11/2014,open,locked,Stephen Harmon,na,Active,Employee,Sirius Cybernetics Corp.,Fall marketing campaign,0.5,Meeting,190,10,1209531,1675736,100000003,100000013,100000012,100000002
+7/22/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Project Molybdenum,2.25,Meeting,190,10,1643952,1001604,100000003,100000008,100000001,100000002
+7/7/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,New product lineup,4.25,Meeting,190,10,1708503,1474435,100000003,100000011,100000009,100000002
+7/12/2014,open,locked,Ray Price,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,3.5,Meeting,190,10,1663539,1834497,100000003,100000013,100000005,100000002
+6/25/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Export feature,4.5,Meeting,190,10,1893220,1978564,100000003,100000004,100000015,100000002
+7/7/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,Project Molybdenum,4.75,Meeting,190,10,1599706,1578701,100000003,100000010,100000001,100000002
+7/7/2014,open,locked,Stephen Harmon,na,Active,Employee,QWERTY Logistics,Project Molybdenum,0.5,Meeting,190,10,1859709,1396648,100000003,100000011,100000001,100000002
+7/15/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Project Molybdenum,0.25,Meeting,190,10,1086793,1066991,100000003,100000006,100000001,100000002
+6/10/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Western Gas & Electric,Project Molybdenum,5,Meeting,190,10,1318154,1512588,100000003,100000008,100000001,100000002
+6/10/2014,open,locked,Stephen Harmon,na,Active,Employee,Mammoth Pictures,Project Molybdenum,1.25,Meeting,190,10,1805182,1078561,100000003,100000006,100000001,100000002
+7/14/2014,open,locked,Paul Pilkington,na,Active,Employee,Sirius Cybernetics Corp.,API v2.0 update,1.25,Meeting,190,10,1584322,1360580,100000003,100000013,100000007,100000002
+8/12/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,New product lineup,5.25,Meeting,190,10,1221295,1616425,100000003,100000008,100000009,100000002
+8/26/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Payroll integration,5.5,Meeting,190,10,1774037,1101078,100000003,100000008,100000005,100000002
+8/19/2014,open,locked,William Borden,na,Active,Employee,Sirius Cybernetics Corp.,New product lineup,0.5,Meeting,190,10,1598537,1073784,100000003,100000013,100000009,100000002
+7/6/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Fall marketing campaign,0.5,Meeting,190,10,1164617,1149384,100000003,100000004,100000012,100000002
+6/24/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,1.25,Meeting,190,10,1581207,1237666,100000003,100000013,100000005,100000002
+6/17/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,New product lineup,4.75,Meeting,190,10,1047201,1630130,100000003,100000010,100000009,100000002
+7/3/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Export feature,3.25,Meeting,190,10,1866653,1164733,100000003,100000008,100000015,100000002
+8/30/2014,open,locked,Jackie Winfield,na,Active,Employee,Stark Industries,Payroll integration,4.5,Meeting,190,10,1512951,1138254,100000003,100000004,100000005,100000002
+6/13/2014,open,locked,Jackie Winfield,na,Active,Employee,Western Gas & Electric,Payroll integration,2,Meeting,190,10,1727907,1046807,100000003,100000008,100000005,100000002
+7/25/2014,open,locked,Shirley Weise,na,Active,Employee,Sirius Cybernetics Corp.,Payroll integration,4.5,Meeting,190,10,1584931,1627576,100000003,100000013,100000005,100000002
+6/11/2014,open,locked,William Borden,na,Active,Employee,Mammoth Pictures,New product lineup,4.5,Meeting,190,10,1780756,1761584,100000003,100000006,100000009,100000002
+6/5/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,Export feature,4.5,Meeting,190,10,1446086,1276872,100000003,100000010,100000015,100000002
+8/27/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Project Molybdenum,4.75,Meeting,190,10,1538923,1734902,100000003,100000004,100000001,100000002
+8/11/2014,open,locked,Ray Price,na,Active,Employee,Western Gas & Electric,API v2.0 update,3.5,Meeting,190,10,1940287,1886612,100000003,100000008,100000007,100000002
+7/22/2014,open,locked,Paul Pilkington,na,Active,Employee,QWERTY Logistics,Payroll integration,1,Meeting,190,10,1151745,1690156,100000003,100000011,100000005,100000002
+7/31/2014,open,locked,Ray Price,na,Active,Employee,Mammoth Pictures,API v2.0 update,0.5,Meeting,190,10,1535412,1529530,100000003,100000006,100000007,100000002
+8/31/2014,open,locked,Paul Pilkington,na,Active,Employee,Mammoth Pictures,Payroll integration,3.5,Meeting,190,10,1292559,1048170,100000003,100000006,100000005,100000002
+7/12/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,API v2.0 update,2,Meeting,190,10,1218028,1843459,100000003,100000004,100000007,100000002
+6/19/2014,open,locked,Michael Bonner,na,Active,Employee,North Central Positronics,New product lineup,4.25,Meeting,190,10,1097511,1786287,100000003,100000010,100000009,100000002
+6/9/2014,open,locked,Elizabeth Stewart,na,Active,Employee,North Central Positronics,Project Molybdenum,1.5,Meeting,190,10,1290804,1977345,100000003,100000010,100000001,100000002
+8/14/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Project Molybdenum,5,Meeting,190,10,1509909,1470564,100000003,100000004,100000001,100000002
+6/15/2014,open,locked,Gregory Standifer,na,Active,Employee,North Central Positronics,Payroll integration,2.5,Meeting,190,10,1616867,1200155,100000003,100000010,100000005,100000002
+7/21/2014,open,locked,Stephen Harmon,na,Active,Employee,Western Gas & Electric,Export feature,1.25,Meeting,190,10,1309592,1185349,100000003,100000008,100000015,100000002
+7/1/2014,open,locked,Claudia Mendes,na,Active,Employee,Stark Industries,Project Molybdenum,0,Meeting,190,10,1447763,1845424,100000003,100000004,100000001,100000002
+8/2/2014,open,locked,William Borden,na,Active,Employee,Western Gas & Electric,Fall marketing campaign,3.25,Meeting,190,10,1514629,1703635,100000003,100000008,100000012,100000002
+8/26/2014,open,locked,Gregory Standifer,na,Active,Employee,Nakatomi Trading Corp.,Project Molybdenum,5.5,Meeting,190,10,1485528,1043505,100000003,100000000,100000001,100000002
+8/9/2014,open,locked,Shirley Weise,na,Active,Employee,North Central Positronics,Payroll integration,1,Meeting,190,10,1105935,1638043,100000003,100000010,100000005,100000002
+6/17/2014,open,locked,Elizabeth Stewart,na,Active,Employee,Mammoth Pictures,Project Molybdenum,1.5,Meeting,190,10,1078385,1519868,100000003,100000006,100000001,100000002
+7/4/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,New product lineup,1.5,Meeting,190,10,1007596,1717343,100000003,100000011,100000009,100000002
+6/15/2014,open,locked,Shirley Weise,na,Active,Employee,QWERTY Logistics,Cloud migration,4,Meeting,190,10,1090852,1175767,100000003,100000011,100000014,100000002
+7/13/2014,open,locked,Paul Pilkington,na,Active,Employee,Stark Industries,Project Molybdenum,3.5,Meeting,190,10,1320112,1337542,100000003,100000004,100000001,100000002
+8/1/2014,open,locked,Jackie Winfield,na,Active,Employee,North Central Positronics,API v2.0 update,5,Meeting,190,10,1535566,1163833,100000003,100000010,100000007,100000002
+8/11/2014,open,locked,Ray Price,na,Active,Employee,North Central Positronics,API v2.0 update,1.75,Meeting,190,10,1971362,1912486,100000003,100000010,100000007,100000002
+8/23/2014,open,locked,Michael Bonner,na,Active,Employee,Stark Industries,Payroll integration,0,Meeting,190,10,1023787,1426721,100000003,100000004,100000005,100000002
+6/23/2014,open,locked,Michael Bonner,na,Active,Employee,Mammoth Pictures,Fall marketing campaign,4.75,Meeting,190,10,1744529,1915831,100000003,100000006,100000012,100000002
+6/18/2014,open,locked,Claudia Mendes,na,Active,Employee,North Central Positronics,API v2.0 update,1.25,Meeting,190,10,1944758,1455369,100000003,100000010,100000007,100000002

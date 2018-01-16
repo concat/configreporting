@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>API Reference - jsreports</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../jsreports-docs.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">jsreports</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Developers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started/">Getting Started</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/">Developer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../examples/">Examples</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../designer-for-jasper-reports/">Integration: Jasper Reports</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">API Reference</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportbuilder-api/">Report Builder API</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportdef/">JSON Report Format</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../changelog/">Change Log</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../nodejs/">Generating PDF reports on the server using Node.js and jsreports</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Report Designers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../designer/">Report Designer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../functions/">Built-in Functions</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../designer-for-jasper-reports/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../reportbuilder-api/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#ditto-object">ditto : object</a></li>
+        
+            <li><a href="#dittodesigner">ditto.Designer</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><a name="ditto"></a></p>
+<h2 id="ditto-object">ditto : <code>object</code></h2>
+<p><strong>Kind</strong>: global namespace  </p>
+<ul>
+<li><a href="#ditto">ditto</a> : <code>object</code><ul>
+<li><a href="#ditto.Designer">.Designer</a><ul>
+<li><a href="#new_ditto.Designer_new">new ditto.Designer(options)</a></li>
+<li><a href="#ditto.Designer+dataPaneHeight">.dataPaneHeight</a></li>
+<li><a href="#ditto.Designer+addConditionalPropertiesButtonToToolbar">.addConditionalPropertiesButtonToToolbar()</a></li>
+<li><a href="#ditto.Designer+fit_section">.fit_section()</a></li>
+<li><a href="#ditto.Designer+getDataSectionFromGroupingControl">.getDataSectionFromGroupingControl()</a></li>
+<li><a href="#ditto.Designer+getJasperReport">.getJasperReport()</a> ⇒ <code>Object</code></li>
+<li><a href="#ditto.Designer+getMinDefaultSectionHeight">.getMinDefaultSectionHeight()</a></li>
+<li><a href="#ditto.Designer+getReport">.getReport()</a> ⇒ <code>Object</code></li>
+<li><a href="#ditto.Designer+getSchemaForDataSection">.getSchemaForDataSection()</a></li>
+<li><a href="#ditto.Designer+getSchemaForSectionEntry">.getSchemaForSectionEntry()</a></li>
+<li><a href="#ditto.Designer+getSelectedElementContext">.getSelectedElementContext()</a></li>
+<li><a href="#ditto.Designer+onElementEvent">.onElementEvent()</a></li>
+<li><a href="#ditto.Designer+renderDataSectionControls">.renderDataSectionControls()</a></li>
+<li><a href="#ditto.Designer+setReport">.setReport()</a></li>
+<li><a href="#ditto.Designer+event_save">"save"</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="ditto.Designer"></a></p>
+<h3 id="dittodesigner">ditto.Designer</h3>
+<p>A drag-and-drop report designer component.</p>
+<p><strong>Kind</strong>: static class of <code><a href="#ditto">ditto</a></code>  </p>
+<ul>
+<li><a href="#ditto.Designer">.Designer</a><ul>
+<li><a href="#new_ditto.Designer_new">new ditto.Designer(options)</a></li>
+<li><a href="#ditto.Designer+dataPaneHeight">.dataPaneHeight</a></li>
+<li><a href="#ditto.Designer+addConditionalPropertiesButtonToToolbar">.addConditionalPropertiesButtonToToolbar()</a></li>
+<li><a href="#ditto.Designer+fit_section">.fit_section()</a></li>
+<li><a href="#ditto.Designer+getDataSectionFromGroupingControl">.getDataSectionFromGroupingControl()</a></li>
+<li><a href="#ditto.Designer+getJasperReport">.getJasperReport()</a> ⇒ <code>Object</code></li>
+<li><a href="#ditto.Designer+getMinDefaultSectionHeight">.getMinDefaultSectionHeight()</a></li>
+<li><a href="#ditto.Designer+getReport">.getReport()</a> ⇒ <code>Object</code></li>
+<li><a href="#ditto.Designer+getSchemaForDataSection">.getSchemaForDataSection()</a></li>
+<li><a href="#ditto.Designer+getSchemaForSectionEntry">.getSchemaForSectionEntry()</a></li>
+<li><a href="#ditto.Designer+getSelectedElementContext">.getSelectedElementContext()</a></li>
+<li><a href="#ditto.Designer+onElementEvent">.onElementEvent()</a></li>
+<li><a href="#ditto.Designer+renderDataSectionControls">.renderDataSectionControls()</a></li>
+<li><a href="#ditto.Designer+setReport">.setReport()</a></li>
+<li><a href="#ditto.Designer+event_save">"save"</a></li>
+</ul>
+</li>
+</ul>
+<p><a name="new_ditto.Designer_new"></a></p>
+<h4 id="new-dittodesigneroptions">new ditto.Designer(options)</h4>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+</tr>
+<tr>
+<td>[options.reportDef]</td>
+<td><code>string</code></td>
+<td>The report definition object to edit.  If not provided, the designer will be empty.</td>
+</tr>
+<tr>
+<td>options.dataSources</td>
+<td><code>Array</code></td>
+<td>Array of configuration objects for the available data sources for reports.</td>
+</tr>
+<tr>
+<td>options.images</td>
+<td><code>Array</code></td>
+<td>Available images that can be used by the report.  Each array element should contain the following properties: <br/>name (String) A description of the image<br/>url (String) The location of the image</td>
+</tr>
+<tr>
+<td>options.embedded</td>
+<td><code>boolean</code></td>
+<td>True to embed the designer in an element on the page (requires <b>container</b> config).  False to show designer in a popup.  Default: false.</td>
+</tr>
+<tr>
+<td>options.container</td>
+<td><code>HTMLElement</code></td>
+<td>When <b>embedded</b> is true, the element into which to render the designer.</td>
+</tr>
+<tr>
+<td>options.toolbarPosition</td>
+<td><code>string</code></td>
+<td>Controls where the toolbar for editing elements appears.  Options:<br/>top - Appears above report canvas<br/>bottom - Appears below report canvas<br/>float - Appears floating just below the selected element<br/>Default: top</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong>  </p>
+<pre><code class="js">var designer = new ditto.Designer({
+    data_sources: [ ... ],
+    report_def: { ... },
+    images: [ ... ],
+    toolbarPosition: &quot;top&quot;,
+    embedded: true,
+    container: $(&quot;#reportDesigner&quot;)
+});
+</code></pre>
+
+<p><a name="ditto.Designer+dataPaneHeight"></a></p>
+<h4 id="designerdatapaneheight">designer.dataPaneHeight</h4>
+<p>User-supplied function returns true if it handles the event and we don't</p>
+<p><strong>Kind</strong>: instance property of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+addConditionalPropertiesButtonToToolbar"></a></p>
+<h4 id="designeraddconditionalpropertiesbuttontotoolbar">designer.addConditionalPropertiesButtonToToolbar()</h4>
+<p>Takes the template div for jqtoolbar (for example, the one returned
+by create_text_toolbar) and adds the template item for the conditional
+properties button.  This button will need to be bound to the actual
+toolbar instance via bindConditionalPropertiesButton().</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+fit_section"></a></p>
+<h4 id="designerfit_section">designer.fit_section()</h4>
+<p>Increase section height if needed to contain its elements.  Returns whether
+or not the section height was changed.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+getDataSectionFromGroupingControl"></a></p>
+<h4 id="designergetdatasectionfromgroupingcontrol">designer.getDataSectionFromGroupingControl()</h4>
+<p>Helper fn to find data section owning a grouping input</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+getJasperReport"></a></p>
+<h4 id="designergetjasperreport-object">designer.getJasperReport() ⇒ <code>Object</code></h4>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<strong>Returns</strong>: <code>Object</code> - The current Jasper report definition object when in Jasper mode<br />
+<strong>Access:</strong> public<br />
+<a name="ditto.Designer+getMinDefaultSectionHeight"></a></p>
+<h4 id="designergetmindefaultsectionheight">designer.getMinDefaultSectionHeight()</h4>
+<p>The minimum height to apply when making a section visible again via a checkbox</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+getReport"></a></p>
+<h4 id="designergetreport-object">designer.getReport() ⇒ <code>Object</code></h4>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<strong>Returns</strong>: <code>Object</code> - The current active report definition object, possibly unsaved, possibly null if none loaded<br />
+<strong>Access:</strong> public<br />
+<a name="ditto.Designer+getSchemaForDataSection"></a></p>
+<h4 id="designergetschemafordatasection">designer.getSchemaForDataSection()</h4>
+<p>Expects dataSection def (raw body definition object)</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+getSchemaForSectionEntry"></a></p>
+<h4 id="designergetschemaforsectionentry">designer.getSchemaForSectionEntry()</h4>
+<p>From a section entry wrapper object (visible section in template rendering),
+get the data source schema for that section.
+Check upward from a detail section or sub-level (group header/footer) to the first
+non-inherited data source (non-"__parentgroup").</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+getSelectedElementContext"></a></p>
+<h4 id="designergetselectedelementcontext">designer.getSelectedElementContext()</h4>
+<p>Get context about how the element is situated within the report
+(available data sources, etc) to pass to the element class to generate its
+toolbar options</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+onElementEvent"></a></p>
+<h4 id="designeronelementevent">designer.onElementEvent()</h4>
+<p>Called by element instances when they raise an event</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+renderDataSectionControls"></a></p>
+<h4 id="designerrenderdatasectioncontrols">designer.renderDataSectionControls()</h4>
+<p>Render the left-side config controls for a single data section (inside accordion)</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<a name="ditto.Designer+setReport"></a></p>
+<h4 id="designersetreport">designer.setReport()</h4>
+<p><strong>Kind</strong>: instance method of <code><a href="#ditto.Designer">Designer</a></code><br />
+<strong>Access:</strong> public<br />
+<a name="ditto.Designer+event_save"></a></p>
+<h4 id="save">"save"</h4>
+<p>Save event.</p>
+<p><strong>Kind</strong>: event emitted by <code><a href="#ditto.Designer">Designer</a></code><br />
+<strong>Properties</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reportJson</td>
+<td><code>boolean</code></td>
+<td>JSON string containing report definition</td>
+</tr>
+</tbody>
+</table></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../docs.js"></script>
+        <script src="../highlight.pack.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>

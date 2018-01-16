@@ -1,0 +1,98 @@
+{
+  "title": "Single Label Example",
+  "id": "ditto-demo-single-label",
+  "default_format": "html",
+  "version": "1.2.41",
+  "page": {
+    "units": "mm",
+    "paper_size": {
+      "name": "Letter",
+      "inches": [
+        "8.5",
+        "11"
+      ],
+      "mm": [
+        "216",
+        "279"
+      ],
+      "id": "letter"
+    },
+    "margins": {
+      "top": 10,
+      "left": 10,
+      "right": 10,
+      "bottom": 10
+    }
+  },
+  "filters": [],
+  "inputs": [],
+  "header": {
+    "visible": false,
+    "height": 20,
+    "elements": []
+  },
+  "body": {
+    "data_source": "label",
+    "show_detail": true,
+    "height": 120,
+    "elements": [
+      {
+        "type": "box",
+        "left": 10,
+        "top": 10,
+        "width": 175,
+        "height": 100,
+        "id": "jsr-element-1",
+        "border_color": "#000000"
+      },
+      {
+        "type": "text",
+        "text": "[productName]",
+        "left": 40,
+        "top": 70,
+        "width": 130,
+        "height": 20,
+        "id": "jsr-element-2",
+        "fontsize": 20
+      },
+      {
+        "type": "barcode",
+        "value": "[upc]",
+        "barcode_type": "CODE39",
+        "left": 20,
+        "top": 20,
+        "width": 150,
+        "height": 40,
+        "id": "jsr-element-3"
+      },
+      {
+        "type": "text",
+        "text": "Qty: [qty] @ [price] ea. = $[=qty * price]",
+        "left": 40,
+        "top": 80,
+        "width": 130,
+        "height": 20,
+        "id": "jsr-element-4"
+      }
+    ],
+    "sublevels": [],
+    "column_count": 1,
+    "pivot_enabled": false
+  },
+  "footer": {
+    "visible": false,
+    "height": 20,
+    "elements": []
+  },
+  "page_header": {
+    "visible": false,
+    "elements": [],
+    "height": 20
+  },
+  "page_footer": {
+    "visible": false,
+    "elements": [],
+    "height": 20
+  },
+  "type": "hierarchical"
+}

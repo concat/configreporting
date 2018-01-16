@@ -1,0 +1,65 @@
+body {
+    background-image: none;
+}
+
+pre {
+    padding: 0;
+}
+
+a.navbar-brand {
+    padding-left: 36px;
+    background-image: url(images/jsreports-logo.png);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+}
+
+.example-thumb {
+    width: 150px;
+    float: left;
+    margin: 0 1em 1em 0 !important;
+    z-index: 1;
+}
+
+.example-separator {
+    clear: both;
+    margin: 1em 0;
+}
+
+ul.example-list {
+    margin-left: 150px;
+}
+
+footer {
+    text-align: left;
+    opacity: 0.8;
+}
+
+.prop {
+    font-weight: bold;
+}
+
+.proptype {
+    margin-left: 1em;
+    font-style: italic;
+    color: #888;
+}
+
+.proptags > div {
+    display: inline-block;
+    margin-right: 1em;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    font-size: 80%;
+    padding: 2px 4px;
+}
+
+.tagopt {
+    background: #ccc;
+}
+
+.prop-enum, .prop-default {
+    display: block;
+    /*font-size: 85%;*/
+}

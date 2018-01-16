@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>JSON Report Format - jsreports</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../jsreports-docs.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">jsreports</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Developers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started/">Getting Started</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/">Developer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../examples/">Examples</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../designer-for-jasper-reports/">Integration: Jasper Reports</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../api/">API Reference</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportbuilder-api/">Report Builder API</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">JSON Report Format</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../changelog/">Change Log</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../nodejs/">Generating PDF reports on the server using Node.js and jsreports</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Report Designers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../designer/">Report Designer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../functions/">Built-in Functions</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../reportbuilder-api/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../changelog/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#jsreports-json-report-schema">jsreports JSON Report Schema</a></li>
+        
+            <li><a href="#report">Report</a></li>
+        
+            <li><a href="#page">Page</a></li>
+        
+            <li><a href="#input">Input</a></li>
+        
+            <li><a href="#textelement">TextElement</a></li>
+        
+            <li><a href="#boxelement">BoxElement</a></li>
+        
+            <li><a href="#chartelement">ChartElement</a></li>
+        
+            <li><a href="#imageelement">ImageElement</a></li>
+        
+            <li><a href="#barcodeelement">BarcodeElement</a></li>
+        
+            <li><a href="#breakelement">BreakElement</a></li>
+        
+            <li><a href="#subreportelement">SubreportElement</a></li>
+        
+            <li><a href="#section">Section</a></li>
+        
+            <li><a href="#bodysection">BodySection</a></li>
+        
+            <li><a href="#level">Level</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="jsreports-json-report-schema">jsreports JSON Report Schema</h1>
+<p><a name="Report"></a></p>
+<h2 id="report">Report</h2>
+<p>Describes the JSON report definition format used by jsreports.  The root element in the JSON structure is a <a href="#report">Report</a>, containing sections that in turn contain elements.
+<pre><code class="json">{
+  "title": "Project Detail by Client and Task",
+  "id": "jsreports-demo-grouping",
+  "default_format": "html",
+  "version": "1.2.20",
+  "page": <a href=#Page>Page</a>,
+  "filters": [ <a href=#Filter>Filter</a> ],
+  "inputs": [ <a href=#Input>Input</a> ],
+  "header": <a href=#Section>Section</a>,
+  "body": <a href=#BodySection>BodySection</a>,
+  "footer": <a href=#Section>Section</a>,
+  "page_header": <a href=#Section>Section</a>,
+  "page_footer": <a href=#Section>Section</a>,
+  "type": "hierarchical"
+}</code></pre></p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">page</span><span class="proptype">object</span></td>
+<td>Defines the print page setup for the report</td>
+</tr>
+<tr>
+<td><span class="prop">header</span><span class="proptype">object</span></td>
+<td>A <a href="#Section">Section</a> representing the report header, which is shown once at the top of the report</td>
+</tr>
+<tr>
+<td><span class="prop">body</span><span class="proptype">object</span></td>
+<td>A <a href="#BodySection">BodySection</a> representing the report body</td>
+</tr>
+<tr>
+<td><span class="prop">footer</span><span class="proptype">object</span></td>
+<td>A <a href="#Section">Section</a> representing the report footer, which is shown once at the bottom of the report</td>
+</tr>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>Report ID <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">version</span><span class="proptype">string</span></td>
+<td>Version of jsreports used to create this report (when created by the designer or report builder API) <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">default_format</span><span class="proptype">string</span></td>
+<td>Not currently used<span class="prop-enum">Must be: "html"</span> <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">title</span><span class="proptype">string</span></td>
+<td>Title of report to be shown to user, for use by plugins listing available reports <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">filters</span><span class="proptype">array</span></td>
+<td>Filters to apply to the report's top-level data source; only matching records will appear in the report <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">inputs</span><span class="proptype">array</span></td>
+<td>User-facing inputs to display in the report toolbar, for supplying parameters to the report at runtime <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="Page"></a></p>
+<h2 id="page">Page</h2>
+<p>Defines the print page setup for the report
+<pre><code class="json">{
+  "units": "inches",
+  "paper_size": {
+    "name": "Letter",
+    "inches": [
+      "8.5",
+      "11"
+    ],
+    "mm": [
+      "216",
+      "279"
+    ],
+    "id": "letter"
+  },
+  "margins": {
+    "top": 0.5,
+    "left": 0.5,
+    "right": 0.5,
+    "bottom": 0.5
+  }
+}</code></pre></p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">units</span><span class="proptype">string</span></td>
+<td>The units to use for page dimensions and positioning elements<span class="prop-enum">One of: "mm", "inches"</span></td>
+</tr>
+<tr>
+<td><span class="prop">paper_size</span><span class="proptype">object</span></td>
+<td>Defines the size of the paper when outputting to paged media (e.g. PDF).  Either "inches" or "mm" property is required, matching the value of the page.units property</td>
+</tr>
+<tr>
+<td><span class="prop">margins</span><span class="proptype">object</span></td>
+<td>The page margins</td>
+</tr>
+</tbody>
+</table>
+<p><a name="Input"></a></p>
+<h2 id="input">Input</h2>
+<p><pre><code class="json">{
+  "name": "Client name",
+  "type": "text",
+  "default_value": ""
+}</code></pre></p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">name</span><span class="proptype">string</span></td>
+<td>The internal name by which the report will refer to this input, for example in defining a filter against it</td>
+</tr>
+<tr>
+<td><span class="prop">type</span><span class="proptype">string</span></td>
+<td>The data type of the input; determines the type of input field shown<span class="prop-enum">One of: "text", "number", "date"</span></td>
+</tr>
+<tr>
+<td><span class="prop">default_value</span><span class="proptype">string</span></td>
+<td>The default value to use when the user has not entered a value <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">optionSource</span><span class="proptype">array,string</span></td>
+<td>For "text" type inputs only.  An array of string values to show as drop-down options for the input field, or the string ID of a separately-defined data source.  When referencing a data source, use the optionSourceField to indicate which field in the data source contains the drop-down values. <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">optionSourceField</span><span class="proptype">string</span></td>
+<td>For "text" type inputs only.  Use in conjunction with the optionSource property above.  Indicates which field in the specified data source contains the string values to use as drop-down selection options for the input field. <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">limitToList</span><span class="proptype">boolean</span></td>
+<td>When optionSource is specified and limitToList is true, prevents the user from entering a value not in the list of options for the input<span class="prop-default">Default: false</span> <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="TextElement"></a></p>
+<h2 id="textelement">TextElement</h2>
+<p>A text label, either static or dynamically calculated</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">type</span><span class="proptype">string</span></td>
+<td><span class="prop-enum">Must be: "text"</span></td>
+</tr>
+<tr>
+<td><span class="prop">top</span><span class="proptype">number</span></td>
+<td>The distance from the top of the section to the top edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">left</span><span class="proptype">number</span></td>
+<td>The distance from the left margin to the left edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">width</span><span class="proptype">number</span></td>
+<td>The width of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">height</span><span class="proptype">number</span></td>
+<td>The height of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>The element ID for internal use; will be auto-generated if not present <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">text</span><span class="proptype">string</span></td>
+<td>The text to display.  Can contain expressions in square brackets, like:<br> The field value is [fieldName]<br>The total is [SUM(fieldName)]<br>Multiplied by 3 is [=fieldName * 3]<br>Percent of total is [=fieldname / SUM('fieldName') * 100]</td>
+</tr>
+<tr>
+<td><span class="prop">pattern</span><span class="proptype">string</span></td>
+<td>A format string used to format a data value or calculation result; uses Excel-style patterns e.g. MM/DD/YY or $#,##0.00.  Only applied when the entire text property is a bracket expression resulting in a number or date value <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">fontsize</span><span class="proptype">number</span></td>
+<td>Font size in points <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">bold</span><span class="proptype">boolean</span></td>
+<td>Whether to render the text in bold<span class="prop-default">Default: false</span> <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">italic</span><span class="proptype">boolean</span></td>
+<td>Whether to render the text in italics<span class="prop-default">Default: false</span> <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">underline</span><span class="proptype">boolean</span></td>
+<td>Whether to render the text underlined<span class="prop-default">Default: false</span> <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">wrap</span><span class="proptype">boolean</span></td>
+<td>Whether to wrap text if it extends beyond the width of the element<span class="prop-default">Default: true</span> <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="BoxElement"></a></p>
+<h2 id="boxelement">BoxElement</h2>
+<p>A rectangle with border and fill colors and optional corner rounding</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">type</span><span class="proptype">string</span></td>
+<td><span class="prop-enum">Must be: "box"</span></td>
+</tr>
+<tr>
+<td><span class="prop">top</span><span class="proptype">number</span></td>
+<td>The distance from the top of the section to the top edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">left</span><span class="proptype">number</span></td>
+<td>The distance from the left margin to the left edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">width</span><span class="proptype">number</span></td>
+<td>The width of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">height</span><span class="proptype">number</span></td>
+<td>The height of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>The element ID for internal use; will be auto-generated if not present <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">background_color</span><span class="proptype">string</span></td>
+<td>The CSS color code for the fill (background) color, e.g. "black" or "#e0da38"</td>
+</tr>
+<tr>
+<td><span class="prop">border_color</span><span class="proptype">string</span></td>
+<td>The CSS color code for the stroke (border) color, e.g. "black" or "#e0da38"</td>
+</tr>
+<tr>
+<td><span class="prop">corner_radius</span><span class="proptype">number</span></td>
+<td>The amount of corner rounding</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ChartElement"></a></p>
+<h2 id="chartelement">ChartElement</h2>
+<p>A chart, showing one or more series of data from the current grouped rows or another data source.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">type</span><span class="proptype">string</span></td>
+<td>Which type of chart to draw<span class="prop-enum">One of: "chart-pie", "chart-line", "chart-bar"</span></td>
+</tr>
+<tr>
+<td><span class="prop">top</span><span class="proptype">number</span></td>
+<td>The distance from the top of the section to the top edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">left</span><span class="proptype">number</span></td>
+<td>The distance from the left margin to the left edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">width</span><span class="proptype">number</span></td>
+<td>The width of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">height</span><span class="proptype">number</span></td>
+<td>The height of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>The element ID for internal use; will be auto-generated if not present <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="ImageElement"></a></p>
+<h2 id="imageelement">ImageElement</h2>
+<p>An image</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">type</span><span class="proptype">string</span></td>
+<td><span class="prop-enum">Must be: "image"</span></td>
+</tr>
+<tr>
+<td><span class="prop">top</span><span class="proptype">number</span></td>
+<td>The distance from the top of the section to the top edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">left</span><span class="proptype">number</span></td>
+<td>The distance from the left margin to the left edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">width</span><span class="proptype">number</span></td>
+<td>The width of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">height</span><span class="proptype">number</span></td>
+<td>The height of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>The element ID for internal use; will be auto-generated if not present <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="BarcodeElement"></a></p>
+<h2 id="barcodeelement">BarcodeElement</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">type</span><span class="proptype">string</span></td>
+<td><span class="prop-enum">Must be: "barcode"</span></td>
+</tr>
+<tr>
+<td><span class="prop">top</span><span class="proptype">number</span></td>
+<td>The distance from the top of the section to the top edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">left</span><span class="proptype">number</span></td>
+<td>The distance from the left margin to the left edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">width</span><span class="proptype">number</span></td>
+<td>The width of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">height</span><span class="proptype">number</span></td>
+<td>The height of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>The element ID for internal use; will be auto-generated if not present <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">value</span><span class="proptype">string</span></td>
+<td>The value to encode in the barcode.  Like the textElement text property, can accept calculations or data fields</td>
+</tr>
+</tbody>
+</table>
+<p><a name="BreakElement"></a></p>
+<h2 id="breakelement">BreakElement</h2>
+<p>A page break.  Placed at a vertical position within a report section, this element will trigger a page break in PDF mode at that position each time the section is rendered.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">type</span><span class="proptype">string</span></td>
+<td><span class="prop-enum">Must be: "break"</span></td>
+</tr>
+<tr>
+<td><span class="prop">top</span><span class="proptype">number</span></td>
+<td>The distance from the top of the section to the top edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>The element ID for internal use; will be auto-generated if not present <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="SubreportElement"></a></p>
+<h2 id="subreportelement">SubreportElement</h2>
+<p>Render another report within the current report.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">type</span><span class="proptype">string</span></td>
+<td><span class="prop-enum">Must be: "subreport"</span></td>
+</tr>
+<tr>
+<td><span class="prop">top</span><span class="proptype">number</span></td>
+<td>The distance from the top of the section to the top edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">left</span><span class="proptype">number</span></td>
+<td>The distance from the left margin to the left edge of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">width</span><span class="proptype">number</span></td>
+<td>The width of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">height</span><span class="proptype">number</span></td>
+<td>The height of the element, in report units (inches or mm)</td>
+</tr>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>The element ID for internal use; will be auto-generated if not present <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="Section"></a></p>
+<h2 id="section">Section</h2>
+<p>A horizontal section of the report containing elements, that may be bound to data in the data source and may be repeated one or more times for each underlying data row.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">height</span><span class="proptype">number</span></td>
+<td>The height of the section, in report units</td>
+</tr>
+<tr>
+<td><span class="prop">elements</span><span class="proptype">array</span></td>
+<td>An array of Elements in arbitrary order to display within this report section</td>
+</tr>
+<tr>
+<td><span class="prop">visible</span><span class="proptype">boolean</span></td>
+<td>Whether the section should be displayed when the report is rendered<span class="prop-default">Default: true</span> <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="BodySection"></a></p>
+<h2 id="bodysection">BodySection</h2>
+<p>A section representing the main report body, containing elements and also allowing pivot and sub-level (grouping) configuration.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">height</span><span class="proptype">number</span></td>
+<td>The height of the section, in report units</td>
+</tr>
+<tr>
+<td><span class="prop">elements</span><span class="proptype">array</span></td>
+<td>An array of Elements in arbitrary order to display within this report section</td>
+</tr>
+<tr>
+<td><span class="prop">visible</span><span class="proptype">boolean</span></td>
+<td>Whether the section should be displayed when the report is rendered<span class="prop-default">Default: true</span> <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">pivot_enabled</span><span class="proptype">boolean</span></td>
+<td>Whether to pivot the main data source, generating columns from unique values in the rows<span class="prop-default">Default: false</span></td>
+</tr>
+<tr>
+<td><span class="prop">pivot_expression</span><span class="proptype">string</span></td>
+<td>The expression to evaluate to generate columns.  One column will be generated for each unique result of this expression across all rows.</td>
+</tr>
+<tr>
+<td><span class="prop">pivot_column_sort_by</span><span class="proptype">string</span></td>
+<td>The field name in the underlying data source to sort by when ordering generated columns</td>
+</tr>
+<tr>
+<td><span class="prop">order_detail_by</span><span class="proptype">string</span></td>
+<td>The field name to sort by when ordering the detail sections</td>
+</tr>
+<tr>
+<td><span class="prop">pivot_column_left</span><span class="proptype">number</span></td>
+<td>The left edge of the pivot column in the report template, measured from the left margin, in report units.  The pivot column defines the area in the report template that will be cloned to generate the pivot columns.  Any elements defined to lie within the pivot column region will be cloned; other elements will not be cloned.</td>
+</tr>
+<tr>
+<td><span class="prop">pivot_column_right</span><span class="proptype">number</span></td>
+<td>The right edge of the pivot column in the report template, measured from the left margin, in report units.</td>
+</tr>
+<tr>
+<td><span class="prop">sublevels</span><span class="proptype">array</span></td>
+<td>An array of <a href="#Level">Level</a>s, outermost-first, that create a hierarchical (nested) report structure <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table>
+<p><a name="Level"></a></p>
+<h2 id="level">Level</h2>
+<p>A nesting sub-level in the report, used for groupings or drill-down into different data sources.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">data_source</span><span class="proptype">string</span></td>
+<td>The ID of the data source to use to fill this sub-level, or "__parentgroup" to re-group the rows from a parent grouping</td>
+</tr>
+<tr>
+<td><span class="prop">header</span><span class="proptype">object</span></td>
+<td>The <a href="#Section">Section</a> defining the header to render for each instance of this level</td>
+</tr>
+<tr>
+<td><span class="prop">footer</span><span class="proptype">object</span></td>
+<td>The <a href="#Section">Section</a> defining the footer to render for each instance of this level</td>
+</tr>
+<tr>
+<td><span class="prop">group_by</span><span class="proptype">string</span></td>
+<td>The field name in the data source by which to group this level</td>
+</tr>
+<tr>
+<td><span class="prop">sort_by</span><span class="proptype">string</span></td>
+<td>The field name by which to sort the groups in this level.  If not present, defaults to the group_by field (if any)</td>
+</tr>
+<tr>
+<td><span class="prop">sort_dir</span><span class="proptype">string</span></td>
+<td>Which direction the groups should be ordered; defaults to "asc" (A-&gt;Z)<span class="prop-enum">One of: "asc", "desc"</span></td>
+</tr>
+</tbody>
+</table></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../docs.js"></script>
+        <script src="../highlight.pack.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>

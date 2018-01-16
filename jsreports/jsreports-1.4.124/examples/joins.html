@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head> 
+    <title>Joins Example - jsreports</title>
+    <meta charset="utf-8">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/images/clip32.png" title="Favicon" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link href="css/tomorrow-night-eighties.css" rel="stylesheet" type='text/css' />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        body {
+            padding: 20px;
+            margin: 0;
+            font: 16px/22px "Source Sans Pro", Helvetica, sans-serif;
+            font-size-adjust: none;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            background: #f4f6ec;
+            color: #333;
+        }
+        .nav-category {
+            color: #777;
+            font-weight: normal;
+            margin-bottom: 0.75em;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .report-output {
+            background: white;
+            border: 1px solid #ccc;
+            height: 400px;
+        }
+
+        .edit-link {
+            font-size: 120%;
+            margin-bottom: 10px;
+        }
+
+        code.hljs.javascript {
+            border-radius: 5px;
+            padding: 0.5em 0.85em;
+        }
+        pre {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<a href="http://www.jsreports.com" style="float:right">jsreports home</a>
+<h2 class="nav-category">jsreports example</h2>
+
+<h1>Joined Data Sources</h1>
+
+<p>This report demonstrates joining data sources.</p>
+
+<p>View the source of this page for the full code.</p>
+
+<hr />
+
+<button class="btn edit-link">Edit the report</button>
+
+<div class="report-output"></div>
+
+<hr />
+
+</body>
+<script src="lib/highlight.pack.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
+<script src="lib/jsreports/jsreports-all.min.js?1.4.91" type="text/javascript"></script>
+<script>
+    $(document).ready(function() {
+
+        // Set up variables to hold the reporting objects
+        var report_def,
+            report_instance,
+            report_def_url = "joins-report-def.json",
+            data_sources = [{
+                id: "us-states",
+                name: "U.S. States",
+                url: "data/us-states.json",
+                schema: {
+                    fields: [{
+                        "name": "name",
+                        "type": "string"
+                    },{
+                        "name": "abbreviation",
+                        "type": "string"
+                    }]
+                }
+            }, {
+                id: "sp500",
+                name: "S&P 500 Companies",
+                url: "data/sp500.csv",
+                format: "csv",
+                hasHeaderRow: true,
+                schema_url: "data/sp500-schema.json"
+            }, {
+                id: "states-companies-joined",
+                name: "States and Companies Headquartered There (Joined)",
+                join: {
+                    type: "inner",
+                    left: "us-states",
+                    leftKey: "name",
+                    right: "sp500",
+                    rightKey: "HQ State / Country"
+                }
+            }];
+
+        // To enable PDF download in IE9, set the path to the jsreports library
+        jsreports.libraryPath = "lib/jsreports";
+
+        // Load the report definition (here, a static file; in production, might be in a database)
+        $.getJSON(report_def_url, function(def) {
+            report_def = def;
+            // Now that we have the definition, we can run the report
+            report_instance = jsreports.render({
+                report_def: report_def,
+                target: $(".report-output"),
+                datasets: data_sources
+            });
+        });
+
+        $(".edit-link").on("click", function() {
+
+            // Initialize a designer to modify the report definition
+            var designer = new jsreports.Designer({
+                data_sources: data_sources,
+                images: [{
+                    name: "ACME logo",
+                    url: "images/acme-logo.png"
+                }],
+                report_def: report_def
+            });
+
+            // When the user clicks Save in the designer, refresh the rendering
+            designer.on("save", function(reportdef) {
+                report_def = JSON.parse(reportdef);
+                $(".report-output").empty();
+                jsreports.render({
+                    report_def: report_def,
+                    target: $(".report-output"),
+                    datasets: data_sources
+                });
+            });
+
+        });
+
+        // Highlight example code snippets (not part of jsreports)
+        hljs.initHighlightingOnLoad();
+    });
+</script>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>
+

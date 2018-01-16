@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Change Log - jsreports</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../jsreports-docs.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">jsreports</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Developers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started/">Getting Started</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/">Developer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../examples/">Examples</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../designer-for-jasper-reports/">Integration: Jasper Reports</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../api/">API Reference</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportbuilder-api/">Report Builder API</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportdef/">JSON Report Format</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Change Log</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../nodejs/">Generating PDF reports on the server using Node.js and jsreports</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Report Designers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../designer/">Report Designer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../functions/">Built-in Functions</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../reportdef/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../nodejs/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#ditto-change-log">Ditto Change Log</a></li>
+        
+            <li><a href="#1487-mar-26-2017">1.4.87 (Mar 26 2017)</a></li>
+        
+            <li><a href="#1480-feb-6-2017">1.4.80 (Feb 6 2017)</a></li>
+        
+            <li><a href="#1478-jan-17-2017">1.4.78 (Jan 17 2017)</a></li>
+        
+            <li><a href="#1477-jan-10-2017">1.4.77 (Jan 10 2017)</a></li>
+        
+            <li><a href="#1476-jan-8-2017">1.4.76 (Jan 8 2017)</a></li>
+        
+            <li><a href="#1475-jan-4-2017">1.4.75 (Jan 4 2017)</a></li>
+        
+            <li><a href="#1462-nov-6-2016">1.4.62 (Nov 6 2016)</a></li>
+        
+            <li><a href="#1460-oct-15-2016">1.4.60 (Oct 15 2016)</a></li>
+        
+            <li><a href="#1457-sep-20-2016">1.4.57 (Sep 20 2016)</a></li>
+        
+            <li><a href="#1447-aug-17-2016">1.4.47 (Aug 17 2016)</a></li>
+        
+            <li><a href="#1440-jul-22-2016">1.4.40 (Jul 22 2016)</a></li>
+        
+            <li><a href="#1437-jul-12-2016">1.4.37 (Jul 12 2016)</a></li>
+        
+            <li><a href="#1432-jun-6-2016">1.4.32 (Jun 6 2016)</a></li>
+        
+            <li><a href="#1419-may-9-2016">1.4.19 (May 9 2016)</a></li>
+        
+            <li><a href="#1416-may-5-2016">1.4.16 (May 5 2016)</a></li>
+        
+            <li><a href="#1415-may-5-2016">1.4.15 (May 5 2016)</a></li>
+        
+            <li><a href="#1414-may-4-2016">1.4.14 (May 4 2016)</a></li>
+        
+            <li><a href="#1413-may-3-2016">1.4.13 (May 3 2016)</a></li>
+        
+            <li><a href="#1411-apr-29-2016">1.4.11 (Apr 29 2016)</a></li>
+        
+            <li><a href="#1410-apr-21-2016">1.4.10 (Apr 21 2016)</a></li>
+        
+            <li><a href="#149-apr-20-2016">1.4.9 (Apr 20 2016)</a></li>
+        
+            <li><a href="#147-apr-15-2016">1.4.7 (Apr 15 2016)</a></li>
+        
+            <li><a href="#145-mar-24-2016">1.4.5 (Mar 24 2016)</a></li>
+        
+            <li><a href="#144-mar-21-2016">1.4.4 (Mar 21 2016)</a></li>
+        
+            <li><a href="#143-mar-18-2016">1.4.3 (Mar 18 2016)</a></li>
+        
+            <li><a href="#142-mar-14-2016">1.4.2 (Mar 14 2016)</a></li>
+        
+            <li><a href="#140-feb-1-2016">1.4.0 (Feb 1 2016)</a></li>
+        
+            <li><a href="#1310-dec-31-2015">1.3.10 (Dec 31 2015)</a></li>
+        
+            <li><a href="#139-dec-28-2015">1.3.9 (Dec 28 2015)</a></li>
+        
+            <li><a href="#135-dec-8-2015">1.3.5 (Dec 8 2015)</a></li>
+        
+            <li><a href="#130-oct-9-2015">1.3.0 (Oct 9 2015)</a></li>
+        
+            <li><a href="#1241-sep-29-2015">1.2.41 (Sep 29 2015)</a></li>
+        
+            <li><a href="#1237-sep-8-2015">1.2.37 (Sep 8 2015)</a></li>
+        
+            <li><a href="#1228-aug-12-2015">1.2.28 (Aug 12 2015)</a></li>
+        
+            <li><a href="#1226-aug-11-2015">1.2.26 (Aug 11 2015)</a></li>
+        
+            <li><a href="#1225-july-29-2015">1.2.25 (July 29 2015)</a></li>
+        
+            <li><a href="#1222-may-23-2015">1.2.22 (May 23 2015)</a></li>
+        
+            <li><a href="#1221-may-19-2015">1.2.21 (May 19 2015)</a></li>
+        
+            <li><a href="#1219-may-7-2015">1.2.19 (May 7 2015)</a></li>
+        
+            <li><a href="#1216-apr-27-2015">1.2.16 (Apr 27 2015)</a></li>
+        
+            <li><a href="#1215-apr-22-2015">1.2.15 (Apr 22 2015)</a></li>
+        
+            <li><a href="#1210-apr-1-2015">1.2.10 (Apr 1 2015)</a></li>
+        
+            <li><a href="#128-mar-18-2015">1.2.8 (Mar 18 2015)</a></li>
+        
+            <li><a href="#126-feb-16-2015">1.2.6 (Feb 16 2015)</a></li>
+        
+            <li><a href="#125-feb-6-2015">1.2.5 (Feb 6 2015)</a></li>
+        
+            <li><a href="#124-feb-5-2015">1.2.4 (Feb 5 2015)</a></li>
+        
+            <li><a href="#123-jan-25-2015">1.2.3 (Jan 25 2015)</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="ditto-change-log">Ditto Change Log</h1>
+<h2 id="1487-mar-26-2017">1.4.87 (Mar 26 2017)</h2>
+<ul>
+<li>Designer visual updates</li>
+<li>Move new element toolbar in designer to left margin</li>
+<li>Improvements to preview plugin</li>
+<li>Add options to control sections breaking across pages</li>
+<li>Warn when trying to save group without group-by field in designer</li>
+<li>Add ability to define data sources dependent on other data sources using <code>requires: ['other-data-source-id']</code> in data source config.  The <code>postProcess</code> handler will receive the listed data sources as arguments in the given order.</li>
+<li>Fix issue with <em>wrap</em> checkbox on text elements in designer not initializing correctly</li>
+</ul>
+<h2 id="1480-feb-6-2017">1.4.80 (Feb 6 2017)</h2>
+<ul>
+<li>Expand selection of fonts available by default</li>
+<li>Enable repeating group headers on subsequent print pages via <code>repeatEachPage: true</code> on section</li>
+<li>Add postProcess data source option to transform data source after loading</li>
+<li>Improve handling of group sorting when groups are sorted by a non-grouped field</li>
+<li>Fix handling of 404 when image source not found while exporting to Excel</li>
+<li>Fix issue with pivot element rendering</li>
+</ul>
+<h2 id="1478-jan-17-2017">1.4.78 (Jan 17 2017)</h2>
+<ul>
+<li>Add designer support for conditional rules on table cells</li>
+<li>Add ability to intercept data source selection in designer via 
+  onDataSourceSelected and getDataSourceOptions config properties</li>
+<li>Fix issue with pivot feature checkbox</li>
+</ul>
+<h2 id="1477-jan-10-2017">1.4.77 (Jan 10 2017)</h2>
+<ul>
+<li>Fix timing issue with report_rendered event and PDF export</li>
+<li>Fix font name resolution issue in PDF export</li>
+<li>Add support for conditional rules on table cells</li>
+</ul>
+<h2 id="1476-jan-8-2017">1.4.76 (Jan 8 2017)</h2>
+<ul>
+<li>Fix issue with ExtJS store loading</li>
+<li>Add messaging when data source fails to load within configurable timeout period</li>
+</ul>
+<h2 id="1475-jan-4-2017">1.4.75 (Jan 4 2017)</h2>
+<ul>
+<li>Add support for zIndex property on elements for PDF rendering</li>
+<li>Add support for table cell padding in PDF</li>
+<li>Add support for CSS background image in table cells in PDF</li>
+<li>Add support for multiple stacked detail sections per data row</li>
+<li>Improve support for splitting text elements across pages in PDF</li>
+<li>Add support for functions as data sources</li>
+<li>Add support for nested JSON data structures via dot syntax, e.g. row.subfield.subfield2</li>
+<li>Enable calculated position properties for elements</li>
+<li>Improve Markdown bullet list rendering in PDF</li>
+<li>Add support for specifying report-level element default properties by element type</li>
+<li>Add support for stacked data regions from different data sources in one report</li>
+<li>Add autocompletion for dot syntax subfields in conditional rules picker</li>
+<li>Add Line element</li>
+</ul>
+<h2 id="1462-nov-6-2016">1.4.62 (Nov 6 2016)</h2>
+<ul>
+<li>Add conditional property rules support &amp; designer UI</li>
+<li>Fix issue with table page breaks in PDF</li>
+</ul>
+<h2 id="1460-oct-15-2016">1.4.60 (Oct 15 2016)</h2>
+<ul>
+<li>Fix table element data source issue outside of grouped sections</li>
+<li>Improve hints about expected config for designer plugins</li>
+<li>Add support for multiple detail sections per report</li>
+</ul>
+<h2 id="1457-sep-20-2016">1.4.57 (Sep 20 2016)</h2>
+<ul>
+<li>Add Table element support in designer</li>
+</ul>
+<h2 id="1447-aug-17-2016">1.4.47 (Aug 17 2016)</h2>
+<ul>
+<li>Add Checkbox element</li>
+<li>Enable custom functions</li>
+<li>Enable all element types in page header and footer</li>
+<li>Fix issue with corner rounding in PDF mode</li>
+<li>Improve server handling of PhantomJS errors on Windows</li>
+<li>Improve import of Jasper Reports stylesheets &amp; grouped elements, frame borders</li>
+<li>Improve text measurement in PDF</li>
+<li>Support mixed content via Markdown</li>
+</ul>
+<h2 id="1440-jul-22-2016">1.4.40 (Jul 22 2016)</h2>
+<ul>
+<li>Enable creation of custom composite elements, for easy drag and drop of pre-configured elements onto report</li>
+<li>Scale fonts to page size in designer to better match final output</li>
+<li>Enable hard line break in text element by direct input of \n (two characters) in text content</li>
+<li>Enable non-standard, non-embedded fonts in PDF by calling jsreports.registerFontReference(fontName)</li>
+<li>Allow hiding of left pane in designer with config option showSettingsPane: false</li>
+<li>Fix chart rendering issue in Firefox</li>
+<li>Prevent report template from moving when selecting / de-selecting elements</li>
+</ul>
+<h2 id="1437-jul-12-2016">1.4.37 (Jul 12 2016)</h2>
+<ul>
+<li>Add: Improved and streamlined NodeJS support</li>
+<li>Fix: Display issue with designer with pixel rounding causing panes to be vertically stacked</li>
+<li>Add: Control section visibility via expressions</li>
+</ul>
+<h2 id="1432-jun-6-2016">1.4.32 (Jun 6 2016)</h2>
+<ul>
+<li>Fix: Issue with Unicode font embedding in PDFs in Adobe Reader (Windows)</li>
+<li>Add: API to export current view from an existing HTML viewer</li>
+</ul>
+<h2 id="1419-may-9-2016">1.4.19 (May 9 2016)</h2>
+<ul>
+<li>Add: Support for hard line breaks (\n) in data</li>
+</ul>
+<h2 id="1416-may-5-2016">1.4.16 (May 5 2016)</h2>
+<ul>
+<li>Fix: Issue with subreport inside subreport not saving properly</li>
+<li>Fix: Issue with advanced property editor not saving properly for subreports</li>
+</ul>
+<h2 id="1415-may-5-2016">1.4.15 (May 5 2016)</h2>
+<ul>
+<li>Add: Sencha ExtJS integration</li>
+<li>Add: Internationalization support</li>
+<li>Add: Unicode support for PDF</li>
+<li>Fix: Issue with missing values in input optionSource</li>
+</ul>
+<h2 id="1414-may-4-2016">1.4.14 (May 4 2016)</h2>
+<ul>
+<li>Add: Drop-down options for filter inputs (see optionSource at <a href="http://www.jsreports.com/docs/reportdef/#input">http://www.jsreports.com/docs/reportdef/#input</a>)</li>
+<li>Add: Proportional resize when holding Shift in designer</li>
+<li>Fix: Null values displayed as "null"</li>
+</ul>
+<h2 id="1413-may-3-2016">1.4.13 (May 3 2016)</h2>
+<ul>
+<li>Fix: Issue opening designer when joined data source specified without data available for underlying data source</li>
+<li>Fix: Issue when using joined data sources together with their origin data sources with subreports</li>
+</ul>
+<h2 id="1411-apr-29-2016">1.4.11 (Apr 29 2016)</h2>
+<ul>
+<li>Fix: Issues with chart series when converting to Jasper JRXML</li>
+<li>Fix: Issues with adding new elements and converting to JRXML</li>
+</ul>
+<h2 id="1410-apr-21-2016">1.4.10 (Apr 21 2016)</h2>
+<ul>
+<li>Fix: Issue with default report template being modified when opening designer with no report definition</li>
+<li>Fix: Issue with consistency of mixed aggregate calculation syntax, e.g. [=SUM(Hours) * 5]</li>
+<li>Fix: Issue with handling of new elements in blank report when converting to Jasper JRXML</li>
+</ul>
+<h2 id="149-apr-20-2016">1.4.9 (Apr 20 2016)</h2>
+<ul>
+<li>Fix: Prevent overlapping subreports by stacking vertically where needed</li>
+<li>Fix: Issues with subreport rendering across pages in PDF</li>
+<li>Fix: Box border missing</li>
+<li>Fix: Handling of box stacking order in PDF</li>
+</ul>
+<h2 id="147-apr-15-2016">1.4.7 (Apr 15 2016)</h2>
+<ul>
+<li>Add: Support for new Jasper report creation</li>
+<li>Change: Improve PDF page breaking between table rows</li>
+<li>Fix: Issue with pivot bucket type not saving properly</li>
+<li>Fix: Issue with "is not" filter not working in some situations</li>
+</ul>
+<h2 id="145-mar-24-2016">1.4.5 (Mar 24 2016)</h2>
+<ul>
+<li>Add: Custom date filter display formats</li>
+<li>Fix: Issue with date-type filter input value parsing</li>
+</ul>
+<h2 id="144-mar-21-2016">1.4.4 (Mar 21 2016)</h2>
+<ul>
+<li>Fix: CSS issue interfering with overriding base font for .jsr-report</li>
+</ul>
+<h2 id="143-mar-18-2016">1.4.3 (Mar 18 2016)</h2>
+<ul>
+<li>Fix: Issue with joins not processing correctly when all data sources are local data</li>
+</ul>
+<h2 id="142-mar-14-2016">1.4.2 (Mar 14 2016)</h2>
+<ul>
+<li>Add: Report mask &amp; spinner while report rendering (HTML mode)</li>
+<li>Change: Changes to report designer default theme (colors, section labels)</li>
+<li>Fix: jsreports.export() support for outputHandler with format: 'xlsx'</li>
+</ul>
+<h2 id="140-feb-1-2016">1.4.0 (Feb 1 2016)</h2>
+<ul>
+<li>Add: Table element</li>
+<li>Add: FORMAT function</li>
+<li>Add: Support for Excel-style format patterns</li>
+<li>Add: Calculations involving aggregates, e.g. "percent of total" in detail row ([=amount / SUM('amount')])</li>
+<li>Change: Scale fonts in HTML rendering to correspond to page dimensions</li>
+<li>Fix: Multi-line text alignment in PDF</li>
+<li>Fix: Page footer rendering in PDF</li>
+</ul>
+<h2 id="1310-dec-31-2015">1.3.10 (Dec 31 2015)</h2>
+<ul>
+<li>Fix: Text element autocomplete dropdown in designer overlapped by report preview</li>
+<li>Fix: Isolate default report CSS from external page CSS</li>
+<li>Fix: Designer issue with text element autocomplete not opening when clearing initial value</li>
+<li>Fix: By default preserve image aspect ratio in HTML, PDF output instead of stretching</li>
+<li>Add: Make text element autocomplete dropdown appear on mouse click in field for easier data field insertion</li>
+</ul>
+<h2 id="139-dec-28-2015">1.3.9 (Dec 28 2015)</h2>
+<ul>
+<li>Add: Support for reserved area for generated pivot columns, enabling better control over final layout</li>
+<li>Add: Default print area for Excel export</li>
+<li>Fix: Pivot behavior in PDF &amp; Excel</li>
+</ul>
+<h2 id="135-dec-8-2015">1.3.5 (Dec 8 2015)</h2>
+<ul>
+<li>Add: Ability to import and export Jasper Reports report definitions (.jrxml)</li>
+</ul>
+<h2 id="130-oct-9-2015">1.3.0 (Oct 9 2015)</h2>
+<ul>
+<li>Add: Page break element</li>
+<li>Add: Subreport element</li>
+</ul>
+<h2 id="1241-sep-29-2015">1.2.41 (Sep 29 2015)</h2>
+<ul>
+<li>Add: Designer support for showing/hiding report header &amp; footer</li>
+<li>Fix: Issue with datasets being loaded unnecessarily when rendering report</li>
+<li>Fix: Improve reporting of problems during loading of data and schema</li>
+<li>Fix: Issue with element widths and heights changing after drag operation in designer</li>
+</ul>
+<h2 id="1237-sep-8-2015">1.2.37 (Sep 8 2015)</h2>
+<ul>
+<li>Add: Designer left pane overlay mode for constrained screen space</li>
+<li>Add: Download button for designer (showDownloadButton: true)</li>
+<li>Add: ReportList plugin for designer</li>
+<li>Fix: Issue with repeated exports to PDF resulting in extra blank page at beginning</li>
+<li>Fix: Issue with direct export to XLSX with images</li>
+<li>Fix: Issue with IE not supporting "newwindow" and "print" export targets (fall back to download)</li>
+</ul>
+<h2 id="1228-aug-12-2015">1.2.28 (Aug 12 2015)</h2>
+<ul>
+<li>Add: Methods to add buttons and other elements to designer toolbar</li>
+<li>Fix: Issue with section heights in default report when no report definition supplied for designer</li>
+<li>Fix: Prevent dragging of section boundaries past each other in designer</li>
+</ul>
+<h2 id="1226-aug-11-2015">1.2.26 (Aug 11 2015)</h2>
+<ul>
+<li>Add: Image URL expression evaluation, enabling images from data source</li>
+<li>Add: Designer left pane overlay mode for narrow screen widths</li>
+<li>Add: Ability to hide designer header bar</li>
+<li>Add: End-user designer documentation (<a href="http://www.jsreports.com/docs/designer">http://www.jsreports.com/docs/designer</a>)</li>
+</ul>
+<h2 id="1225-july-29-2015">1.2.25 (July 29 2015)</h2>
+<ul>
+<li>Add: ReportBuilder API for programmatic construction of reports</li>
+<li>Add: Snap to grid in designer</li>
+<li>Add: Select and drag multiple elements in designer with Cmd+click (or Ctrl+click)</li>
+<li>Add: Delete multiple elements in designer with Delete key</li>
+<li>Add: Copy/paste multiple elements in designer with Cmd+C, Cmd+V (or Ctrl+C, Ctrl+V)</li>
+<li>Add: toolbarRendered event</li>
+</ul>
+<h2 id="1222-may-23-2015">1.2.22 (May 23 2015)</h2>
+<ul>
+<li>Fix: Some text element properties not appearing in advanced property editor</li>
+</ul>
+<h2 id="1221-may-19-2015">1.2.21 (May 19 2015)</h2>
+<ul>
+<li>Fix: Incorrect section heights in designer in certain scenarios</li>
+</ul>
+<h2 id="1219-may-7-2015">1.2.19 (May 7 2015)</h2>
+<ul>
+<li>Fix: Barcodes not rendered to PDF properly in iOS Phonegap/Cordova</li>
+</ul>
+<h2 id="1216-apr-27-2015">1.2.16 (Apr 27 2015)</h2>
+<ul>
+<li>Add: Support for joined data sources (left, inner)</li>
+<li>Add: Property editor for directly editing all element properties</li>
+</ul>
+<h2 id="1215-apr-22-2015">1.2.15 (Apr 22 2015)</h2>
+<ul>
+<li>Fix: Improve compression of barcodes when rendering to data URI (e.g. "newwindow")</li>
+</ul>
+<h2 id="1210-apr-1-2015">1.2.10 (Apr 1 2015)</h2>
+<ul>
+<li>Add: Support for expressions in text element properties: visible, text_color, background_color</li>
+<li>Add: Support for automatic horizontal resize with container in HTML</li>
+<li>Fix: Correct aspect ratio when exporting to PDF</li>
+</ul>
+<h2 id="128-mar-18-2015">1.2.8 (Mar 18 2015)</h2>
+<ul>
+<li>Add: CSV data source support</li>
+<li>Add: Pivot (cross-tab) support</li>
+<li>Add: Support for reports with multiple levels drawing data from different data sources</li>
+<li>Add: Error messaging in HTML mode when data not valid for barcode format</li>
+<li>Fix: Designer incorrectly required data source's id property and name property to match</li>
+<li>Fix: PDF error when data not valid for barcode encoding</li>
+<li>Fix: PDF page footer not appearing on last page</li>
+<li>Fix: Incorrect date filtering</li>
+</ul>
+<h2 id="126-feb-16-2015">1.2.6 (Feb 16 2015)</h2>
+<ul>
+<li>Add barcode &amp; QR code elements</li>
+<li>Add: scale text to fit bounding box by specifying fit_text: true in element definition</li>
+<li>Add: embed images in report definition by setting designer option embedImages: true</li>
+<li>Fix issue with designer toolbar remaining visible after deleting element</li>
+</ul>
+<h2 id="125-feb-6-2015">1.2.5 (Feb 6 2015)</h2>
+<ul>
+<li>Fix issue with report viewer toolbar not appearing when no inputs defined</li>
+</ul>
+<h2 id="124-feb-5-2015">1.2.4 (Feb 5 2015)</h2>
+<ul>
+<li>Enable toolbar docking</li>
+<li>Add page header and footer sections (print mode only), PAGE_NUMBER and PAGE_COUNT built-in variables</li>
+<li>Add embedded mode for designer</li>
+</ul>
+<h2 id="123-jan-25-2015">1.2.3 (Jan 25 2015)</h2>
+<ul>
+<li>Fix re-execution of reports using new datasets with same ID as old</li>
+<li>Support rounded box corners in PDF</li>
+<li>Fix issue with first element on pages after first page not appearing in some PDF viewers</li>
+<li>Improve efficiency of repeated embedded images in PDF</li>
+<li>Add designer support for text wrapping</li>
+</ul></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../docs.js"></script>
+        <script src="../highlight.pack.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>

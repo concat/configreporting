@@ -1,0 +1,40 @@
+{
+  "fields": [{
+      "name": "EntryDate",
+      "type": "date",
+      "dateFormat": "M/D/YYYY"
+    },{
+      "name": "EmployeeName",
+      "type": "string"
+    },{
+      "name": "ClientName",
+      "type": "string"
+    },{
+      "name": "JobName",
+      "type": "string"
+    },{
+      "name": "TaskName",
+      "type": "string"
+    },{
+      "name": "Hours",
+      "type": "number"
+    },{
+      "name": "IsBillable",
+      "type": "boolean"
+    },{
+      "name": "BillingRate",
+      "type": "number"
+    },{
+      "name": "EmployeeID",
+      "type": "string"
+    },{
+      "name": "ClientID",
+      "type": "string"
+    },{
+      "name": "JobID",
+      "type": "string"
+    },{
+      "name": "TaskID",
+      "type": "string"
+    }]
+}

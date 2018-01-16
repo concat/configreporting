@@ -1,0 +1,172 @@
+{
+  "title": "S&P 500 Companies by Headquarters Location",
+  "id": "ditto-demo-multiple-data-sources",
+  "default_format": "html",
+  "page": {
+    "units": "inches",
+    "paper_size": {
+      "name": "Letter",
+      "inches": [
+        "8.5",
+        "11"
+      ],
+      "mm": [
+        "216",
+        "279"
+      ],
+      "id": "letter"
+    },
+    "margins": {
+      "top": 0.5,
+      "left": 0.5,
+      "right": 0.5,
+      "bottom": 0.5
+    }
+  },
+  "filters": [
+    
+  ],
+  "inputs": [
+    
+  ],
+  "header": {
+    "height": 0.5,
+    "elements": [
+      {
+        "id": "jsr-element-1",
+        "type": "text",
+        "left": 0.1359011627907,
+        "top": 0,
+        "width": 5.6460755813953,
+        "height": 0.5,
+        "text": "S&P 500 Companies by Headquarters State",
+        "bold": true,
+        "fontsize": 16
+      }
+    ]
+  },
+  "body": {
+    "data_source": "us-states",
+    "show_detail": true,
+    "height": 0.5,
+    "elements": [
+      {
+        "id": "jsr-element-2",
+        "type": "text",
+        "left": 0.84011627906977,
+        "top": 0.1,
+        "width": 0.65479651162791,
+        "height": 0.2,
+        "text": "[Ticker Symbol]",
+        "fit_content": "vertical"
+      },
+      {
+        "id": "jsr-element-3",
+        "type": "text",
+        "left": 1.6308139534884,
+        "top": 0.1,
+        "width": 2.5821220930233,
+        "height": 0.2,
+        "text": "[Security]",
+        "fit_content": "vertical"
+      },
+      {
+        "id": "jsr-element-4",
+        "type": "text",
+        "left": 4.3241279069767,
+        "top": 0.1,
+        "width": 3.0145348837209,
+        "height": 0.2,
+        "text": "[GICS Sub Industry]",
+        "fit_content": "vertical"
+      }
+    ],
+    "sublevels": [
+      {
+        "data_source": "__parentgroup",
+        "group_by": "abbreviation",
+        "sort_dir": "asc",
+        "header": {
+          "visible": true,
+          "height": 0.5,
+          "elements": [
+            {
+              "id": "jsr-element-0",
+              "type": "text",
+              "left": 0.14285065406977,
+              "top": 0.1,
+              "width": 2.0138081395349,
+              "height": 0.2,
+              "text": "[name]",
+              "fit_content": "vertical"
+            }
+          ]
+        },
+        "footer": {
+          "visible": true,
+          "height": 0.5,
+          "elements": [
+            {
+              "id": "jsr-element-5",
+              "type": "text",
+              "left": 4.5218023255814,
+              "top": 0.1,
+              "width": 2.7797965116279,
+              "height": 0.2,
+              "text": "Total: [COUNT(Security)]",
+              "fit_content": "vertical",
+              "align": "right"
+            }
+          ]
+        },
+        "sort_by": "name"
+      },
+      {
+        "data_source": "sp500",
+        "group_by": "Ticker Symbol",
+        "sort_dir": "asc",
+        "header": {
+          "visible": false,
+          "height": 1.5,
+          "elements": [
+            
+          ]
+        },
+        "footer": {
+          "visible": false,
+          "height": 1.5,
+          "elements": [
+            
+          ]
+        },
+        "where_child_field": "HQ State \/ Country",
+        "where_parent_field": "name",
+        "sort_by": "Ticker Symbol"
+      }
+    ],
+    "column_count": 1,
+    "order_detail_by": "Ticker Symbol"
+  },
+  "footer": {
+    "height": 0.7,
+    "elements": [
+      
+    ]
+  },
+  "page_header": {
+    "visible": false,
+    "elements": [
+      
+    ],
+    "height": 0.5
+  },
+  "page_footer": {
+    "visible": false,
+    "elements": [
+      
+    ],
+    "height": 0.5
+  },
+  "type": "hierarchical",
+  "version": "1.4.0"
+}

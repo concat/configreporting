@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Report Designer Guide - jsreports</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../jsreports-docs.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/highlight.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">jsreports</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Developers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started/">Getting Started</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/">Developer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../examples/">Examples</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../designer-for-jasper-reports/">Integration: Jasper Reports</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../api/">API Reference</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportbuilder-api/">Report Builder API</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportdef/">JSON Report Format</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../changelog/">Change Log</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../nodejs/">Generating PDF reports on the server using Node.js and jsreports</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Report Designers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">Report Designer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../calculations/">Calculations</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../functions/">Built-in Functions</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../nodejs/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../calculations/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#jsreports-report-designer-documentation">jsreports report designer documentation</a></li>
+        
+            <li><a href="#report-setup">Report setup</a></li>
+        
+            <li><a href="#element-types">Element types</a></li>
+        
+            <li><a href="#working-with-elements">Working with elements</a></li>
+        
+            <li><a href="#pivot-cross-tab-reports">Pivot (cross-tab) reports</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="jsreports-report-designer-documentation">jsreports <span style="color: #999; font-size: 75%; font-weight: normal;">report designer documentation</span></h1>
+<p>This document describes the features of the jsreports report designer and explains how to use the designer to
+create custom reports.</p>
+<h2 id="major-areas-of-the-designer"><a name=""></a> Major areas of the designer</h2>
+<p>This diagram shows the major components of the report designer:</p>
+<p><img alt="Report designer areas" src="../images/report-designer-areas.png" /></p>
+<ol>
+<li>
+<p>Header bar<br/>
+Contains control buttons such as Save and Cancel.  Not all buttons are always present, and in fact the
+header bar itself may not be present, depending on how the developer has configured the designer.</p>
+</li>
+<li>
+<p>Report setup panel<br/>
+Contains all parameters that define the report structure, for example, which data source to use, grouping,
+and sorting of records within the report.</p>
+</li>
+<li>
+<p>Report canvas<br/>
+The visual designer area where you arrange elements that make up the report.</p>
+</li>
+<li>
+<p>Element toolbar<br/>
+Contains properties of the currently selected element, allowing you to customize each element.  Only visible
+when a single element is selected.</p>
+</li>
+</ol>
+<h2 id="report-setup">Report setup</h2>
+<h3 id="selecting-a-data-source">Selecting a data source</h3>
+<p>In this selector, choose which data source provides
+the records needed by your report.  If you need to drill-down into another, linked data source (for example,
+you want to list branch offices and then for each branch office, obtain the employees for that office from
+a different data source), start with the outermost data source (in this example, the branch office list).
+You'll be able to define the drill-down data source separately in the Grouping section.
+Data sources are defined by the application developer.</p>
+<h3 id="filtering-the-data-source">Filtering the data source</h3>
+<p>You can restrict your report to use only some of the records from the chosen data source.  In the filters
+section just below the Data Source selector, add one or more filters.</p>
+<p>To edit an existing filter, hover over the filter and look for the "edit" and "delete" icons on the right.</p>
+<p>For each filter, specify first the field in the data source containing the values that will be filtered,
+then the type of comparison that will be done, and finally the value to filter against.</p>
+<p>To filter against a report input (see the section on defining inputs), use square brackets containing a
+question mark followed by the input name that you defined, for example: <span style="font-family: monospace">[?MyFilterName]</span></p>
+<p><img alt="Creating a filter" src="../images/report-designer-filter.png" /></p>
+<h3 id="levels-and-groups">Levels and Groups</h3>
+<p>This area allows you to create sub-groupings of records.  You can define nested groupings if needed, 
+starting with
+the outermost grouping and working inward.  Changing groupings will affect the structure of the report
+shown in the canvas.</p>
+<h4 id="adding-a-grouping">Adding a grouping</h4>
+<p>Click the "add grouping" button to add a grouping.</p>
+<p>The first, top-level grouping that you add will always use records from the report's base data source (chosen
+by the Data Source selector).  You'll need to choose which field in the data source contains the values that
+will be grouped.</p>
+<p>You can choose the order in which the resulting groups will be arranged.  By default, this will match the
+grouping field.  For example, if you selected to group by the State field for branch offices, by default the
+groups will be ordered alphabetically by the value in the State field.  You can change this ordering by
+selecting a different field in the "arranged by" selector for the grouping.</p>
+<p>Note that if you select a different ordering, you should choose a field that has the same value for
+each of the grouping
+values, because if there are multiple values in the "arrange by" field for each value in the grouping field,
+it is not clear which should be used to order that grouping.</p>
+<p>Finally, you can choose whether this grouping level should have a header and footer.  Use the checkboxes to
+turn on and off the header and footer.  You'll see the report structure change in the canvas.</p>
+<h3 id="drilling-down-across-data-sources">Drilling down across data sources</h3>
+<p>If you want to nest records from a different data source within records from the report's base data source,
+you'll need to add at least one grouping for the base data source first, then add a second grouping beneath
+that.  In the second grouping, you'll have the option to choose a different data source.</p>
+<p>When you change the data source to something other than "Use rows from parent group," you'll need to specify
+how to select records from the second data source.  Choose the fields from the child and parent data source
+that contains values that must match in order to pull in records for that parent row.</p>
+<p>For example, if you have a base data source listing branch offices, you might do as follows:</p>
+<ol>
+<li>
+<p>Create a top grouping level that groups by "OfficeID" -- this will give you one group per branch office, since the OfficeID is unique for each office</p>
+</li>
+<li>
+<p>Create a sub-grouping that uses a different data source, "Employees".</p>
+</li>
+<li>
+<p>Set the sub-grouping's filter fields as follows:</p>
+</li>
+</ol>
+<p>Use data: [Employees] where [EmployeeOfficeID] equals parent's [OfficeID]</p>
+<p>This says that for each office (top-level grouping), you want to pull in records from Employees where the employee's
+EmployeeOfficeID (this field must exist in the Employees data source) matches the OfficeID in the outer
+data source.</p>
+<h3 id="detail-section">Detail section</h3>
+<p>By default, the detail section lists each record from the data source.  If you have not set up a grouping that pulls
+data from a second data source, then the detail records come from the report's base data source (chosen in the 
+Data Source selector).  If you did create a sub-grouping with a second data source, detail records will come from
+that data source.</p>
+<p>You can hide the detail section by un-checking "Show detail section."</p>
+<p>You can also specify the ordering of detail rows.</p>
+<h3 id="the-inputs-tab">The Inputs tab</h3>
+<p>This tab allows you to define inputs (parameters) for the report.  For example, you might want to define a
+report that summarizes sales for a time period, but you'd like to specify the time period when you run the report,
+without having to redesign the report.</p>
+<p>To implement that example, you would add two inputs under the Inputs tab, named StartDate and EndDate, set to type "Date."</p>
+<p><img alt="Creating inputs" src="../images/report-designer-inputs.png" /></p>
+<p>Then, back in the Data &amp; Groups tab, create two filters that limit the report to rows within the range specified by the two inputs you created:</p>
+<p><img alt="Filtering by date inputs" src="../images/report-designer-filter-by-date.png" /></p>
+<h3 id="the-page-tab">The Page tab</h3>
+<p>The Page tab allows you to define the layout of the report on the printed page.</p>
+<p>You can choose either inches or millimeters (mm) as the base units for your report.  The page dimensions and
+margins will be specified in terms of the units you choose.</p>
+<p>By default, the page will be US Letter size (8.5 x 11 inches).</p>
+<p>To change the paper size, choose a new option from the drop-down.</p>
+<h4 id="page-header-and-footer">Page header and footer</h4>
+<p>The report can have a page header and footer that appear only in print mode (PDF), on each page.</p>
+<p>Use the "page header and footer" checkboxes to turn on or off the page header and footer.</p>
+<p>Within the page header and footer on the report canvas, you can use special syntax in text elements to
+print the page number and page count.  For example, the expression</p>
+<div style="font-family: monospace; background: #eee; margin-bottom: 1em">This is page [PAGE_NUMBER] of [PAGE_COUNT]</div>
+
+<p>Results in:</p>
+<p>This is page 1 of 27</p>
+<p></p>
+
+<h2 id="element-types">Element types</h2>
+<h3 id="text-element">Text element</h3>
+<p><img alt="Text element" src="../images/report-designer-text-element.png" /></p>
+<p>The most common report element.  Displays either static (fixed) text like a report title or dynamic, data-driven
+text using expressions.</p>
+<h4 id="inserting-data-fields">Inserting data fields</h4>
+<p>Use square brackets around the name of the data field to insert the field value:</p>
+<div style="font-family: monospace; background: #eee;">The employee's name is [FirstName] [LastName].</div>
+
+<h4 id="totals">Totals</h4>
+<p>In a header or footer section, for a group or for the entire report, you can use expressions to compute totals
+over all the values in the group.</p>
+<div style="font-family: monospace; background: #eee;">There are [SUM(Hours)] total in this time period for 
+[COUNT(EmployeeID)] employees, for an average of [AVERAGE(Hours)] hours 
+per employee.</div>
+
+<h4 id="calculations">Calculations</h4>
+<p>To calculate a value from data fields, use square brackets and an equals sign, followed by the expression.  Note that the field names inside the expression do not have square brackets around them individually.</p>
+<div style="font-family: monospace; background: #eee;">The total amount billed was [=Hours * Billing_rate].</div>
+
+<p>For more information, see <a href="../calculations">Calculations</a>.</p>
+<h4 id="formatting-numbers-and-dates">Formatting numbers and dates</h4>
+<p>You can apply a format to a numeric or date value.  Click the gear menu icon at the right edge of the element
+toolbar and look for the Pattern property.  Here are some examples of patterns you can enter:</p>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Applies to</th>
+<th>Example output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$#,##0.00</td>
+<td>Number</td>
+<td>$123,456.78</td>
+</tr>
+<tr>
+<td>#,##0</td>
+<td>Number</td>
+<td>1,234</td>
+</tr>
+<tr>
+<td>M/D/YYYY</td>
+<td>Date</td>
+<td>9/1/2015</td>
+</tr>
+<tr>
+<td>MM/DD/YYYY</td>
+<td>Date</td>
+<td>09/01/2015</td>
+</tr>
+<tr>
+<td>dddd, MMM D, YYYY h:mm a</td>
+<td>Date</td>
+<td>Tuesday, Sep 1, 2015 8:56 am</td>
+</tr>
+</tbody>
+</table>
+<p>Format strings use Excel format string syntax.</p>
+<h3 id="chart-element">Chart element</h3>
+<p><img alt="Chart element" src="../images/report-designer-chart-element.png" /></p>
+<p>Displays a chart generated from the values in a grouping.  Supported types are line, bar, and pie charts.</p>
+<p>The chart control supports charting a single data series.  The data values come from the value field you specify.
+For line and bar charts, the label field provides the X-axis labels.  For pie charts, the label field appears in
+the legend.</p>
+<p>Chart elements must be placed in a header or footer section, because they operate on grouped values.  When a chart
+is placed in a report header or footer, the chart works on all records in the report.</p>
+<h3 id="picture-element">Picture element</h3>
+<p><img alt="Picture element" src="../images/report-designer-picture-element.png" /></p>
+<p>Embeds an image in the report.  The set of available images is provided by the application developer.</p>
+<h3 id="box-element">Box element</h3>
+<p><img alt="Box element" src="../images/report-designer-box-element.png" /></p>
+<p>A rectangle, useful for outlining or highlighting areas of the report.</p>
+<h3 id="barcode-element">Barcode element</h3>
+<p><img alt="Barcode element" src="../images/report-designer-barcode-element.png" /></p>
+<p>A barcode that can encode values from your data source.  Several types of barcode are available, including QR code, UPC, and Code 39, and others.</p>
+<p>Like the Text element, the Barcode element allows free-form values to be encoded, including data fields from your data source.  Use the same expression syntax you would use for Text elements.</p>
+<h2 id="working-with-elements">Working with elements</h2>
+<h4 id="adding-elements-to-the-report">Adding elements to the report</h4>
+<p>To add an element, click and drag from the element palette above the canvas onto the canvas.</p>
+<h4 id="removing-elements-from-the-report">Removing elements from the report</h4>
+<p>To remove an element, click on it to select it, then either press the <strong>Delete</strong> key on your keyboard or click the
+X that appears above the element.  You can delete multiple elements at once by <a href="#select-multiple-elements">selecting multiple elements</a> and then
+pressing the <strong>Delete</strong> key.</p>
+<h4 id="moving-and-resizing-elements">Moving and resizing elements</h4>
+<p>Click once on an element in the canvas to select it.</p>
+<p><a name="select-multiple-elements"></a></p>
+<h4 id="selecting-multiple-elements">Selecting multiple elements</h4>
+<p>To select multiple elements, hold the <strong>Ctrl</strong> key (on Windows) or the <strong>Cmd</strong> key (on Mac) and single-click each
+element to add it to the selection.  After you've selected all the elements you want, release the <strong>Ctrl</strong>/<strong>Cmd</strong> key.</p>
+<p>When you have multiple elements selected, you can drag them all together by dragging any one of the elements as you would normally -- the other elements will move along with it.</p>
+<h4 id="copying-and-pasting-elements">Copying and pasting elements</h4>
+<p>Select one or more elements and press <strong>Ctrl+C</strong> (Windows) or <strong>Cmd+C</strong> (Mac) to copy the selection.  Then press <strong>Ctrl+V</strong> (Windows) or <strong>Cmd+V</strong> (Mac) to paste a copy of the selection.  The pasted elements will be selected and you can drag them to a new location as a group.</p>
+<h4 id="dragging-elements-and-snapping-to-the-grid">Dragging elements and snapping to the grid</h4>
+<p>Normally, as you drag elements on the canvas, they will snap to a grid to help you line elements up cleanly.  To
+override that behavior and position elements at a pixel-precise level, hold the <strong>Ctrl</strong> key (Windows) or <strong>Cmd</strong> key (Mac) while dragging.</p>
+<h2 id="pivot-cross-tab-reports">Pivot (cross-tab) reports</h2>
+<p>You can generate columns out of rows in your data source using the pivot feature.  For example, you can
+create a column for each month based on the values in a date field.  In the designer, you set up a single
+column and choose which field in your data source contains the values that define the columns.  When the
+report runs, the column is repeated, once for each distinct value in that field in the data source, and
+any elements in that column are evaluated against only those rows matching that column's value.</p>
+<h4 id="enabling-the-pivot-feature">Enabling the pivot feature</h4>
+<p>First, check the "Enable pivot" checkbox in the Data &amp; Groups tab in the designer.</p>
+<p>You'll see three vertical lines appear in the canvas to the right.  These define the pivot column and how it
+will be rendered when the report runs.  You can move these lines by clicking and dragging with the mouse.</p>
+<h4 id="choosing-a-pivot-field">Choosing a pivot field</h4>
+<p>Set the "Pivot field" setting to the field in your data source that contains the values that 
+define the columns.  In our example, we want a column for each month, so we set the pivot field to the
+date field in our data source.</p>
+<h4 id="choose-a-bucket-type-optional">Choose a bucket type (optional)</h4>
+<p>Our data source contains specific dates (each row records a sale on a specific day) but we don't want
+a column for each day, only for each month.  So we tell jsreports to group all values for the same month
+into a single pivot column by selecting the "month" bucket type.  Bucket type is only applicable for
+date-type fields.</p>
+<h4 id="arranging-the-pivot-column-and-area">Arranging the pivot column and area</h4>
+<p>The three vertical lines define two areas in the report.  The left side (not shaded) is the pivot column.
+Any content in this area will be cloned when the report runs, once for each distinct pivot value.  For example,
+if you're pivoting based on a date field and your bucket type is "month," you'll get one column per month
+in the data source.  In the screenshot below, we've set up a column that has a header and a text element in
+the detail section.</p>
+<p><img alt="Pivot areas" src="../images/report-designer-pivot.png" /></p>
+<p>The right-hand (shaded) area defines room reserved for the generated columns when the report runs.  All
+columns will be shown regardless of whether you reserve enough space; the reserved space simply helps you
+visualize the final output and know where not to place other controls so they won't overlap with the pivot
+columns.  Cloned elements will be shown in the reserved area to simulate the additional columns.</p>
+<h4 id="which-elements-are-cloned-when-the-report-runs">Which elements are cloned when the report runs?</h4>
+<p>Only elements that lie entirely within the pivot column (the left, unshaded side of the pivot region)
+are cloned.</p>
+<h4 id="what-about-elements-that-span-the-pivot-area-horizontally">What about elements that span the pivot area horizontally?</h4>
+<p>If you place an element so that its left edge is to the left of the pivot column and its right edge is to the
+right of the shaded reserved area, that element's width will be increased so that it spans all of the generated
+columns.</p>
+<h4 id="what-happens-when-there-are-too-many-columns-to-fit-in-the-reserved-space">What happens when there are too many columns to fit in the reserved space?</h4>
+<p>When there are more values in the data source than fit in the reserved area, jsreports will expand the pivot
+area rightward to fit the extra columns.  When rendering a report to the screen, the area will expand and a
+horizontal scrollbar will appear if needed.  In print mode (PDF), the page width will be increased to fit
+all content onto a single page.</p>
+<h4 id="using-data-in-the-pivot-column">Using data in the pivot column</h4>
+<p>All element types can be used as usual in the pivot column.  However, you should treat any element in a
+pivot column as if it were in a group header or footer, because the pivot column represents a set of values
+grouped together (for example, all rows for a given month).  Therefore, you should usually use aggregate
+functions instead of referring to a field by itself.  For example, in the pivot cell you should usually use</p>
+<div style="font-family: monospace; background: #eee; margin-bottom: 1em">[SUM(<i>my_field_name</i>)]</div>
+
+<p>to total all the values for that month.  </p>
+<p>The column header is an exception to this rule.  If you refer to a field name
+without an aggregate function in a column header, you'll get a single value from one of the rows matching that column, but which row is unpredictable.  So if your report is pivoted by a date field with bucketing by month, you could write</p>
+<div style="font-family: monospace; background: #eee; margin-bottom: 1em">[<i>my_date_field_name</i>]</div>
+
+<p>in a text element in the column header, set its Pattern property to 'MM/YY' to get the month and year for
+that column.  Since all values in the column have the same month and year, you'll get a predictable result.</p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../docs.js"></script>
+        <script src="../highlight.pack.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../mkdocs/js/lunr-0.5.7.min.js"></script>
+        <script src="../mkdocs/js/mustache.min.js"></script>
+        <script src="../mkdocs/js/require.js"></script>
+        <script src="../mkdocs/js/search.js"></script>
+        <script src="../mkdocs/js/text.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>

@@ -1,0 +1,21 @@
+{
+  "fields": [{
+      "name": "Ticker Symbol",
+      "type": "string"
+    },{
+      "name": "Security",
+      "type": "string"
+    },{
+      "name": "GICS Sector",
+      "type": "string"
+    },{
+      "name": "GICS Sub Industry",
+      "type": "string"
+    },{
+      "name": "HQ City",
+      "type": "string"
+    },{
+      "name": "HQ State / Country",
+      "type": "string"
+    }]
+}

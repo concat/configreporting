@@ -1,0 +1,12 @@
+This directory contains the framework needed to build/modify report definitions used ultimately by generateReport Lambda node function.
+
+Place designer.html and index.html on your favorite Linux Apache webserver, along with the bucket-report-def-pdf.json and bucket-report-def-xls.json, and the resourcescompliancetorulesschema.json file. Pull the data file resourcescompliancetorules.json from the S3 bucket where it is placed by pullComplianceData Lambda function.
+
+Load http://<yourwebserver>/designer.html to see the current report design.
+Modify it as you like and capture the json produced at the bottom of the page when you click "Save". Replace the current "bucket-report-def-pdf.json" with this content and refresh to confirm your changes to the report format are there.
+
+You can produce output by using the index.html which will actually generate the report in the browser for you.
+
+When you are satisfied with this format, upload it onto the production S3 bucket at the path specified in the environment configuration as shown at REPORT_DEF.
+
+This same process can be followed for the xls formats.

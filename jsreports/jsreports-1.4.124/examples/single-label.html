@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head> 
+	<title>Single Label Example - jsreports</title>
+    <meta charset="utf-8">
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/images/clip32.png" title="Favicon" />
+ 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+ 	<link href="css/tomorrow-night-eighties.css" rel="stylesheet" type='text/css' />
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body {
+			padding: 20px;
+			margin: 0;
+            font: 16px/22px "Source Sans Pro", Helvetica, sans-serif;
+			font-size-adjust: none;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: normal;
+			background: #f4f6ec;
+			color: #333;
+		}
+		.nav-category {
+			color: #777;
+			font-weight: normal;
+			margin-bottom: 0.75em;
+		}
+		h1, h2, h3 {
+			margin: 0;
+			padding: 0;
+		}
+		.report-output {
+			background: white;
+			border: 1px solid #ccc;
+			height: 600px;
+			font-family: sans-serif;
+		}
+
+		.edit-link {
+			font-size: 120%;
+			margin-bottom: 10px;
+		}
+
+		code.hljs.javascript {
+			border-radius: 5px;
+			padding: 0.5em 0.85em;
+		}
+		pre {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+<a href="http://www.jsreports.com" style="float:right">jsreports home</a>
+<h2 class="nav-category">jsreports example</h2>
+
+<h1>Single Label Example</h1>
+
+<p>Shows how to make a report with a single detail section, no header or footer, and drawing from a static single-record
+data source, using millimeters instead of inches.</p>
+
+<p>The report is rendered into a &lt;div&gt; container below.  Click the Edit button to open the report designer.</p>
+
+<p>The report definition file is located at <a href="single-label-report-def.json" target="_blank">single-label-report-def.json</a>.</p>
+
+<p>View the source of this page for the full code.</p>
+
+<hr />
+
+<button class="btn edit-link">Edit the report</button>
+
+<div class="report-output"></div>
+
+</body>
+<script src="lib/highlight.pack.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
+<script src="lib/jsreports/jsreports-all.min.js?1.4.106" type="text/javascript"></script>
+<script>
+	$(document).ready(function() {
+
+		// Set up variables to hold the reporting objects
+		var report_def,
+			report_instance;
+
+		/**
+		 * We use a static data source with a single record for our label, by setting the "data" property of the
+		 * data source
+		 */
+		var data_sources = [{
+				"id": "label",
+				"name": "label",
+				"data": [{
+					"upc": "654321",
+					"productName": "Stuffed Animal Toy (Raccoon, 3ft)",
+					"price": 37.50,
+					"qty": 5
+				}]
+			}];
+
+		// To enable PDF download in IE9, set the path to the jsreports library
+		jsreports.libraryPath = "lib/jsreports";
+
+		// Load the report definition (here, a static file; in production, might be in a database)
+		$.getJSON("single-label-report-def.json", function(def) {
+			report_def = def;
+			// Now that we have the definition, we can run the report
+			report_instance = jsreports.render({
+				report_def: report_def,
+	            target: $(".report-output"),
+	            datasets: data_sources
+	        });
+		});
+
+		$(".edit-link").on("click", function() {
+
+			// Initialize a designer to modify the report definition
+			var designer = new jsreports.Designer({
+				data_sources: data_sources,
+				report_def: report_def
+			});
+
+			// When the user clicks Save in the designer, refresh the rendering
+			designer.on("save", function(reportdef) {
+				report_def = JSON.parse(reportdef);
+				$(".report-output").empty();
+				jsreports.render({
+					report_def: report_def,
+					target: $(".report-output"),
+					datasets: data_sources
+				});
+			});
+
+		});
+
+		// Highlight example code snippets (not part of jsreports)
+		hljs.initHighlightingOnLoad();
+	});
+</script>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>
+

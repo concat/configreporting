@@ -1,0 +1,166 @@
+{
+  "title": "Task Breakdown by Job",
+  "id": "ditto-demo-charts",
+  "default_format": "html",
+  "page": {
+    "units": "inches",
+    "paper_size": {
+      "name": "Letter",
+      "inches": [
+        "8.5",
+        "11"
+      ],
+      "mm": [
+        "216",
+        "279"
+      ],
+      "id": "letter"
+    },
+    "margins": {
+      "top": 0.5,
+      "left": 0.5,
+      "right": 0.5,
+      "bottom": 0.5
+    }
+  },
+  "filters": [
+    {
+      "field": "ClientName",
+      "operator": "contains",
+      "operand": "[?Client name]"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "Client name",
+      "type": "text",
+      "default_value": "",
+      "id": "jsr-input-0",
+      "optionSource": "time",
+      "optionSourceField": "ClientName",
+      "multiple": true
+    }
+  ],
+  "header": {
+    "height": 0.7,
+    "elements": [
+      {
+        "type": "text",
+        "text": "Job Breakdown by Client",
+        "wrap": true,
+        "styles": "title",
+        "left": 0.13608374384236,
+        "top": 0.1,
+        "width": 6.0295566502463,
+        "height": 0.5,
+        "id": "jsr-element-0",
+        "fontsize": "16",
+        "bold": true
+      },
+      {
+        "type": "image",
+        "left": 6.2775169334975,
+        "top": 0.1,
+        "height": 0.6,
+        "width": 1.0328407224959,
+        "url": "..\/images\/acme-logo.jpg",
+        "absoluteUrl": "http:\/\/www.ditto.com\/acme-logo.jpg",
+        "id": "jsr-element-1"
+      }
+    ]
+  },
+  "body": {
+    "data_source": "time",
+    "show_detail": false,
+    "height": 0.5,
+    "elements": [
+    ],
+    "sublevels": [
+      {
+        "data_source": "__parentgroup",
+        "group_by": "ClientID",
+        "sort_dir": "asc",
+        "header": {
+          "visible": true,
+          "height": 3.4,
+          "elements": [
+            {
+              "id": "jsr-element-12",
+              "type": "text",
+              "left": 0.27079646017699,
+              "top": 0.5,
+              "width": 2.0008849557522,
+              "height": 0.2,
+              "text": "[ClientName]"
+            },
+            {
+              "id": "jsr-element-25",
+              "type": "chart_bar",
+              "left": 2.4557383849558,
+              "top": 0.1,
+              "width": 4,
+              "height": 3,
+              "groupBy": "JobName",
+              "x_axis": {
+                "label_field": "JobName",
+                "labelHeight": 1
+              },
+              "y_axis": {
+                "title": "Hours"
+              },
+              "series": [
+                {
+                  "value_field": "=SUM(Hours)",
+                  "label_field": "JobName"
+                }
+              ]
+            },
+            {
+              "id": "jsr-element-26",
+              "type": "text",
+              "left": 0.27079646017699,
+              "top": 0.1,
+              "width": 2.0159292035398,
+              "height": 0.2,
+              "text": "Client:",
+              "fit_content": "vertical",
+              "bold": true
+            }
+          ]
+        },
+        "footer": {
+          "visible": false,
+          "height": 1.5,
+          "elements": [
+            
+          ]
+        },
+        "sort_by": "ClientName"
+      }
+    ],
+    "column_count": 1,
+    "order_detail_by": "EntryDate"
+  },
+  "footer": {
+    "height": 0.7,
+    "elements": [
+      
+    ]
+  },
+  "page_header": {
+    "visible": false,
+    "elements": [
+      
+    ],
+    "height": 1
+  },
+  "page_footer": {
+    "visible": false,
+    "elements": [
+      
+    ],
+    "height": 1
+  },
+  "type": "hierarchical",
+  "version": "1.3.0"
+}

@@ -1,0 +1,85 @@
+{
+	"fields": [{
+			"name": "Entry_Date",
+			"type": "date",
+			"dateFormat": "M/D/YYYY"
+		},{
+			"name": "Current_timesheet_status",
+			"type": "string"
+		},{
+			"name": "Full_name",
+			"type": "string"
+		},{
+			"name": "Employee_number",
+			"type": "string"
+		},{
+			"name": "Person_status",
+			"type": "string"
+		},{
+			"name": "Employment_type",
+			"type": "string"
+		},{
+			"name": "Client_name",
+			"type": "string"
+		},{
+			"name": "Client_short_name",
+			"type": "string"
+		},{
+			"name": "Client_Status",
+			"type": "string"
+		},{
+			"name": "Job_name",
+			"type": "string"
+		},{
+			"name": "Job_number",
+			"type": "string"
+		},{
+			"name": "Job_status",
+			"type": "string"
+		},{
+			"name": "Hours",
+			"type": "number"
+		},{
+			"name": "Comment",
+			"type": "string"
+		},{
+			"name": "Task_name",
+			"type": "string"
+		},{
+			"name": "Task_code",
+			"type": "string"
+		},{
+			"name": "Task_status",
+			"type": "string"
+		},{
+			"name": "Job_billable",
+			"type": "boolean"
+		},{
+			"name": "Billing_rate",
+			"type": "number"
+		},{
+			"name": "Cost",
+			"type": "number"
+		},{
+			"name": "Estimated_job_time",
+			"type": "number"
+		},{
+			"name": "Time_Entry_ID",
+			"type": "string"
+		},{
+			"name": "Timesheet_ID",
+			"type": "string"
+		},{
+			"name": "Person_ID",
+			"type": "string"
+		},{
+			"name": "Client_ID",
+			"type": "string"
+		},{
+			"name": "Job_ID",
+			"type": "string"
+		},{
+			"name": "Task_ID",
+			"type": "string"
+		}]
+}

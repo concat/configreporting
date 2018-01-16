@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Developer Guide - jsreports</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../jsreports-docs.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/highlight.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">jsreports</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Developers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started/">Getting Started</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Developer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../examples/">Examples</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../designer-for-jasper-reports/">Integration: Jasper Reports</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../api/">API Reference</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportbuilder-api/">Report Builder API</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportdef/">JSON Report Format</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../changelog/">Change Log</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../nodejs/">Generating PDF reports on the server using Node.js and jsreports</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Report Designers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../designer/">Report Designer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../calculations/">Calculations</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../functions/">Built-in Functions</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../getting-started/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../examples/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#jsreports-developer-guide">jsreports Developer Guide</a></li>
+        
+            <li><a href="#json-data">JSON data</a></li>
+        
+            <li><a href="#csv-data">CSV data</a></li>
+        
+            <li><a href="#data-source-schemas">Data source schemas</a></li>
+        
+            <li><a href="#valid-data-types">Valid data types</a></li>
+        
+    
+        <li class="main "><a href="#report-definitions">Report definitions</a></li>
+        
+    
+        <li class="main "><a href="#managing-saved-reports">Managing saved reports</a></li>
+        
+            <li><a href="#saving-report-definitions-on-a-server">Saving report definitions on a server</a></li>
+        
+    
+        <li class="main "><a href="#running-reports">Running reports</a></li>
+        
+    
+        <li class="main "><a href="#images">Images</a></li>
+        
+            <li><a href="#fonts-and-pdf">Fonts and PDF</a></li>
+        
+            <li><a href="#api-reference">API Reference</a></li>
+        
+            <li><a href="#working-with-jasper-reports">Working with Jasper Reports</a></li>
+        
+            <li><a href="#data-source-configuration-reference">Data source configuration reference</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="jsreports-developer-guide">jsreports <span style="color: #999; font-size: 75%; font-weight: normal;">Developer Guide</span></h1>
+<p>jsreports is a JavaScript library that provides on-screen and print report generation for web applications.</p>
+<ul>
+<li>Works with any web framework and back-end</li>
+<li>Includes a visual report designer component to modify and create custom reports</li>
+<li>Generates HTML, PDF, and Excel files right in the browser </li>
+</ul>
+<p>See the <a href="../changelog">changelog</a> for latest changes.</p>
+<p>See <a href="../getting-started">Getting Started</a> for requirements and installation.</p>
+<h3 id="working-with-data"><a name="working-with-data"></a> Working with data</h3>
+<p>Your application must define data sources that are available for jsreports to use.  Each report definition specifies the ID of its primary data source, and jsreports looks at the corresponding data set when rendering the report.</p>
+<p>Data sources can be either JSON or CSV format.</p>
+<h4 id="json-data">JSON data</h4>
+<p>jsreports can consume dynamic data served over a REST API, or literal JS objects defined in code.  If you need to transform data before handing it to jsreports, it's best to provide data to the report using the <a href="">data config property</a> of <a href="">jsreports.render</a> and <a href="">jsreports.export</a>.</p>
+<p>Below is an example of a JSON data feed.</p>
+<pre><code class="json">[{
+    "person_id": "1x39an4a92y",
+    "person_name": "John P. Smith",
+    "hours": 4.75
+},{
+    "person_id": "1ac43L30hR8",
+    "person_name": "Alison Jones",
+    "hours": 8.5
+}]
+</code></pre>
+
+<p>This is a tabular format represented as an array of row objects.  The snippet above
+corresponds to a table like this:</p>
+<table>
+<thead>
+<tr>
+<th>person_id</th>
+<th>person_name</th>
+<th>hours</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1x39an4a92y</td>
+<td>John P. Smith</td>
+<td>4.75</td>
+</tr>
+<tr>
+<td>1ac43L30hR8</td>
+<td>Alison Jones</td>
+<td>8.5</td>
+</tr>
+</tbody>
+</table>
+<h4 id="csv-data">CSV data</h4>
+<p>Here is an example of CSV (comma-separated) text data that represents the same table shown above:</p>
+<pre><code class="text">person_id,person_name,hours
+1x39an4a92y,John P. Smith,4.75
+1ac43L30hR8,Alison Jones,8.5
+</code></pre>
+
+<p>To define a CSV data source, set the <code>format</code>
+config property:</p>
+<pre><code class="javascript">{
+  id: "sp500",
+  name: "S&P 500 Companies",
+  url: "data/sp500.csv",
+  format: "csv",
+  hasHeaderRow: true,
+  schema_url: "data/sp500-schema.json"
+}</code></pre>
+
+<h4 id="data-source-schemas">Data source schemas</h4>
+<p>You should also define a schema for each data source.  While it's possible to render
+reports without a schema, the schema is required in order to use the designer.
+The schema describes the available columns and their data types.  </p>
+<p>The most basic schema is an object with a "fields" property, whose value is an array
+of field definitions, each having a "name" and "type" property.  For examples, see the 
+schemas included with the examples in the jsreports distribution.</p>
+<p>Here is a sample schema for the data source shown above:</p>
+<pre><code class="json">{
+    "fields": [{
+        "name": "person_id",
+        "type": "string"
+    },{
+        "name": "person_name",
+        "type": "string"
+    },{
+        "name": "hours",
+        "type": "number"
+    }]
+}
+</code></pre>
+
+<h4 id="valid-data-types">Valid data types</h4>
+<p>The following are the data types allowed for fields in the schema, and examples of their
+expected representation in the corresponding data source feed:</p>
+<table>
+<thead>
+<tr>
+<th>Data type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>string</td>
+<td>"John P. Smith", "Text \"with quotes\""</td>
+</tr>
+<tr>
+<td>number</td>
+<td>37.56, "37.56"</td>
+</tr>
+<tr>
+<td>date</td>
+<td>"2015-05-19", "2015-05-19 14:22:36"</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>true, false</td>
+</tr>
+</tbody>
+</table>
+<h4 id="joined-data-sources"><a name="joins"></a> Joined data sources</h4>
+<p>You can join two other data sources together to create a joined data source with its own ID,
+that can then be used as the basis for a report.  The following example creates a joined
+data source from two other data sources:</p>
+<pre><code class="json">{
+    "fields": [{
+        "id": "states",
+        "url": "states.json"
+    },{
+        "id": "customers",
+        "url": "customers.json"
+    },{
+        "id": "states-and-customers",
+        "join": {
+            "type": "left",
+            "left": "states",
+            "leftKey": "state",
+            "right": "customers",
+            "rightKey": "headquartersState"
+        }
+    }]
+}
+</code></pre>
+
+<p>In this example, the left data source is a table of states and the right is a table of
+companies.  leftKey and rightKey are the field names from each data source.  Rows are joined
+when the values in those fields are the same between both data sources.</p>
+<p>This example uses a left join, meaning that all records from the left data source will be
+present in the joined results, regardless of whether any records from the right source match that row.
+To only return joined rows where both sides are present (inner join), use type: "inner".</p>
+<h3 id="report-definitions">Report definitions</h3>
+<p>Reports are stored in a simple JSON text format.  Look in the examples directory of the
+jsreports package for sample report definition files (example: grouping-report-def.json).</p>
+<h2 id="managing-saved-reports">Managing saved reports</h2>
+<p>jsreports includes everything needed to allow users to define and run their
+own reports.  As the developer, you'll need to provide a way to save the report
+definitions between sessions.</p>
+<p>That means that you will need to load the correct set of reports for the current user's session
+using your own criteria, and you will need to determine a method to save the plain-text report
+definition on your server when the user edits it in the designer.</p>
+<h4 id="saving-report-definitions-on-a-server">Saving report definitions on a server</h4>
+<p>When the user clicks Save in the designer, jsreports will fire an event that you can listen for.
+In your event handler, you can send the report definition to your server and store it in a database.</p>
+<p>Example:
+<pre><code class="javascript">// Note: designer is a variable that has been initialized 
+//    as in step 3 of Getting Started, above.
+$(designer).on("save", function(evt, reportdef) {
+    // reportdef is a string containing the report 
+    //    definition in JSON format
+    // currentUserID is an example variable that would 
+    //    identify the current user
+    $.post("/save-report.php", { 
+      report: reportdef, 
+      userid: currentUserID 
+    }, function(data) {
+        alert("Report saved on server.");
+    });
+});
+</code></pre></p>
+<h2 id="running-reports">Running reports</h2>
+<p>If you have a report definition in a string variable, either loaded from your server or captured in the
+Save event of the designer, you can run it (generate the report output in HTML format) by using the
+following code:</p>
+<pre><code class="javascript">// reportDef is the string containing the report 
+//    definition in JSON form
+// dataSources is a Javascript array of data sources, 
+//    exactly the same as passed in step 3 of 
+//    Getting Started, above
+// target is a div element on the page into which 
+//    the report will be rendered
+jsreports.render({
+    report_def: reportDef,
+    target: $("#report-output"),
+    datasets: dataSources
+});
+</code></pre>
+
+<h2 id="images">Images</h2>
+<p>You can provide a selection of images for your users to embed in reports.  Just pass an "images" configuration
+property when instantiating a designer, like this:</p>
+<pre><code class="javascript">// images is an array of image definition objects, 
+// with name and url properties
+var designer = new jsreports.Designer({
+    images: [{
+        name: "ACME logo",
+        url: "/images/acme-logo.jpg"
+    },{
+        name: "Product photo",
+        url: "/images/product1.jpg"
+    }],
+    /* ... */
+});
+</code></pre>
+
+<p><em>NOTE</em>: In order for images to appear in browser-generated PDF reports, the URL of the image must be on the same
+domain as the page from which the report is generated, due to browser cross-origin security policy.  Using relative
+URLs, as in the code snippet above, is one way to solve this problem.</p>
+<h4 id="fonts-and-pdf">Fonts and PDF</h4>
+<p>PDF's built-in fonts do not support the character range required to display all non-English alphabets.  Therefore,
+by default jsreports attempts to embed and use the font <a href="https://www.google.com/fonts/specimen/Roboto">Roboto</a> 
+(from Google) as the default font when generating a PDF.</p>
+<p>jsreports looks for the Roboto font under the /fonts path relative to the jsreports.libraryPath variable.</p>
+<p>If you include jsreports in your page via a &lt;script&gt; tag, jsreports may be able to infer the libraryPath correctly.
+If you find that international characters are not appearing properly in your PDF, try manually setting the library path
+as follows:</p>
+<pre><code class="javascript">jsreports.libraryPath = '/path/to/jsreports';
+</code></pre>
+
+<p>The path should be to a folder containing the "media" and "fonts" subfolders from the jsreports distribution.</p>
+<p>You may also need to check the network requests being made during PDF rendering to verify that requests are being made 
+to load Roboto.</p>
+<hr />
+
+<h4 id="api-reference">API Reference</h4>
+<p>See the <a href="../api">API Reference</a> for details on available classes and methods.</p>
+<h4 id="working-with-jasper-reports">Working with Jasper Reports</h4>
+<p>See <a href="../designer-for-jasper-reports">How to use jsreports with Jasper Reports</a>.</p>
+<h4 id="data-source-configuration-reference">Data source configuration reference</h4>
+<p>The following options can be defined on a data source:</p>
+<style type="text/css">
+span.proptype {
+  display: block;
+  margin-left: 0;
+}
+</style>
+
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="prop">id</span><span class="proptype">string</span></td>
+<td>The ID used internally to refer to the data source.  This ID will appear in the report definition when the report uses this data source.</td>
+</tr>
+<tr>
+<td><span class="prop">name</span><span class="proptype">string</span></td>
+<td>A human-friendly name for the data source, for use in the designer.</td>
+</tr>
+<tr>
+<td><span class="prop">url</span><span class="proptype">string</span></td>
+<td>A URL from which the (JSON) data should be fetched.  Data is expected to be in the form of a JSON array of row objects. <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">schema_url</span><span class="proptype">string</span></td>
+<td>URL from which to fetch the JSON schema object describing the data source. <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">data</span><span class="proptype">Array</span></td>
+<td>An array of row objects containing the data for the data source.  Use this property when you want to load the data yourself (and possibly transform it before feeding it to jsreports). <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">schema</span><span class="proptype">Object</span></td>
+<td>The schema object describing the data source.  You can use this instead of schema_url to pass the schema object directly. <div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">postProcess</span><span class="proptype">Function: (Array) =&gt; Array</span></td>
+<td>A function that will be called after loading the data source and before using it in the report.  The function receives the loaded array of row objects and should return an array of row objects.  This provides a way to transform or filter data before providing it to the report.<div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+<tr>
+<td><span class="prop">format</span><span class="proptype">string: ["csv", "json"]</span></td>
+<td>The format of the data.  If "json" (or not provided), a JSON array of row objects is expected.  If "csv", a comma-separated text file is expected.<div class="proptags"><div class="tagopt">OPTIONAL</div></div></td>
+</tr>
+</tbody>
+</table></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../docs.js"></script>
+        <script src="../highlight.pack.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../mkdocs/js/lunr-0.5.7.min.js"></script>
+        <script src="../mkdocs/js/mustache.min.js"></script>
+        <script src="../mkdocs/js/require.js"></script>
+        <script src="../mkdocs/js/search.js"></script>
+        <script src="../mkdocs/js/text.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>

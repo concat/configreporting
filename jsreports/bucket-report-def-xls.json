@@ -1,0 +1,286 @@
+{
+  "title": "New Report",
+  "default_format": "html",
+  "version": "1.4.124",
+  "type": "hierarchical",
+  "page": {
+    "units": "inches",
+    "paper_size": {
+      "id": "letter",
+      "inches": [
+        "8.5",
+        "11"
+      ],
+      "mm": [
+        "216",
+        "279"
+      ]
+    },
+    "margins": {
+      "top": 0.5,
+      "left": 0.5,
+      "right": 0.5,
+      "bottom": 0.5
+    }
+  },
+  "filters": [
+    
+  ],
+  "inputs": [
+    {
+      "name": "",
+      "type": "text",
+      "default": ""
+    }
+  ],
+  "header": {
+    "height": 0.49935787671233,
+    "elements": [
+      {
+        "id": "jsr-element-0",
+        "type": "text",
+        "left": 0,
+        "top": 0,
+        "width": 7.1248929794521,
+        "height": 0.49935787671233,
+        "visible": true,
+        "align": "left",
+        "text_color": "black",
+        "background_color": "#ff9900",
+        "text": "AWS Compliance Report - Run Date: [=Date()]",
+        "fit_content": "vertical",
+        "pattern": "",
+        "syntax": "plain",
+        "wrap": true,
+        "fontsize": "12",
+        "bold": true
+      }
+    ]
+  },
+  "body": {
+    "data_source": "resourcescompliancetorules",
+    "show_detail": true,
+    "height": 0.25406678082192,
+    "elements": [
+      {
+        "id": "jsr-element-20",
+        "type": "text",
+        "left": 2.8784246575342,
+        "top": 0.0040667808219178,
+        "width": 1.3747859589041,
+        "height": 0.24368578767123,
+        "visible": true,
+        "align": "right",
+        "text_color": "black",
+        "background_color": "#ead1dc",
+        "text": " [BucketCompliance] ",
+        "fit_content": "vertical",
+        "pattern": "",
+        "syntax": "plain",
+        "fontsize": "10"
+      },
+      {
+        "id": "jsr-element-9",
+        "type": "text",
+        "left": 2.005886130137,
+        "top": 0.0040667808219178,
+        "width": 0.87253852739726,
+        "height": 0.25,
+        "visible": true,
+        "align": "left",
+        "text_color": "black",
+        "background_color": "",
+        "text": "[ResourceId]",
+        "fit_content": "vertical",
+        "pattern": "",
+        "syntax": "plain",
+        "fontsize": "10",
+        "bold": true
+      },
+      {
+        "id": "jsr-element-12",
+        "type": "text",
+        "left": 1.130886130137,
+        "top": 0.0020333904109589,
+        "width": 0.875,
+        "height": 0.24989297945205,
+        "visible": true,
+        "align": "left",
+        "text_color": "black",
+        "background_color": "#a4c2f4",
+        "text": " [AccountId]",
+        "fit_content": "vertical",
+        "pattern": "",
+        "syntax": "plain",
+        "fontsize": "10",
+        "bold": true
+      },
+      {
+        "id": "jsr-element-15",
+        "type": "text",
+        "left": 5.5008561643836,
+        "top": 0.0040667808219178,
+        "width": 1.0047089041096,
+        "height": 0.24678938356164,
+        "visible": true,
+        "align": "right",
+        "text_color": "black",
+        "background_color": "#ead1dc",
+        "text": "[RuleCompliance] ",
+        "fit_content": "vertical",
+        "pattern": "",
+        "syntax": "plain",
+        "fontsize": "10"
+      },
+      {
+        "id": "jsr-element-19",
+        "type": "text",
+        "left": 6.5055650684932,
+        "top": 0.0040667808219178,
+        "width": 0.97945205479452,
+        "height": 0.24989297945205,
+        "visible": true,
+        "align": "left",
+        "text_color": "black",
+        "background_color": "",
+        "text": "[ConfigRuleInvokedTime]",
+        "fit_content": "vertical",
+        "pattern": "",
+        "syntax": "plain",
+        "fontsize": "10"
+      },
+      {
+        "id": "jsr-element-16",
+        "type": "text",
+        "left": 4.2532106164384,
+        "top": 0.0040667808219178,
+        "width": 1.2476455479452,
+        "height": 0.24678938356164,
+        "visible": true,
+        "align": "left",
+        "text_color": "black",
+        "background_color": "",
+        "text": "[ConfigRuleName]",
+        "fit_content": "vertical",
+        "pattern": "",
+        "syntax": "plain",
+        "fontsize": "10",
+        "bold": true
+      }
+    ],
+    "sublevels": [
+      {
+        "data_source": "__parentgroup",
+        "group_by": "ResourceType",
+        "sort_dir": "asc",
+        "header": {
+          "visible": true,
+          "height": 0.24925085616438,
+          "elements": [
+            {
+              "id": "jsr-element-11",
+              "type": "text",
+              "left": 0,
+              "top": -0.00064212328767123,
+              "width": 1.130886130137,
+              "height": 0.24989297945205,
+              "visible": true,
+              "align": "left",
+              "text_color": "black",
+              "background_color": "#ff9900",
+              "text": "[ResourceType]",
+              "fit_content": "vertical",
+              "pattern": "",
+              "syntax": "plain",
+              "fontsize": "10",
+              "bold": true
+            }
+          ]
+        },
+        "footer": {
+          "visible": false,
+          "height": 1,
+          "elements": [
+            
+          ]
+        },
+        "sort_by": "ResourceType"
+      },
+      {
+        "data_source": "__parentgroup",
+        "group_by": "AccountId",
+        "sort_dir": "asc",
+        "header": {
+          "visible": false,
+          "height": 0.38505993150685,
+          "elements": [
+            
+          ]
+        },
+        "footer": {
+          "visible": false,
+          "height": 1,
+          "elements": [
+            
+          ]
+        },
+        "sort_by": "AccountId"
+      },
+      {
+        "data_source": "__parentgroup",
+        "group_by": "ResourceId",
+        "sort_dir": "asc",
+        "header": {
+          "visible": false,
+          "height": 0.81699486301369,
+          "elements": [
+            
+          ]
+        },
+        "footer": {
+          "visible": false,
+          "height": 0.4609756097561,
+          "elements": [
+            
+          ]
+        },
+        "where_child_field": "ResourceId",
+        "where_parent_field": "ResourceId",
+        "sort_by": "ResourceId"
+      }
+    ],
+    "column_count": 1,
+    "pivot_enabled": false,
+    "pivot_expression": "",
+    "pivot_column_sort_by": "",
+    "pivot_column_bucket_type": "",
+    "pivot_value_aggregate": "",
+    "pivot_column_left": 3.325,
+    "pivot_column_right": 4.175,
+    "pivot_area_right": 5.45,
+    "order_detail_by": "ConfigRuleName",
+    "order_detail_dir": "asc"
+  },
+  "footer": {
+    "height": 0.32876712328767,
+    "elements": [
+      
+    ],
+    "visible": false
+  },
+  "page_header": {
+    "visible": false,
+    "elements": [
+      
+    ],
+    "height": 1
+  },
+  "page_footer": {
+    "visible": false,
+    "elements": [
+      
+    ],
+    "height": 1
+  },
+  "id": "jsr-auto-id-0"
+}

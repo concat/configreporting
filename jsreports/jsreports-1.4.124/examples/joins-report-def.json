@@ -1,0 +1,129 @@
+{
+  "title": "S&P 500 Companies by Headquarters Location",
+  "id": "ditto-demo-joins",
+  "default_format": "html",
+  "page": {
+    "units": "inches",
+    "paper_size": {
+      "name": "Letter",
+      "inches": [
+        "8.5",
+        "11"
+      ],
+      "mm": [
+        "216",
+        "279"
+      ],
+      "id": "letter"
+    },
+    "margins": {
+      "top": 0.5,
+      "left": 0.5,
+      "right": 0.5,
+      "bottom": 0.5
+    }
+  },
+  "filters": [
+    
+  ],
+  "inputs": [
+    
+  ],
+  "header": {
+    "height": 39,
+    "elements": [
+      {
+        "id": "jsr-element-1",
+        "type": "text",
+        "left": 0.1359011627907,
+        "top": 9,
+        "width": 5.6460755813953,
+        "height": 27,
+        "text": "S&P 500 Companies by Headquarters State",
+        "fit_content": "vertical",
+        "left_px": 19.953488372093,
+        "width_px": 828.97674418605,
+        "bold": true,
+        "fontsize": "16"
+      }
+    ]
+  },
+  "body": {
+    "data_source": "states-companies-joined",
+    "show_detail": true,
+    "height": 33,
+    "elements": [
+      {
+        "id": "jsr-element-5",
+        "type": "text",
+        "left": 0.1,
+        "top": 6,
+        "width": 0.65479651162791,
+        "height": 20,
+        "text": "[abbreviation]",
+        "fit_content": "vertical"
+      },
+      {
+        "id": "jsr-element-2",
+        "type": "text",
+        "left": 0.84011627906977,
+        "top": 6,
+        "width": 0.65479651162791,
+        "height": 20,
+        "text": "[Ticker Symbol]",
+        "fit_content": "vertical",
+        "left_px": 123.3488372093,
+        "width_px": 96.139534883721
+      },
+      {
+        "id": "jsr-element-3",
+        "type": "text",
+        "left": 1.6308139534884,
+        "top": 6,
+        "width": 2.5821220930233,
+        "height": 20,
+        "text": "[Security]",
+        "fit_content": "vertical",
+        "left_px": 239.44186046512,
+        "width_px": 379.11627906977
+      },
+      {
+        "id": "jsr-element-4",
+        "type": "text",
+        "left": 4.3241279069767,
+        "top": 6,
+        "width": 3.0145348837209,
+        "height": 20,
+        "text": "[GICS Sub Industry]",
+        "fit_content": "vertical",
+        "left_px": 634.88372093023,
+        "width_px": 442.60465116279
+      }
+    ],
+    "sublevels": [],
+    "column_count": 1,
+    "order_detail_by": "abbreviation"
+  },
+  "footer": {
+    "height": 50,
+    "elements": [
+      
+    ]
+  },
+  "page_header": {
+    "visible": false,
+    "elements": [
+      
+    ],
+    "height": 30
+  },
+  "page_footer": {
+    "visible": false,
+    "elements": [
+      
+    ],
+    "height": 30
+  },
+  "type": "hierarchical",
+  "version": "1.2.6"
+}

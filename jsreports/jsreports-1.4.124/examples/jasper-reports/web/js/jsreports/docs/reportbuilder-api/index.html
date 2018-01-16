@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Report Builder API - jsreports</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../jsreports-docs.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,700" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">jsreports</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Developers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started/">Getting Started</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/">Developer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../examples/">Examples</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../designer-for-jasper-reports/">Integration: Jasper Reports</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../api/">API Reference</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Report Builder API</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reportdef/">JSON Report Format</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../changelog/">Change Log</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../nodejs/">Generating PDF reports on the server using Node.js and jsreports</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Report Designers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../designer/">Report Designer Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../functions/">Built-in Functions</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../api/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../reportdef/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#reportbuilder">ReportBuilder</a></li>
+        
+            <li><a href="#new-reportbuilder">new ReportBuilder()</a></li>
+        
+            <li><a href="#background">.background()</a></li>
+        
+            <li><a href="#barcodevalue-encoding-left-top-width-height-opts">.barcode(value, encoding, left, top, width, height, opts)</a></li>
+        
+            <li><a href="#boxfill-stroke-left-top-width-height-opts">.box(fill, stroke, left, top, width, height, opts)</a></li>
+        
+            <li><a href="#chartcharttype-91valuefield93-91labelfield93-left-top-width-height-opts">.chart(chartType, [valueField], [labelField], left, top, width, height, opts)</a></li>
+        
+            <li><a href="#columnwidth-detail-91header93-91footer93-91opts93">.column(width, detail, [header], [footer], [opts])</a></li>
+        
+            <li><a href="#columnfooterheight">.columnFooter(height)</a></li>
+        
+            <li><a href="#columnheaderheight">.columnHeader(height)</a></li>
+        
+            <li><a href="#datadatasourceid">.data(dataSourceId)</a></li>
+        
+            <li><a href="#detail">.detail()</a></li>
+        
+            <li><a href="#detailheight">.detailHeight()</a></li>
+        
+            <li><a href="#done">.done()</a></li>
+        
+            <li><a href="#element">.element()</a></li>
+        
+            <li><a href="#filterbyfield-comparison-compareto">.filterBy(field, comparison, compareTo)</a></li>
+        
+            <li><a href="#footerheight">.footer(height)</a></li>
+        
+            <li><a href="#groupbygroupby-91sortby93-91sortdir93">.groupBy(groupBy, [sortBy], [sortDir])</a></li>
+        
+            <li><a href="#headerheight">.header(height)</a></li>
+        
+            <li><a href="#hidedetail">.hideDetail()</a></li>
+        
+            <li><a href="#imageurl-left-top-width-height-opts">.image(url, left, top, width, height, opts)</a></li>
+        
+            <li><a href="#inputname-type-91defaultvalue93">.input(name, type, [defaultValue])</a></li>
+        
+            <li><a href="#marginstop-right-bottom-left">.margins(top, right, bottom, left)</a></li>
+        
+            <li><a href="#namename">.name(name)</a></li>
+        
+            <li><a href="#pagewidth-height-units">.page(width, height, units)</a></li>
+        
+            <li><a href="#pagefooterheight">.pageFooter(height)</a></li>
+        
+            <li><a href="#pageheaderheight">.pageHeader(height)</a></li>
+        
+            <li><a href="#seriesvaluefield-91labelfield93-91colorfield93">.series(valueField, [labelField], [colorField])</a></li>
+        
+            <li><a href="#showdetail">.showDetail()</a></li>
+        
+            <li><a href="#sortdetailbysortby-91sortdir93">.sortDetailBy(sortBy, [sortDir])</a></li>
+        
+            <li><a href="#tableleft-top-width-height-opts">.table(left, top, width, height, opts)</a></li>
+        
+            <li><a href="#texttext-left-top-width-height-opts">.text(text, left, top, width, height, opts)</a></li>
+        
+            <li><a href="#tostring">.toString()</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><a name="ReportBuilder"></a></p>
+<h2 id="reportbuilder">ReportBuilder</h2>
+<p>Provides an API for programmatic construction of report definitions.  Use <code>ditto.createReport()</code>
+to get a new ReportBuilder, as shown in the example below.</p>
+<p><strong>Kind</strong>: global class  </p>
+<ul>
+<li><a href="#ReportBuilder">ReportBuilder</a><ul>
+<li><a href="#new_ReportBuilder_new">new ReportBuilder()</a></li>
+<li><a href="#ReportBuilder+background">.background()</a></li>
+<li><a href="#ReportBuilder+barcode">.barcode(value, encoding, left, top, width, height, opts)</a></li>
+<li><a href="#ReportBuilder+box">.box(fill, stroke, left, top, width, height, opts)</a></li>
+<li><a href="#ReportBuilder+chart">.chart(chartType, [valueField], [labelField], left, top, width, height, opts)</a></li>
+<li><a href="#ReportBuilder+column">.column(width, detail, [header], [footer], [opts])</a></li>
+<li><a href="#ReportBuilder+columnFooter">.columnFooter(height)</a></li>
+<li><a href="#ReportBuilder+columnHeader">.columnHeader(height)</a></li>
+<li><a href="#ReportBuilder+data">.data(dataSourceId)</a></li>
+<li><a href="#ReportBuilder+detail">.detail()</a></li>
+<li><a href="#ReportBuilder+detailHeight">.detailHeight()</a></li>
+<li><a href="#ReportBuilder+done">.done()</a></li>
+<li><a href="#ReportBuilder+element">.element()</a></li>
+<li><a href="#ReportBuilder+filterBy">.filterBy(field, comparison, compareTo)</a></li>
+<li><a href="#ReportBuilder+footer">.footer(height)</a></li>
+<li><a href="#ReportBuilder+groupBy">.groupBy(groupBy, [sortBy], [sortDir])</a></li>
+<li><a href="#ReportBuilder+header">.header(height)</a></li>
+<li><a href="#ReportBuilder+hideDetail">.hideDetail()</a></li>
+<li><a href="#ReportBuilder+image">.image(url, left, top, width, height, opts)</a></li>
+<li><a href="#ReportBuilder+input">.input(name, type, [defaultValue])</a></li>
+<li><a href="#ReportBuilder+margins">.margins(top, right, bottom, left)</a></li>
+<li><a href="#ReportBuilder+name">.name(name)</a></li>
+<li><a href="#ReportBuilder+page">.page(width, height, units)</a></li>
+<li><a href="#ReportBuilder+pageFooter">.pageFooter(height)</a></li>
+<li><a href="#ReportBuilder+pageHeader">.pageHeader(height)</a></li>
+<li><a href="#ReportBuilder+series">.series(valueField, [labelField], [colorField])</a></li>
+<li><a href="#ReportBuilder+showDetail">.showDetail()</a></li>
+<li><a href="#ReportBuilder+sortDetailBy">.sortDetailBy(sortBy, [sortDir])</a></li>
+<li><a href="#ReportBuilder+table">.table(left, top, width, height, opts)</a></li>
+<li><a href="#ReportBuilder+text">.text(text, left, top, width, height, opts)</a></li>
+<li><a href="#ReportBuilder+toString">.toString()</a></li>
+</ul>
+</li>
+</ul>
+<p><a name="new_ReportBuilder_new"></a></p>
+<h3 id="new-reportbuilder">new ReportBuilder()</h3>
+<p>Do not call directly.  Use <code>ditto.createReport()</code> to get a new ReportBuilder.</p>
+<p><strong>Example</strong>  </p>
+<pre><code class="js">// Create a new report definition
+var reportDef = ditto.createReport()
+ .data(&quot;time&quot;)
+ .groupBy(&quot;Client_ID&quot;)
+   .header()
+     .text(&quot;Group header text&quot;)
+   .footer()
+     .text(&quot;Group footer&quot;)
+ .detail()
+   .text(&quot;Detail with [data]&quot;)
+ .input('Client', 'text')
+ .filterBy('Client_name', 'contains', '[?Client]')
+ .done();
+
+// Render the report
+ditto.render({
+  report_def: reportDef,
+  datasets: myDataSets,  // defined elsewhere
+  target: $('#myDiv')
+});
+</code></pre>
+
+<p><a name="ReportBuilder+background"></a></p>
+<h3 id="background">.background()</h3>
+<p>Add a page background to the report.  The page background can contain the same
+kinds of elements as other sections.  The background is rendered once on each
+page in PDF mode and once at the top of the report in HTML mode.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code><br />
+<a name="ReportBuilder+barcode"></a></p>
+<h3 id="barcodevalue-encoding-left-top-width-height-opts">.barcode(value, encoding, left, top, width, height, opts)</h3>
+<p>Add a barcode element at the specified location.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>value</td>
+<td><code>string</code></td>
+<td>The expression to be evaluated and displayed as a barcode</td>
+</tr>
+<tr>
+<td>encoding</td>
+<td><code>string</code></td>
+<td>One of CODE39, CODE128, UPC, ITF14, pharmacode, QR</td>
+</tr>
+<tr>
+<td>left</td>
+<td><code>number</code></td>
+<td>The distance from the left edge of the section to the left edge of the element, in report units (inches or mm), not including the page margin</td>
+</tr>
+<tr>
+<td>top</td>
+<td><code>number</code></td>
+<td>The distance from the top edge of the section to the top edge of the element, in report units</td>
+</tr>
+<tr>
+<td>width</td>
+<td><code>number</code></td>
+<td>The width of the element in report units</td>
+</tr>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the element in report units</td>
+</tr>
+<tr>
+<td>opts</td>
+<td><code>object</code></td>
+<td>An object containing additional properties to apply to the element</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+box"></a></p>
+<h3 id="boxfill-stroke-left-top-width-height-opts">.box(fill, stroke, left, top, width, height, opts)</h3>
+<p>Add a box element at the specified location.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fill</td>
+<td><code>string</code></td>
+<td>The hex color code of the fill color, or 'transparent' (e.g. '#fc0')</td>
+</tr>
+<tr>
+<td>stroke</td>
+<td><code>string</code></td>
+<td>The hex color code of the border color, or 'transparent' (e.g. '#000')</td>
+</tr>
+<tr>
+<td>left</td>
+<td><code>number</code></td>
+<td>The distance from the left edge of the section to the left edge of the element, in report units (inches or mm), not including the page margin</td>
+</tr>
+<tr>
+<td>top</td>
+<td><code>number</code></td>
+<td>The distance from the top edge of the section to the top edge of the element, in report units</td>
+</tr>
+<tr>
+<td>width</td>
+<td><code>number</code></td>
+<td>The width of the element in report units</td>
+</tr>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the element in report units</td>
+</tr>
+<tr>
+<td>opts</td>
+<td><code>object</code></td>
+<td>An object containing additional properties to apply to the element</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+chart"></a></p>
+<h3 id="chartcharttype-91valuefield93-91labelfield93-left-top-width-height-opts">.chart(chartType, [valueField], [labelField], left, top, width, height, opts)</h3>
+<p>Add a chart element at the specified location.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>chartType</td>
+<td><code>string</code></td>
+<td>One of 'line', 'bar', 'pie'</td>
+</tr>
+<tr>
+<td>[valueField]</td>
+<td><code>string</code></td>
+<td>The data field containing the y-values for line and bar charts, and slice sizes for pie charts</td>
+</tr>
+<tr>
+<td>[labelField]</td>
+<td><code>string</code></td>
+<td>The field containing slice labels for pie charts</td>
+</tr>
+<tr>
+<td>left</td>
+<td><code>number</code></td>
+<td>The distance from the left edge of the section to the left edge of the element, in report units (inches or mm), not including the page margin</td>
+</tr>
+<tr>
+<td>top</td>
+<td><code>number</code></td>
+<td>The distance from the top edge of the section to the top edge of the element, in report units</td>
+</tr>
+<tr>
+<td>width</td>
+<td><code>number</code></td>
+<td>The width of the element in report units</td>
+</tr>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the element in report units</td>
+</tr>
+<tr>
+<td>opts</td>
+<td><code>object</code></td>
+<td>An object containing additional properties to apply to the element</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+column"></a></p>
+<h3 id="columnwidth-detail-91header93-91footer93-91opts93">.column(width, detail, [header], [footer], [opts])</h3>
+<p>Add a data series to the previously added table element (see <a href="#ReportBuilder+table">table</a>)</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>width</td>
+<td><code>string</code> &#124; <code>number</code></td>
+<td>The width of the column, either a percentage of the table width (e.g. '100%') or a number in report units (e.g. 4 meaning 4 inches)</td>
+</tr>
+<tr>
+<td>detail</td>
+<td><code>string</code></td>
+<td>The text expression to evaluate and render in each detail cell in this column</td>
+</tr>
+<tr>
+<td>[header]</td>
+<td><code>string</code></td>
+<td>The text expression to evaluate and render in the table header cell in this column (or null)</td>
+</tr>
+<tr>
+<td>[footer]</td>
+<td><code>string</code></td>
+<td>The text expression to evaluate and render in the table footer cell in this column (or null)</td>
+</tr>
+<tr>
+<td>[opts]</td>
+<td><code>object</code></td>
+<td>An object containing additional properties to apply to the column</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+columnFooter"></a></p>
+<h3 id="columnfooterheight">.columnFooter(height)</h3>
+<p>Add a column header to the report.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the header, in report units (inches or mm).</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+columnHeader"></a></p>
+<h3 id="columnheaderheight">.columnHeader(height)</h3>
+<p>Add a column header to the report.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the header, in report units (inches or mm).</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+data"></a></p>
+<h3 id="datadatasourceid">.data(dataSourceId)</h3>
+<p>Begins a data section in the report using the specified data source ID.
+When called multiple times, adds additional data sections below the first,
+each allowing nested grouping within its own data source via subsequent
+calls to groupBy, header, footer, detail, etc.
+This should be one of the first methods you call when using the
+report builder API to define a report.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dataSourceId</td>
+<td><code>string</code></td>
+<td>The ID of the data source; must match a defined data source ID   when the report runs</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+detail"></a></p>
+<h3 id="detail">.detail()</h3>
+<p>Move to the detail of the current data section</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code><br />
+<a name="ReportBuilder+detailHeight"></a></p>
+<h3 id="detailheight">.detailHeight()</h3>
+<p>Set the height of the report's detail section, in report units (inches or mm).</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code><br />
+<a name="ReportBuilder+done"></a></p>
+<h3 id="done">.done()</h3>
+<p>Return the report definition in object form.  Call this at the end of a chain of calls that define the report.
+The object returned by this method is the report definition that you can pass to ditto.render()
+or ditto.export().</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code><br />
+<strong>Example</strong>  </p>
+<pre><code class="js">// Define a simple report with one text element
+var reportDef = ditto.createReport()
+  .data('mydata')
+  .text('Data value is [myfield]')
+  .done();
+</code></pre>
+
+<p><a name="ReportBuilder+element"></a></p>
+<h3 id="element">.element()</h3>
+<p>Add an element by its type ID - for custom elements</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code><br />
+<a name="ReportBuilder+filterBy"></a></p>
+<h3 id="filterbyfield-comparison-compareto">.filterBy(field, comparison, compareTo)</h3>
+<p>Add a filter to restrict which records are shown in the report.
+To filter by a user input, use <code>'[?InputName]'</code> syntax
+in the compareTo argument.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>field</td>
+<td><code>string</code></td>
+<td>Name of the data field to filter</td>
+</tr>
+<tr>
+<td>comparison</td>
+<td><code>string</code></td>
+<td>One of: is, isnot, contains, doesnotcontain, gt, lt, gte, lte</td>
+</tr>
+<tr>
+<td>compareTo</td>
+<td><code>string</code></td>
+<td>Expression against which the data field will be compared</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+footer"></a></p>
+<h3 id="footerheight">.footer(height)</h3>
+<p>Add a footer to the current level.  By default, the level is the report itself;
+if <a href="#ReportBuilder+groupBy">groupBy</a> has been called, then the footer will be added to the most recent
+grouping level.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the footer, in report units (inches or mm).</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+groupBy"></a></p>
+<h3 id="groupbygroupby-91sortby93-91sortdir93">.groupBy(groupBy, [sortBy], [sortDir])</h3>
+<p>Add a new sub-grouping.  If groupBy has already been called, this adds a sub-grouping beneath that grouping.
+Records will be grouped by the values in the groupBy data field and the groups will be arranged relative to each
+other based on the sortBy data field, if specified.  Groups do not have headers or footers by default; use
+<a href="#ReportBuilder+header">addHeader</a> and <a href="#ReportBuilder+footer">addFooter</a> to add them.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>groupBy</td>
+<td><code>string</code></td>
+<td>The data field containing the values defining the groups</td>
+</tr>
+<tr>
+<td>[sortBy]</td>
+<td><code>string</code></td>
+<td>The data field by which groups should be sorted relative to each other (default: same as groupBy)</td>
+</tr>
+<tr>
+<td>[sortDir]</td>
+<td><code>string</code></td>
+<td>One of: 'asc', 'desc' (ascending = A-Z, 0-9) (default: 'asc')</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+header"></a></p>
+<h3 id="headerheight">.header(height)</h3>
+<p>Add a header to the current level.  By default, the level is the report itself;
+if <a href="#ReportBuilder+groupBy">groupBy</a> has been called, then the header will be added to the most recent
+grouping level.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the header, in report units (inches or mm).</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+hideDetail"></a></p>
+<h3 id="hidedetail">.hideDetail()</h3>
+<p>Make the report's detail section invisible.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code><br />
+<a name="ReportBuilder+image"></a></p>
+<h3 id="imageurl-left-top-width-height-opts">.image(url, left, top, width, height, opts)</h3>
+<p>Add an image element at the specified location.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>url</td>
+<td><code>string</code></td>
+<td>The url of the image, either relative or absolute</td>
+</tr>
+<tr>
+<td>left</td>
+<td><code>number</code></td>
+<td>The distance from the left edge of the section to the left edge of the element, in report units (inches or mm), not including the page margin</td>
+</tr>
+<tr>
+<td>top</td>
+<td><code>number</code></td>
+<td>The distance from the top edge of the section to the top edge of the element, in report units</td>
+</tr>
+<tr>
+<td>width</td>
+<td><code>number</code></td>
+<td>The width of the element in report units</td>
+</tr>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the element in report units</td>
+</tr>
+<tr>
+<td>opts</td>
+<td><code>object</code></td>
+<td>An object containing additional properties to apply to the element</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+input"></a></p>
+<h3 id="inputname-type-91defaultvalue93">.input(name, type, [defaultValue])</h3>
+<p>Add a user input to the report.  Inputs appear in the report viewer toolbar
+and allow you to filter the report by user-provided values.  To filter by
+an input value, see <a href="#ReportBuilder+filterBy">addFilter</a>.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td><code>string</code></td>
+<td>User-visible name of the input field</td>
+</tr>
+<tr>
+<td>type</td>
+<td><code>string</code></td>
+<td>One of "text", "number", "date"</td>
+</tr>
+<tr>
+<td>[defaultValue]</td>
+<td><code>string</code></td>
+<td>The default value for the input</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+margins"></a></p>
+<h3 id="marginstop-right-bottom-left">.margins(top, right, bottom, left)</h3>
+<p>Set the page margins for the report.  Margins will use the units defined
+for the report in setPage, or inches if setPage is not called.
+If only one argument is supplied, it will be used for all four margins.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>top</td>
+<td><code>number</code></td>
+<td>The top margin height, in report units (inches or mm).</td>
+</tr>
+<tr>
+<td>right</td>
+<td><code>number</code></td>
+<td>The right margin width, in report units.</td>
+</tr>
+<tr>
+<td>bottom</td>
+<td><code>number</code></td>
+<td>The bottom margin height, in report units.</td>
+</tr>
+<tr>
+<td>left</td>
+<td><code>number</code></td>
+<td>The left margin width, in report units.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+name"></a></p>
+<h3 id="namename">.name(name)</h3>
+<p>Set the report's name (used to generate filenames for download)</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td><code>string</code></td>
+<td>The new name for the report</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+page"></a></p>
+<h3 id="pagewidth-height-units">.page(width, height, units)</h3>
+<p>Set page dimensions for the report.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>width</td>
+<td><code>number</code></td>
+<td>The width of the page, in report units (inches or mm).</td>
+</tr>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the page, in report units (inches or mm).</td>
+</tr>
+<tr>
+<td>units</td>
+<td><code>string</code></td>
+<td>The report units ('in' or 'mm'), defaults to inches</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong>  </p>
+<pre><code class="js">// Set the report to 8.5 x 11 inches (US letter size)
+ditto.createReport()
+  .setPage(8.5, 11, &quot;inches&quot;)
+</code></pre>
+
+<p><a name="ReportBuilder+pageFooter"></a></p>
+<h3 id="pagefooterheight">.pageFooter(height)</h3>
+<p>Add a page footer to the report.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the footer, in report units (inches or mm).</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+pageHeader"></a></p>
+<h3 id="pageheaderheight">.pageHeader(height)</h3>
+<p>Add a page header to the report.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the header, in report units (inches or mm).</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+series"></a></p>
+<h3 id="seriesvaluefield-91labelfield93-91colorfield93">.series(valueField, [labelField], [colorField])</h3>
+<p>Add a data series to the previously added chart element (see <a href="#ReportBuilder+chart">chart</a>)</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>valueField</td>
+<td><code>string</code></td>
+<td>The data field containing the y-values for line and bar charts, and slice sizes for pie charts</td>
+</tr>
+<tr>
+<td>[labelField]</td>
+<td><code>string</code></td>
+<td>The field containing slice labels for pie charts</td>
+</tr>
+<tr>
+<td>[colorField]</td>
+<td><code>string</code></td>
+<td>The field containing slice labels for pie charts</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+showDetail"></a></p>
+<h3 id="showdetail">.showDetail()</h3>
+<p>Make the report's detail section visible.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code><br />
+<a name="ReportBuilder+sortDetailBy"></a></p>
+<h3 id="sortdetailbysortby-91sortdir93">.sortDetailBy(sortBy, [sortDir])</h3>
+<p>Order records in the report detail section by the given data field, in the given direction.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sortBy</td>
+<td><code>string</code></td>
+<td>The name of the data field by which to sort</td>
+</tr>
+<tr>
+<td>[sortDir]</td>
+<td><code>string</code></td>
+<td>One of: 'asc', 'desc' (ascending = A-Z, 0-9) (default: 'asc')</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+table"></a></p>
+<h3 id="tableleft-top-width-height-opts">.table(left, top, width, height, opts)</h3>
+<p>Add a table element at the specified location.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>left</td>
+<td><code>number</code></td>
+<td>The distance from the left edge of the section to the left edge of the element, in report units (inches or mm), not including the page margin</td>
+</tr>
+<tr>
+<td>top</td>
+<td><code>number</code></td>
+<td>The distance from the top edge of the section to the top edge of the element, in report units</td>
+</tr>
+<tr>
+<td>width</td>
+<td><code>number</code></td>
+<td>The width of the element in report units</td>
+</tr>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the element in report units</td>
+</tr>
+<tr>
+<td>opts</td>
+<td><code>object</code></td>
+<td>An object containing additional properties to apply to the element</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong>  </p>
+<pre><code class="js">.table(0, 1.25, 4.75, 2.5, { data: 'changeItems', hasFooter: true, 
+    groupBy: 'category', fontSize: 9, hideRowWhenExpr: '!description' 
+})
+.column('50%', '   [description]', '', '', { 
+    align: 'left', group0Header: '[category]' })
+.column('25%', '[currentPeriod]', 'This Period', '[SUM(currentPeriod)]', { 
+    align: 'right',
+    detailStyle: {
+        pattern: '#,##0.00'
+    },
+    group0Header: '[SUM(currentPeriod)]',
+    group0HeaderStyle: {
+        pattern: '#,##0.00'
+    }
+})
+.column('25%', '[ytd]', 'Year-to-Date', '[SUM(ytd)]', { 
+    align: 'right',
+    detailStyle: {
+        pattern: '#,##0.00'
+    },
+    group0Header: '[SUM(ytd)]',
+    group0HeaderStyle: {
+        pattern: '#,##0.00'
+    }
+})
+</code></pre>
+
+<p><a name="ReportBuilder+text"></a></p>
+<h3 id="texttext-left-top-width-height-opts">.text(text, left, top, width, height, opts)</h3>
+<p>Add a text element at the specified location.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>text</td>
+<td><code>string</code></td>
+<td>The content of the text element.</td>
+</tr>
+<tr>
+<td>left</td>
+<td><code>number</code></td>
+<td>The distance from the left edge of the section to the left edge of the element, in report units (inches or mm), not including the page margin</td>
+</tr>
+<tr>
+<td>top</td>
+<td><code>number</code></td>
+<td>The distance from the top edge of the section to the top edge of the element, in report units</td>
+</tr>
+<tr>
+<td>width</td>
+<td><code>number</code></td>
+<td>The width of the element in report units</td>
+</tr>
+<tr>
+<td>height</td>
+<td><code>number</code></td>
+<td>The height of the element in report units</td>
+</tr>
+<tr>
+<td>opts</td>
+<td><code>object</code></td>
+<td>An object containing additional properties to apply to the element</td>
+</tr>
+</tbody>
+</table>
+<p><a name="ReportBuilder+toString"></a></p>
+<h3 id="tostring">.toString()</h3>
+<p>Like <a href="#ReportBuilder+done">done()</a>, but returns the report definition in string format.</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#ReportBuilder">ReportBuilder</a></code>  </p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../docs.js"></script>
+        <script src="../highlight.pack.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('jsreports.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>

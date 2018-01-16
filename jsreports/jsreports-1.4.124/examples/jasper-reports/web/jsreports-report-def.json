@@ -1,0 +1,380 @@
+{
+  "title": "Project Detail by Client and Task",
+  "type": "hierarchical",
+  "default_format": "html",
+  "page": {
+    "units": "inches",
+    "paper_size": {
+      "name": "Letter",
+      "inches": [
+        "8.5",
+        "11"
+      ],
+      "mm": [
+        "216",
+        "279"
+      ],
+      "id": "letter"
+    },
+    "margins": {
+      "top": 0.5,
+      "left": 0.5,
+      "right": 0.5,
+      "bottom": 0.5
+    }
+  },
+  "filters": [
+    {
+      "field": "Client_name",
+      "operator": "contains",
+      "operand": "[?Client name]"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "Client name",
+      "type": "text",
+      "default_value": ""
+    }
+  ],
+  "header": {
+    "height": 88,
+    "elements": [
+      {
+        "type": "text",
+        "text": "Project Detail by Client and Task",
+        "styles": "title",
+        "left": 0.13608374384236,
+        "top": 15,
+        "width": 6.0295566502463,
+        "height": 35,
+        "id": "jsr-element-0",
+        "fontsize": "16",
+        "bold": true,
+        "left_px": 17.482758620689,
+        "width_px": 774.62068965517
+      },
+      {
+        "type": "image",
+        "left": 6.2775169334975,
+        "top": 4,
+        "height": 46,
+        "width": 1.0328407224959,
+        "url": "images\/acme-logo.jpg",
+        "absoluteUrl": "http:\/\/www.ditto.com\/acme-logo.jpg",
+        "id": "jsr-element-1",
+        "left_px": 806.47629310344,
+        "width_px": 132.68965517241
+      },
+      {
+        "id": "jsr-element-10",
+        "type": "text",
+        "left": 0.15658353858785,
+        "top": 63,
+        "width": 0.97701149425287,
+        "height": 18,
+        "text": "Client",
+        "bold": true,
+        "left_px": 20.116379310345,
+        "width_px": 125.51724137931
+      },
+      {
+        "id": "jsr-element-9",
+        "type": "text",
+        "left": 1.1756447587354,
+        "top": 63,
+        "width": 1.018302828619,
+        "height": 19,
+        "text": "Project",
+        "bold": true,
+        "left_px": 151.04094827586,
+        "width_px": 130.89655172413
+      },
+      {
+        "id": "jsr-element-11",
+        "type": "text",
+        "left": 2.2405756031614,
+        "top": 63,
+        "width": 0.84858569051581,
+        "height": 19,
+        "text": "Task",
+        "bold": true,
+        "left_px": 287.84913793104,
+        "width_px": 107.58620689655
+      },
+      {
+        "id": "jsr-element-13",
+        "type": "text",
+        "left": 3.124519030782,
+        "top": 63,
+        "width": 0.94758735440932,
+        "height": 19,
+        "text": "Date",
+        "bold": true,
+        "left_px": 401.43103448276,
+        "width_px": 121.93103448276
+      },
+      {
+        "id": "jsr-element-14",
+        "type": "text",
+        "left": 4.1202813019967,
+        "top": 63,
+        "width": 0.8910149750416,
+        "height": 19,
+        "text": "Hours",
+        "bold": true,
+        "align": "right",
+        "left_px": 527.51799084858,
+        "width_px": 114.46921797005
+      },
+      {
+        "id": "jsr-element-15",
+        "type": "text",
+        "left": 5.0638909109817,
+        "top": 63,
+        "width": 0.84858569051581,
+        "height": 19,
+        "text": "Rate",
+        "align": "right",
+        "bold": true,
+        "left_px": 656.01195923461,
+        "width_px": 105.384359401
+      },
+      {
+        "id": "jsr-element-16",
+        "type": "text",
+        "left": 6.2892574875208,
+        "top": 63,
+        "width": 0.96173044925125,
+        "height": 20,
+        "text": "Total",
+        "align": "right",
+        "bold": true,
+        "left_px": 811.61855241265,
+        "width_px": 123.5540765391
+      }
+    ]
+  },
+  "body": {
+    "data_source": "time",
+    "height": 33,
+    "elements": [
+      {
+        "type": "text",
+        "text": "[Entry_Date]",
+        "left": 3.1997126436782,
+        "top": 7,
+        "width": 0.82348111658456,
+        "height": 20,
+        "id": "jsr-element-4",
+        "left_px": 411.06896551725,
+        "width_px": 105.79310344828,
+        "pattern": "MM/dd/yyyy"
+      },
+      {
+        "type": "text",
+        "text": "[Hours]",
+        "align": "right",
+        "left": 4.1313305948419,
+        "top": 6,
+        "width": 0.83444259567388,
+        "height": 20,
+        "id": "jsr-element-5",
+        "left_px": 530.75447171381,
+        "width_px": 107.20133111481,
+        "pattern": "#,##0.00"
+      },
+      {
+        "type": "text",
+        "text": "[=Hours * Billing_rate]",
+        "left": 6.2269394758735,
+        "top": 8,
+        "width": 1.0324459234609,
+        "height": 20,
+        "fit_content": "vertical",
+        "align": "right",
+        "id": "jsr-element-7",
+        "left_px": 799.97857737104,
+        "width_px": 132.63893510815,
+        "pattern": "$#,##0.00"
+      },
+      {
+        "id": "jsr-element-18",
+        "type": "text",
+        "left": 5.233166077371,
+        "top": 6,
+        "width": 0.70715474209651,
+        "height": 19,
+        "text": "[Billing_rate]",
+        "align": "right",
+        "left_px": 672.30792429284,
+        "width_px": 90.848585690516,
+        "pattern": "$#,##0.00"
+      }
+    ],
+    "sublevels": [
+      {
+        "data_source": "__parentgroup",
+        "group_by": "Client_ID",
+        "sort_by": "Client_name",
+        "header": {
+          "height": 35,
+          "elements": [
+            {
+              "type": "text",
+              "text": "[Client_name]",
+              "left": 0.14983974358974,
+              "top": 8,
+              "width": 4.3589743589744,
+              "height": 20,
+              "id": "jsr-element-2",
+              "left_px": 19.25,
+              "width_px": 560.00000000001
+            }
+          ]
+        },
+        "footer": {
+          "height": 40,
+          "elements": [
+            {
+              "type": "text",
+              "fit_content": "vertical",
+              "left": 1.1373024425287,
+              "top": 8,
+              "width": 2.9310344827586,
+              "height": 23,
+              "text": "Totals for [Client_name]:",
+              "align": "right",
+              "id": "jsr-element-8",
+              "left_px": 146.1099137931,
+              "width_px": 376.55172413793
+            },
+            {
+              "id": "jsr-element-23",
+              "type": "text",
+              "left": 4.1112992610837,
+              "top": 8,
+              "width": 0.85139573070608,
+              "height": 23,
+              "text": "[SUM(Hours)]",
+              "align": "right",
+              "left_px": 528.18103448275,
+              "width_px": 109.37931034483,
+              "pattern": "#,##0.00"
+            },
+            {
+              "id": "jsr-element-24",
+              "type": "text",
+              "left": 6.0726913477537,
+              "top": 6,
+              "width": 1.1880199667221,
+              "height": 23,
+              "text": "[SUM(Hours * Billing_rate)]",
+              "align": "right",
+              "left_px": 780.1622296173,
+              "width_px": 152.62562396006,
+              "pattern": "$#,##0.00"
+            }
+          ]
+        }
+      },
+      {
+        "data_source": "__parentgroup",
+        "group_by": "Job_ID",
+        "sort_dir": "asc",
+        "header": {
+          "visible": true,
+          "height": 31,
+          "elements": [
+            {
+              "id": "jsr-element-12",
+              "type": "text",
+              "left": 1.2035996510673,
+              "top": 5,
+              "width": 5.1781609195402,
+              "height": 19,
+              "text": "[Job_name]",
+              "left_px": 154.62715517241,
+              "width_px": 665.24137931034
+            }
+          ]
+        },
+        "footer": {
+          "visible": false,
+          "height": 100,
+          "elements": [
+            
+          ]
+        },
+        "sort_by": "Job_name"
+      },
+      {
+        "data_source": "__parentgroup",
+        "group_by": "Task_ID",
+        "sort_dir": "asc",
+        "header": {
+          "visible": true,
+          "height": 32,
+          "elements": [
+            {
+              "id": "jsr-element-17",
+              "type": "text",
+              "left": 2.2405839490969,
+              "top": 5,
+              "width": 4.2988505747126,
+              "height": 21,
+              "text": "[Task_name]",
+              "left_px": 287.84913793104,
+              "width_px": 552.27586206896
+            }
+          ]
+        },
+        "footer": {
+          "visible": true,
+          "height": 38,
+          "elements": [
+            {
+              "id": "jsr-element-19",
+              "type": "text",
+              "left": 4.1069711538462,
+              "top": 10,
+              "width": 0.85817307692308,
+              "height": 21,
+              "text": "[SUM(Hours)]",
+              "align": "right",
+              "left_px": 527.62500000001,
+              "width_px": 110.25
+            },
+            {
+              "id": "jsr-element-20",
+              "type": "text",
+              "left": 6.065177828619,
+              "top": 8,
+              "width": 1.1880199667221,
+              "height": 21,
+              "text": "[SUM(Hours * Billing_rate)]",
+              "align": "right",
+              "left_px": 779.19696339435,
+              "width_px": 152.62562396006,
+              "pattern": "$#,##0.00"
+            },
+            {
+              "id": "jsr-element-21",
+              "type": "text",
+              "left": 0.37459935897436,
+              "top": 8,
+              "width": 3.6778846153846,
+              "height": 23,
+              "text": "Totals for [Task_name]:",
+              "align": "right",
+              "left_px": 48.125,
+              "width_px": 472.5
+            }
+          ]
+        },
+        "sort_by": "Task_name"
+      }
+    ],
+    "order_detail_by": "Entry_Date"
+  }
+}

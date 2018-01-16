@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head> 
+  <title>Charts Example - ditto</title>
+    <meta charset="utf-8">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/images/clip32.png" title="Favicon" />
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+  <link href="css/tomorrow-night-eighties.css" rel="stylesheet" type='text/css' />
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    body {
+      padding: 20px;
+      margin: 0;
+      font: 16px/22px "Source Sans Pro", Helvetica, sans-serif;
+      font-size-adjust: none;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      background: #f4f6ec;
+      color: #333;
+    }
+    .nav-category {
+      color: #777;
+      font-weight: normal;
+      margin-bottom: 0.75em;
+    }
+    h1, h2, h3 {
+      margin: 0;
+      padding: 0;
+    }
+
+    .report-output {
+      background: white;
+      border: 1px solid #ccc;
+      height: 500px;
+    }
+
+    .edit-link {
+      font-size: 120%;
+      margin-bottom: 10px;
+    }
+
+    code.hljs.javascript {
+      border-radius: 5px;
+      padding: 0.5em 0.85em;
+    }
+    pre {
+      margin: 0;
+    }
+
+    .ditto-report-toolbar .ditto-input .select2-container-multi {
+      min-width: 200px;
+    }
+
+  </style>
+</head>
+<body>
+<a href="http://www.ditto.com" style="float:right">ditto home</a>
+<h2 class="nav-category">ditto example</h2>
+
+<h1>Bar Chart with Animation</h1>
+
+<p>Charts are animated by default.  Animation can be turned off and the speed changed.</p>
+
+<p>This example also shows how to suggest values for a filter field based on
+underlying data, and allow multiple selections in a filter.</p>
+
+<p>The report is rendered into a &lt;div&gt; container below.  Click the Edit button to open the report designer.</p>
+
+<p><a class="view-source-link">View the source</a> of this page for the full code.</p>
+
+<hr />
+
+<div class="report-output"></div>
+
+</body>
+<script src="../lib/highlight.pack.js" type="text/javascript"></script>
+<script src="../lib/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="ditto-all.min.js" type="text/javascript"></script>
+<script>
+  $(document).ready(function() {
+
+    $('.view-source-link').attr('href', 'view-source:' + window.location.protocol + '//' + window.location.host + window.location.pathname);
+
+    // Highlight example code snippets (not part of ditto)
+    hljs.initHighlightingOnLoad();
+
+    // Set up variables to hold the reporting objects
+    var report_def,
+      report_instance,
+      data_sources = [{
+        "id": "time",
+        "name": "Time",
+        "url": "../data/time-data.json",
+        "schema_url": "../data/time-data-schema.json"
+      }];
+
+    // To enable PDF download in IE9, set the path to the ditto library
+    ditto.libraryPath = "../lib/ditto";
+
+    // Load the report definition
+    $.getJSON("report.json", function(def) {
+      report_def = def;
+      // Now that we have the definition, we can draw the report
+      report_instance = ditto.render({
+        report_def: report_def,
+        target: $(".report-output"),
+        datasets: data_sources
+      });
+    });
+
+  });
+</script>
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ if (location.href.toLowerCase().indexOf('ditto.com') > -1) { clicky.init(100739351); } } catch(e){}</script>
+</html>
+
