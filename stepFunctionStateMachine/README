@@ -17,3 +17,5 @@ File is: index.js
 Handler is: index.handler
 
 IAM Role is basic one with addition of to execute StepFunctions 
+
+Environment variable: STATEMACHINE_ARN - the arn of the StateMachine to start
