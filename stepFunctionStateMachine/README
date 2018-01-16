@@ -2,6 +2,18 @@ This directory details the StepFunction State Machine for the automated Complian
 
 Steps include:
 
-1) Cloud Watch Event to periodically trigger
-2) A Lamdba function which fires off the StateMachine based on the ARN of that SM
+1) Cloud Watch Event to periodically trigger a Lambda Function..
+2) startStepFunctionsStateMachine, a function which fires off the StateMachine based on the ARN of that SM
 3) The SM which invokes pullComplianceData (Python function), generateReport (Node function), and sendEmailwithAttachment (Python function)
+
+Details on 1 - Step on a CloudWatch event to trigger at either crontab-based or interval based schedule
+
+Details on 2 - 
+Console:
+
+FunctionName is: startStepFunctionsStateMachine
+Runtime is: Node.js 6.10
+File is: index.js
+Handler is: index.handler
+
+IAM Role is basic one with addition of to execute StepFunctions 
