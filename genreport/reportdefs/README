@@ -1,0 +1,12 @@
+The files:
+
+o bucket-report-def-pdf.json - report definition file uses by generateReport Lambda function to create a pdf version of the Compliance Report
+
+o bucket-report-def-xls.json - report definition file uses by generateReport Lambda function to create an excel version of the Compliance Report
+
+o compliancesources.json - file which tells the internal jsreports "engine" embedded in generateReport.js where to look for the data and schema files. In this implementation, generateReport.js downloads all json files, including the datafile produced by its predecessor Lambda function "pullCompliance.py" into the /tmp directory of the nodejs container as the jsreports engine needs access to these files either locally or over http (unsecure - thus not used here).
+
+o resourcescompliancetorulesschema.json - This is the schema file which describes the data elements used in the report definitions above. Needed for designing reports, but provided here as a reference as well
+
+o resourcescompliancetorules.json - This file is deposited by pullCompliance Lamdba function and read by generateReport Lambda function.
+

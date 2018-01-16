@@ -1,0 +1,7 @@
+To install this Lambda code:
+
+1) Build the zip file: zip -r /tmp/generateReport.zip .
+2) Install (or update) code:
+
+   (First time): aws lambda ....
+   (Update): aws lambda update-function-code --function-name generateReport --zip-file fileb://tmp/generateReport.zip

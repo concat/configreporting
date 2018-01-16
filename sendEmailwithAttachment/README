@@ -1,0 +1,18 @@
+sendEmailwithAttachment takes "s3bucketobjkey, the s3 object key provided to it in its event input in the Step Function flow, and uses the information provided in the environment variables to retrieve the file and send it to recipients.
+
+Recipients may need to have their email address one time via the SES service before the email can be sent. Same for the sender email address, unless the domain used has been verified. See AWS documentation on SES for further details.
+
+SES is not supported in all regions. Assumption is that "us-east-1" is used for the entire workflow.
+
+Console details:
+
+Runtime: Python 3.6
+Handler: lambda_function.lambda_handler
+
+Environment variables:
+
+sender - sender email
+recipients - comma-separated listing of recipients
+reporting_input_bucket - the S3 Bucket which hosts the file to be sent
+
+IAM role needs to be able to read from the S3 bucket and run ses:sendemail and ses:sendrawemail
