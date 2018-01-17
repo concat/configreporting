@@ -1,0 +1,21 @@
+{
+  "Comment": "Generate a Compliance Report using series of Lambda Functions",
+  "StartAt": "PullComplianceData",
+  "States": {
+    "PullComplianceData": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:12345678901:function:pullComplianceData",
+      "Next": "GenerateReport"
+    },
+    "GenerateReport": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:12345678901:function:generateReport",
+      "Next": "EmailReport"
+    },
+    "EmailReport": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:12345678901:function:sendEmailwithAttachment",
+      "End": true
+    }
+  }
+}
