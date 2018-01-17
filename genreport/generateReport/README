@@ -3,5 +3,23 @@ To install this Lambda code:
 1) Build the zip file: zip -r /tmp/generateReport.zip .
 2) Install (or update) code:
 
-   (First time): aws lambda ....
+Console:
+
+   Function Name: generateReport
+   Runtime: Node.js 6.10
+   Handler: generateReport.handler
+
+IAM Role: Use the role which allows for reading and writing objects to the S3 bucket, inspecting AWS Config locally, and assumerole to managed accounts.
+
+Timeout of 2 minutes: allows ample time for the function to retrieve s3 files need for generating the report. (A kludge - given challenge of knowing when all teh downloads are complete).
+
+Environment Variables:
+   S3_BUCKET: bucket that hosts both data from pullComplianceData and the report formats, schemas, and resulting output from this function
+   REPORT_DEF: the s3obj which contains the report format
+   REPORT_SCHEMA: the s3obj which contains the data schema of the elements used in the report
+   DATA_SOURCE: the file which indicates where to find the datafile and its schema. Note that inspecting this file shows locations for the files in /tmp, the location to which the files are retrieved
+   RESOURCE_DETAIL_DATA: the datafile
+   REPORT_OUTPUT_FILENAME: the "basename" of the output file to be written. Do no include the extension. The actual s3 object name will include a timestamp as well.
+   REPORT_OUTPUT_FORMAT: the output format, either 'pdf' or 'xls'
+   
    (Update): aws lambda update-function-code --function-name generateReport --zip-file fileb://tmp/generateReport.zip
