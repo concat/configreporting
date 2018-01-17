@@ -3,6 +3,9 @@ To install this Lambda code:
 1) Build the zip file: zip -r /tmp/generateReport.zip .
 2) Install (or update) code:
 
+Install (CLI):
+aws lambda create-function --function-name generateReportXLS --runtime nodejs6.10 --role arn:aws:iam::12345678901:role/service-role/LambdaForAWSConfigRulesReporting  --handler generateReport.handler --zip-file fileb://generateReport.zip
+
 Console:
 
    Function Name: generateReport
