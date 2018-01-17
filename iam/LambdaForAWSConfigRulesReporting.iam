@@ -1,0 +1,55 @@
+
+AWSConfigService-ReadAccess - Inline Policy
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "config:Get*",
+                "config:List*",
+                "config:Describe*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
+LambdaForAWSConfigRulesReporting-S3Bucket - Inline Policy
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1513882025000",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject",
+                "s3:PutObjectAcl",
+                "s3:PutObjectTagging"
+            ],
+            "Resource": [
+                "arn:aws:s3:::myconfigcomplianceresults/*"
+            ]
+        }
+    ]
+}
+
+
+AccesstoManagedAccountConfigRulesQueries - Inline Policy
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": [
+                "arn:aws:iam::xxxxxxxxxx:role/ConfigAccessCrossAccount",
+                "arn:aws:iam::yyyyyyyyyy:role/ConfigAccessCrossAccount"
+            ]
+        }
+    ]
+}
