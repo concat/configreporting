@@ -1,0 +1,39 @@
+
+Trust Relationship -
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::YourManagingAccountID:root"
+      },
+      "Action": "sts:AssumeRole",
+      "Condition": {}
+    }
+  ]
+}
+
+Attach AWS Managed Policy - AWSConfigUserAccess (shown below for your convenience)
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "config:Get*",
+                "config:Describe*",
+                "config:Deliver*",
+                "config:List*",
+                "tag:GetResources",
+                "tag:GetTagKeys",
+                "cloudtrail:DescribeTrails",
+                "cloudtrail:GetTrailStatus",
+                "cloudtrail:LookupEvents"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
