@@ -1,7 +1,14 @@
+Lambda function: pullComplianceData
+Runtime: Python 3.6
+Handler: lambda_function:lambda_handler
+Mem: 128MB
+Timeout: 1 min
+Role: Create the default role and add inline policies per info in the iam directory of this repo.
+
 Lambda function pullComplianceData requires three environment variables:
 
 reporting_input_bucket - The S3 Bucket which will receive the results of the AWS Config compliance executed in this Lambda function
 
-assume_role_arn_template - The template for all of the assume role arns enabling this function to assume the role in each account which allow for running the configservice commands to retrieve needed compliance data. The %s allows for each account id to be inserted (see the next variable)
+assume_role_arn_template - The template for all of the assume role arns enabling this function to assume the role in each account which allow for running the configservice commands to retrieve needed compliance data. The %s allows for each account id to be inserted (see the next variable) - Suggested implementation: "arn:aws:iam::%s:role/ConfigAccessCrossAccount"
 
 managed_accounts - whitespace separated listing of all the accounts which will be audited (the account hosting this Lambda function will also be audited; do NOT list it explicitly)
