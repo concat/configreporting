@@ -49,3 +49,11 @@ def lambda_handler(event, context):
         part = MIMEApplication(emailcontent)
         part.add_header('Content-Disposition', 'attachment', filename=os.path.basename(filekey))
         msg.attach(part)
+
+
+    ses.send_raw_email(RawMessage={
+                       'Data': msg.as_string(),
+                   }, 
+                   Source=msg['From'],
+                   Destinations=[msg['To']]
+                   )
