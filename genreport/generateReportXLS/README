@@ -1,0 +1,10 @@
+This function, which should be named generateReportXLS, should be implemented exactly as generateReport (see that directory), with only changes the environment settings of REPORT_DEF and REPORT_OUTPUT_FORMAT below:
+
+   REPORT_DEF: the s3obj which contains the report format, in this implementation it is 'reports/bucket-report-def-xls.json'
+   REPORT_SCHEMA: the s3obj which contains the data schema of the elements used in the report - same as the version used for the pdf-creating function
+   DATA_SOURCE: the file which indicates where to find the datafile and its schema. Note that inspecting this file shows locations for the files in /tmp, the location to which the files are retrieved - same
+   RESOURCE_DETAIL_DATA: the datafile - same
+   REPORT_OUTPUT_FILENAME: the "basename" of the output file to be written. Do no include the extension. The actual s3 object name will include a timestamp as well - same
+   REPORT_OUTPUT_FORMAT: the output format, which is 'xlsx'
+   
+The same zip file used to install the pdf-creating version can be reused for this function. The only differences are in environment settings and files.

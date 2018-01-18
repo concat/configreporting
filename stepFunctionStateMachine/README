@@ -3,8 +3,8 @@ This directory details the StepFunction State Machine for the automated Complian
 Steps include:
 
 1) Cloud Watch Event to periodically trigger a Lambda Function..
-2) startStepFunctionsStateMachine, a function which fires off the StateMachine based on the ARN of that SM
-3) The SM which invokes pullComplianceData (Python function), generateReport (Node function), and sendEmailwithAttachment (Python function)
+2) startStepFunctionsStateMachine, a Lambda function which fires off the StateMachine based on the ARN of that SM
+3) The State Machine which invokes pullComplianceData (Python function), generateReport (Node function), and sendEmailwithAttachment (Python function)
 
 Details on 1 - Step on a CloudWatch event to trigger at either crontab-based or interval based schedule
 
@@ -16,6 +16,7 @@ Runtime is: Node.js 6.10
 File is: index.js
 Handler is: index.handler
 
-IAM Role is basic one with addition of to execute StepFunctions 
+IAM Role is a basic one with addition of to execute StepFunctions 
+Create the IAM role as "Create A Role", name it per instructions in "iam" directory but don't select any of the provided templates - leave this selection blank! Then after the function is created, add an inline policy to permit executing a state machine per iam doc in "iam" directory.
 
 Environment variable: STATEMACHINE_ARN - the arn of the StateMachine to start
