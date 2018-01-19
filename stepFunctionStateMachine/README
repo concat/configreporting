@@ -1,5 +1,15 @@
 This directory details the StepFunction State Machine for the automated Compliance Reporting.
 
+UPDATE - 1/18/18
+
+CloudWatch Events Rules can now directly start a Step Functions State Machine;
+thus the flow is
+
+1) CloudWatch Event periodically triggers a Step Functions State Machine
+2) The State Machine which invokes pullComplianceData (Python function), two parallel branches to generateReport (branch 1) and generateReportXLS (branch 2) (Node functions), and a final sendEmailwithAttachment (Python function)
+
+===
+Previous flow retained here for comparison - do not implement
 Steps include:
 
 1) Cloud Watch Event to periodically trigger a Lambda Function..
